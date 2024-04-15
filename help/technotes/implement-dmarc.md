@@ -5,10 +5,10 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
+source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 8%
+source-wordcount: '1284'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ Dieses Dokument dient dazu, dem Leser weitere Informationen zur E-Mail-Authentif
 
 ## Was ist DMARC? {#about}
 
-Domänenbasierte Nachrichtenauthentifizierung, Berichterstellung und Konformität ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Inhaber ihre Domäne vor nicht autorisierter Verwendung schützen können. DMARC bietet außerdem Feedback zum E-Mail-Authentifizierungsstatus und ermöglicht es Absendern, zu steuern, was mit E-Mails mit fehlgeschlagener Authentifizierung passiert. Dies umfasst Optionen zum Überwachen, Quarantänen oder Ablehnen von E-Mails, abhängig davon, welche DMARC-Richtlinie implementiert wurde.
+Domänenbasierte Nachrichtenauthentifizierung, Berichterstellung und Konformität ist eine E-Mail-Authentifizierungsmethode, mit der Domain-Inhaber ihre Domäne vor nicht autorisierter Verwendung schützen können. DMARC bietet außerdem Feedback zum E-Mail-Authentifizierungsstatus und ermöglicht es Absenderinnen oder Absendern zu steuern, was mit E-Mails mit fehlgeschlagener Authentifizierung passiert. Dies umfasst Optionen, E-Mails zu überwachen, unter Quarantäne zu stellen oder abzulehnen, abhängig davon, welche DMARC-Richtlinie implementiert wurde.
 
 DMARC verfügt über drei Richtlinienoptionen:
 
@@ -26,9 +26,9 @@ DMARC verfügt über drei Richtlinienoptionen:
 * **Quarantäne (p=quarantine):** Weist den Postfachanbieter/ISP an, E-Mails zu senden, die DMARC nicht an den Spam- oder Junk-Ordner des Empfängers übergeben.
 * **Ablehnen (p=reject):** Weist den Postfachanbieter/ISP an, E-Mails zu blockieren, die DMARC nicht übergeben, was zu einem Absprung führt.
 
-## Wie wirkt DMARC? {#how}
+## Wie funktioniert DMARC? {#how}
 
-SPF und DKIM werden beide verwendet, um eine E-Mail mit einer Domäne zu verknüpfen und um E-Mails zu authentifizieren. DMARC geht noch einen Schritt weiter und hilft, das Spoofing zu verhindern, indem die von DKIM und SPF überprüfte Domain abgeglichen wird. Um DMARC zu übergeben, muss eine Nachricht SPF oder DKIM übergeben. Wenn beide diese Authentifizierungsfehler beheben, schlägt DMARC fehl und die E-Mail wird gemäß Ihrer ausgewählten DMARC-Richtlinie zugestellt.
+SPF und DKIM werden verwendet, um eine E-Mail mit einer Domain zu verknüpfen und gemeinsam E-Mails zu authentifizieren. DMARC geht noch einen Schritt weiter und hilft, das Spoofing zu verhindern, indem die von DKIM und SPF überprüfte Domain abgeglichen wird. Um DMARC zu durchlaufen, muss eine Nachricht SPF oder DKIM durchlaufen. Wenn diese beide Authentifizierungen fehlschlagen, schlägt DMARC fehl und die E-Mail wird gemäß Ihrer ausgewählten DMARC-Richtlinie zugestellt.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ DMARC ist optional. Obwohl es nicht erforderlich ist, ist es kostenlos und ermö
 
 ## Best Practices für die Implementierung von DMARC {#best-practice}
 
-Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform konfiguriert. Für Ihre Domain muss ein DMARC-Eintrag im DNS erstellt werden, damit er funktioniert. Darüber hinaus ist eine von Ihnen ausgewählte E-Mail-Adresse erforderlich, um anzugeben, wohin DMARC-Berichte in Ihrem Unternehmen untergebracht werden sollen. Als Best Practice wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p = Keine auf p = Quarantäne und p = Ablehnen anheben, sobald Sie die potenziellen Auswirkungen von DMARC verstehen.
+Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform konfiguriert. Für Ihre Domain muss ein DMARC-Eintrag im DNS erstellt werden, damit er funktioniert. Darüber hinaus ist eine von Ihnen ausgewählte E-Mail-Adresse erforderlich, um anzugeben, wohin DMARC-Berichte in Ihrem Unternehmen untergebracht werden sollen. Als Best Practice wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p=none auf p=quarantine eskalieren und p=reject, sobald DMARC die potenziellen Auswirkungen von DMARC erkennt.
 
 1. Analysieren Sie das Feedback, das Sie erhalten und verwenden (p=none), das den Empfänger anweist, keine Aktionen für Nachrichten durchzuführen, die die Authentifizierung nicht befolgen, aber trotzdem E-Mail-Berichte an den Absender senden. Überprüfen und beheben Sie außerdem Probleme mit SPF/DKIM, wenn die Authentifizierung für legitime Nachrichten fehlschlägt.
 1. Bestimmen Sie, ob SPF und DKIM abgestimmt sind und übergeben Sie die Authentifizierung für alle legitimen E-Mails und verschieben Sie dann die Richtlinie auf (p=quarantine), wodurch der E-Mail-Empfangs-Server angewiesen wird, E-Mails unter Quarantäne zu stellen, die die Authentifizierung fehlschlagen (im Allgemeinen bedeutet dies, dass diese Nachrichten im Spam-Ordner abgelegt werden).
@@ -67,6 +67,10 @@ Diese Berichte dienen hauptsächlich dazu, einen Überblick über E-Mails zu erh
 * [Agari](https://www.agari.com/)
 * [Dmarcian](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
+
+>[!CAUTION]
+>
+>Wenn sich die E-Mail-Adressen, die Sie zum Empfang von Berichten hinzufügen, außerhalb der Domäne befinden, für die der DMARC-Datensatz erstellt wird, müssen Sie deren externe Domäne autorisieren, dem DNS anzugeben, dass Sie diese Domäne besitzen. Gehen Sie dazu wie im Abschnitt [dmarc.org Dokumentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Beispiel für einen DMARC-Datensatz {#example}
 
