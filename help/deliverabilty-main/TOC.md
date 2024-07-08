@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 + [Praktische Umsetzung](/help/putting-it-in-practice.md)
 + Anhang: Zusätzliche Ressourcen {#additional-resources}
    + [Übersicht](/help/additional-resources/general-resources.md)
-   + [Abmelden von Do&#39;s und Do Not&#39;s](/help/unsubscribe-dos-and-do-nots.md)
+   + [Verhaltensregeln für Abmeldungen](/help/unsubscribe-dos-and-do-nots.md)
    + Allgemeine Ressourcen {#generic-resources}
       + [Alles über Spam-Fallen](/help/additional-resources/all-about-spam-traps.md)
       + [E-Mail-Reputation mit IP-Warming verbessern](/help/additional-resources/increase-reputation-with-ip-warming.md)
