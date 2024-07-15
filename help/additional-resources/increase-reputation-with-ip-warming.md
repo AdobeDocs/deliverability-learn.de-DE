@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 100%
+source-wordcount: '1582'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Zu Beginn werden Ihnen eigene IP-Adressen (Internet Protocol) zugewiesen. Im Zus
 
 ## Welchen Zweck hat IP-Warming? {#why-ip-warming}
 
-ISPs oder Mailbox-Anbieter (MBP – Mailbox-Provider) ergreifen Vorsichtsmaßnahmen, wenn sie eine unbekannte IP-Adresse und sendende Domain erkennen. Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt. ISPs/MBPs prüfen die IP-Adresse und die sendende Domain sehr genau, um festzustellen, ob die von dieser IP-Adresse und Domain gesendeten E-Mails Spam sind oder nicht.  Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt.
+ISPs oder Mailbox-Anbieter (MBP – Mailbox-Provider) ergreifen Vorsichtsmaßnahmen, wenn sie eine unbekannte IP-Adresse und sendende Domain erkennen. ISPs/MBPs überprüfen die IP-Adresse und die sendende Domain genau, um festzustellen, ob die von dieser IP-Adresse und Domain gesendeten E-Mails Spam sind oder nicht. Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt.
 
 ISPs untersuchen sorgfältig das Versandvolumen, die Versandhäufigkeit, Beschwerden und Bounce-Raten, die von diesen E-Mail-Sendungen verursacht werden. Diese Werte werden alle genau geprüft, weil sie Indikatoren für die Reputation des Absenders sind – egal ob sie gut oder schlecht ist.
 
