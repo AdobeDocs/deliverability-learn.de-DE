@@ -1,5 +1,5 @@
 ---
-title: Reibungsloser Wechsel zwischen E-Mail-Plattformen.
+title: So wechseln Sie beim Wechsel von E-Mail-Plattformen reibungslos.
 description: Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch bestehende, etablierte IP-Adressen zu übersetzen. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln.
 topics: Deliverability
 jira: KT-5259
@@ -12,8 +12,8 @@ team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 11%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 

@@ -12,7 +12,7 @@ team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '854'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Im Folgenden finden Sie einige Beispiele für Ziele einer E-Mail-Marketing-Strat
 
 Es gibt zwei Schlüsselmetriken, die bei der Definition der Zustellbarkeit eine Rolle spielen. Die *Zustellrate* ist der Prozentsatz der E-Mails, die nicht fehlschlagen und vom ISP akzeptiert werden. Als Nächstes folgt die *Posteingangsplatzierung*. Diese wird auf die vom ISP akzeptierten Nachrichten angewandt und bestimmt, ob die E-Mail im Posteingang oder im Spam-Ordner landet.
 
-Bei der Messung der E-Mail-Leistung ist es wichtig, die Zustellrate und die Posteingangsplatzierungsrate in Verbindung miteinander zu verstehen. Eine hohe Zustellrate ist nicht der einzige Aspekt der Zustellbarkeit. Nur weil eine Nachricht über den ersten Kontrollpunkt eines ISPs gesendet wird, bedeutet dies nicht unbedingt, dass ein Abonnent die Nachricht tatsächlich gesehen und mit ihr interagiert hat.
+Bei der Messung der E-Mail-Performance ist es wichtig, die Zustellrate und die Posteingangsplatzierungsrate in Verbindung miteinander zu verstehen. Eine hohe Zustellrate ist nicht der einzige Aspekt der Zustellbarkeit. Nur weil eine Nachricht über den ersten Kontrollpunkt eines ISPs gesendet wird, bedeutet dies nicht unbedingt, dass ein Abonnent die Nachricht tatsächlich gesehen und mit ihr interagiert hat.
 
 ## Warum Zustellbarkeit wichtig ist
 
@@ -85,7 +85,7 @@ Hier einige wichtige Faktoren für die Klickrate:
 
 * E-Mail zugestellt, im Posteingang gelandet und geöffnet
 * Starker CTA
-   * Dies ist die primäre Aktion, die Sie von Ihrer Audience erreichen möchten. Normalerweise ist dies ein Klick auf eine URL. Stellen Sie sicher, dass diese klar und für den Benutzer leicht zu finden ist.
+   * Dies ist die primäre Aktion, die Sie von Ihrer Zielgruppe erreichen möchten. Normalerweise ist dies ein Klick auf eine URL. Stellen Sie sicher, dass diese klar und für den Benutzer leicht zu finden ist.
 * Relevanz oder Wert des Inhalts
 
 ### Schritt 5: Konversion

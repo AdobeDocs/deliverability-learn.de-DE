@@ -10,7 +10,7 @@ team: TM
 exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -30,20 +30,20 @@ Beachten Sie beim Erstellen Ihrer Willkommens-E-Mails oder -E-Mails Folgendes:
 **Senden der Nachricht ASAP**
 Wenn Sie eine Promotion anbieten, wartet Ihr neuer Abonnent wahrscheinlich auf der Website auf die E-Mail, bevor er seinen Kauf tätigt. Eine Verzögerung von 5-10 Minuten kann einen verlorenen Verkauf bedeuten. Auch wenn Sie keine Werbeaktion haben, zeigen sie derzeit Interesse an Ihrer Marke. Man muss also mit ihnen interagieren, während ihr Interesse an der Spitze steht, anstatt sich zu einem späteren Zeitpunkt eine Chance zu nehmen.
 
-**Erstellen starker Betreffzeilen und Pre-Header**
+**Erstellen Sie starke Betreffzeilen und Pre-Header**
 Sie müssen sich nicht nur für die Anmeldung bedanken, sondern auch deren Aufmerksamkeit erfassen und ihnen einen Grund geben, die E-Mail zu öffnen. Vergessen Sie nicht, den zusätzlichen Raum in der Kopfzeile zu nutzen, um Ihre Sache zu machen.
 
-**Festlegen von Erwartungen**
+**Erwartungen festlegen**
 Vergewissern Sie sich, dass Sie sich auf ein positives Erlebnis für sie konzentrieren. Geben Sie an, was sie von Ihnen erwarten sollten und wie oft sie es erwarten. Eine gute Idee ist auch, ihnen die Möglichkeit zu geben, ihr Erlebnis einfach zu verwalten (d. h. einen Link zu einem Präferenzzentrum). Erwägen Sie auch das Hinzufügen von Links zu vorherigen Inhalten, damit Benutzer auf die Inhalte verweisen können, die sie abonnieren.
 
-**Lassen Sie sie Ihr Markengefühl wecken**
+**Ermöglichen Sie ihnen ein Gefühl für Ihre Marke**
 Jede Marke hat eine Stimme. Lassen Sie Ihre Willkommens-E-Mail deutlich erscheinen. Dies hilft Ihrem neuen Abonnenten, sich mehr mit der Marke zu verbinden, und verhindert, dass er sich von einer Stiländerung bei späteren E-Mails überrascht fühlt.
 
 **Halten Sie es kurz**
 Du hast viel zu sagen und ein leidenschaftliches Ohr in deinem neuen Abonnenten. Ihre erste Botschaft sollte jedoch kurz, einfach, bis zur Sache und nicht überwältigend sein.
 
-**E-Mail-Versand**
+**Eine Reihe von E-Mails senden**
 Wie bereits erwähnt, haben Sie einer aufmerksamen Zielgruppe viel zu sagen. Durch die Erstellung einer vollständigen Begrüßungsserie (3-5 E-Mails) können Sie jede einzelne Serie so weit halten, dass alle Informationen, die Sie freigeben möchten, weiterhin abgedeckt sind. Darüber hinaus fördert sie das anhaltende Interesse des Abonnenten, was zu anhaltend positiver Interaktion, erhöhter Reputation und verbesserter Zustellbarkeit führt.
 
-**Persönlich**
+**Get personal**
 Wenn Sie eine Reihe von Willkommens-E-Mails verwenden, verwenden Sie eine davon, um den persönlichen Kontakt zu zeigen. Verwenden Sie alle Informationen, die Sie bei der Anmeldung oder beim Kauf erfasst haben, um zu zeigen, wie Sie ihr Erlebnis für sie einzigartig und wertvoller gestalten können. Wenn Sie noch keine Daten gesammelt haben, können Sie damit zeigen, was Sie tun können, wenn Sie die Gelegenheit dazu haben. Dann fragen Sie sie nach den Informationen, die Sie benötigen, um ihr Erlebnis anzureichern.

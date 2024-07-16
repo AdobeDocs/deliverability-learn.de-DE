@@ -8,11 +8,11 @@ exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 13%
+ht-degree: 17%
 
 ---
 
-# Implementierung [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
+# Implementieren von [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
 Dieses Dokument dient dazu, dem Leser weitere Informationen zur E-Mail-Authentifizierungsmethode DMARC bereitzustellen. Durch die Erläuterung der Funktionsweise von DMARC und der verschiedenen Richtlinienoptionen werden die Auswirkungen von DMARC auf die E-Mail-Zustellbarkeit besser verstanden.
 
@@ -22,9 +22,9 @@ Domänenbasierte Nachrichtenauthentifizierung, Berichterstellung und Konformitä
 
 DMARC verfügt über drei Richtlinienoptionen:
 
-* **Monitor (p=none):** Weist den Postfachanbieter/ISP an, alles zu tun, was er normalerweise für die Nachricht tun würde.
-* **Quarantäne (p=quarantine):** Weist den Postfachanbieter/ISP an, E-Mails zu senden, die DMARC nicht an den Spam- oder Junk-Ordner des Empfängers übergeben.
-* **Ablehnen (p=reject):** Weist den Postfachanbieter/ISP an, E-Mails zu blockieren, die DMARC nicht übergeben, was zu einem Absprung führt.
+* **Überwachen (p=none):** Weist den Postfachanbieter/ISP an, alles zu tun, was er normalerweise für die Nachricht tun würde.
+* **Quarantäne (p=quarantine):** Weist den Postfachanbieter/ISP an, E-Mails zu senden, die DMARC nicht an den Spam- oder Junk-Ordner des Empfängers weitergeben.
+* **Ablehnen (p=reject):** Weist den Postfachanbieter/ISP an, E-Mails zu blockieren, die DMARC nicht übergeben und zu einem Absprung führen.
 
 ## Wie funktioniert DMARC? {#how}
 
@@ -44,7 +44,8 @@ DMARC ist optional. Obwohl es nicht erforderlich ist, ist es kostenlos und ermö
 
 ## Best Practices für die Implementierung von DMARC {#best-practice}
 
-Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform konfiguriert. Für Ihre Domain muss ein DMARC-Eintrag im DNS erstellt werden, damit er funktioniert. Darüber hinaus ist eine von Ihnen ausgewählte E-Mail-Adresse erforderlich, um anzugeben, wohin DMARC-Berichte in Ihrem Unternehmen untergebracht werden sollen. Als Best Practice wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p=none auf p=quarantine eskalieren und p=reject, sobald DMARC die potenziellen Auswirkungen von DMARC erkennt.
+Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform konfiguriert. Für Ihre Domain muss ein DMARC-Eintrag im DNS erstellt werden, damit er funktioniert. Darüber hinaus ist eine von Ihnen ausgewählte E-Mail-Adresse erforderlich, um anzugeben, wohin DMARC-Berichte in Ihrem Unternehmen untergebracht werden sollen. Als Best Practice gilt Folgendes:
+Es wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p=none auf p=quarantine eskalieren und p=reject, sobald DMARC die potenziellen Auswirkungen von DMARC erkennt.
 
 1. Analysieren Sie das Feedback, das Sie erhalten und verwenden (p=none), das den Empfänger anweist, keine Aktionen für Nachrichten durchzuführen, die die Authentifizierung nicht befolgen, aber trotzdem E-Mail-Berichte an den Absender senden. Überprüfen und beheben Sie außerdem Probleme mit SPF/DKIM, wenn die Authentifizierung für legitime Nachrichten fehlschlägt.
 1. Bestimmen Sie, ob SPF und DKIM abgestimmt sind und übergeben Sie die Authentifizierung für alle legitimen E-Mails und verschieben Sie dann die Richtlinie auf (p=quarantine), wodurch der E-Mail-Empfangs-Server angewiesen wird, E-Mails unter Quarantäne zu stellen, die die Authentifizierung fehlschlagen (im Allgemeinen bedeutet dies, dass diese Nachrichten im Spam-Ordner abgelegt werden).
@@ -58,8 +59,8 @@ Da DMARC optional ist, wird es nicht standardmäßig auf einer ESP-Plattform kon
 
 DMARC bietet die Möglichkeit, Berichte zu E-Mails zu erhalten, die SPF/DKIM nicht unterstützen. Es gibt zwei verschiedene Berichte, die von ISP-Dienstern im Rahmen des Authentifizierungsprozesses generiert werden und die Absender über die RUA/RUF-Tags in ihrer DMARC-Richtlinie empfangen können:
 
-* **Aggregat-Berichte (RUA):** Enthält keine personenbezogenen Daten (personenbezogene Daten), die DSGVO-konform sind.
-* **Kriminalitätsberichte (RUF):** Enthält E-Mail-Adressen, die DSGVO-konform sind. Vor der Verwendung sollten Sie intern überprüfen, wie mit Informationen verfahren wird, die DSGVO-konform sein müssen.
+* **Aggregat-Berichte (RUA):** enthält keine personenbezogenen Daten (personenbezogene Daten), die DSGVO-konform sind.
+* **Forensic Reports (RUF):** Enthält E-Mail-Adressen, bei denen DSGVO-konform ist. Vor der Verwendung sollten Sie intern überprüfen, wie mit Informationen verfahren wird, die DSGVO-konform sein müssen.
 
 Diese Berichte dienen hauptsächlich dazu, einen Überblick über E-Mails zu erhalten, die versucht werden, Nachrichten zu spoofing zu senden. Dies sind hochtechnische Berichte, die am besten mit einem Tool von Drittanbietern aufbereitet werden. Einige auf DMARC-Überwachung spezialisierte Unternehmen sind:
 
@@ -70,7 +71,7 @@ Diese Berichte dienen hauptsächlich dazu, einen Überblick über E-Mails zu erh
 
 >[!CAUTION]
 >
->Wenn sich die E-Mail-Adressen, die Sie zum Empfang von Berichten hinzufügen, außerhalb der Domäne befinden, für die der DMARC-Datensatz erstellt wird, müssen Sie deren externe Domäne autorisieren, dem DNS anzugeben, dass Sie diese Domäne besitzen. Gehen Sie dazu wie im Abschnitt [dmarc.org Dokumentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+>Wenn sich die E-Mail-Adressen, die Sie zum Empfang von Berichten hinzufügen, außerhalb der Domain befinden, für die der DMARC-Eintrag erstellt wird, müssen Sie deren externe Domain autorisieren, dem DNS mitzuteilen, dass Sie diese Domain besitzen. Folgen Sie dazu den Schritten aus der [dmarc.org-Dokumentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Beispiel für einen DMARC-Datensatz {#example}
 
@@ -86,7 +87,7 @@ DMARC-Datensätze verfügen über mehrere Komponenten, die DMARC-Tags genannt we
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Erforderlich | Dieses DMARC-Tag gibt die Version an. Derzeit gibt es nur eine Version. Daher hat diese den festen Wert v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Erforderlich | Zeigt die ausgewählte DMARC-Richtlinie an und weist den Empfänger an, E-Mails zu melden, in Quarantäne zu stellen oder abzulehnen, die bei Authentifizierungsprüfungen fehlschlagen. | p=none, quarantine or reject | – |
-| fo | Optional | Ermöglicht es dem Domäneninhaber, Berichtsoptionen anzugeben. | 0: Bericht erstellen, wenn alles fehlschlägt<br/>1: Bericht erstellen, wenn alles fehlschlägt<br/>d: Bericht erstellen, wenn DKIM fehlschlägt<br/>s: Bericht erstellen, wenn SPF fehlschlägt | 1 (empfohlen für DMARC-Berichte) |
+| fo | Optional | Ermöglicht es dem Domäneninhaber, Berichtsoptionen anzugeben. | 0: Bericht erzeugen, wenn alles fehlschlägt<br/>1: Bericht erzeugen, wenn etwas fehlschlägt<br/>d: Bericht erzeugen, wenn DKIM fehlschlägt<br/>s: Bericht erzeugen, wenn SPF fehlschlägt | 1 (empfohlen für DMARC-Berichte) |
 | pct | Optional | Teilt den Prozentsatz der Nachrichten mit, die gefiltert werden sollen. | pct=20 | 100 |
 | rua | Optional (empfohlen) | Gibt an, wo aggregierte Berichte bereitgestellt werden. | `rua=mailto:aggrep@example.com` | – |
 | ruf | Optional (empfohlen) | Gibt an, wo forensische Berichte bereitgestellt werden. | `ruf=mailto:authfail@example.com` | – |
@@ -98,7 +99,7 @@ DMARC-Datensätze verfügen über mehrere Komponenten, die DMARC-Tags genannt we
 
 >[!NOTE]
 >
->Wenn Ihre Campaign-Instanz auf AWS gehostet wird, können Sie mit dem Control Panel DMARC für Ihre Subdomains implementieren. [Erfahren Sie, wie Sie DMARC-Datensätze mithilfe des Control Panels implementieren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Wenn Ihre Campaign-Instanz auf AWS gehostet wird, können Sie mit dem Control Panel DMARC für Ihre Subdomains implementieren. [Erfahren Sie, wie Sie DMARC-Datensätze mit dem Control Panel implementieren.](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html)
 
 Ein häufiger Grund für DMARC-Fehler ist die Fehlausrichtung zwischen der Adresse &quot;Von&quot;und &quot;Fehler-To&quot;oder &quot;Rückkehrpfad&quot;. Um dies zu vermeiden, wird bei der Einrichtung von DMARC empfohlen, die Adresseinstellungen &quot;Von&quot;und &quot;Fehler-To&quot;in den Versandvorlagen zu überprüfen.
 
@@ -119,4 +120,4 @@ Sobald diese Änderungen gespeichert sind, können Sie mit Ihrer DMARC-Implement
 ## Nützliche Links {#links}
 
 * [DMARC.org](https://dmarc.org/){target="_blank"}
-* [M3AAWG-E-Mail-Authentifizierung](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}
+* [M3AAWG Email Authentication](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}

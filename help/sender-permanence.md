@@ -11,7 +11,7 @@ exl-id: f57de522-1361-43a3-8f8b-f9a191986529
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -23,10 +23,10 @@ Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsiste
 * Konsistenz ist der Schlüssel, um ISPs zu beweisen, dass der Absender seriös ist, und nicht zu versuchen, Reputationsprobleme zu umgehen, die auf schlechte Versandpraktiken zurückzuführen sind.
 * Die Aufrechterhaltung dieser konsistenten Strategien über einen langen Zeitraum hinweg ist erforderlich, bevor einige ISPs die Reputation des Absenders überhaupt berücksichtigen.
 
-**Im Folgenden finden Sie einige Beispiele:**
+**Hier sind einige Beispiele:**
 
-![Gute Versandlaufzeit](assets/Sender_Permanence_1.png)
+![Gute Übertragungsdauer](assets/Sender_Permanence_1.png)
 
-![Schlechte Dauer des Versands](assets/Sender_Permanence_2.png)
+![Unangemessener Verbleib beim Senden](assets/Sender_Permanence_2.png)
 
 ![Zulässige Versandlaufzeit](assets/Sender_Permanence_3.png)

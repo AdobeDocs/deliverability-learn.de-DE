@@ -8,8 +8,8 @@ team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 46%
+source-wordcount: '757'
+ht-degree: 42%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->Sie können [dieses externe Tool](https://www.kitterman.com/spf/validate.html) , um einen SPF-Eintrag zu überprüfen.
+>Sie können [dieses externe Tool](https://www.kitterman.com/spf/validate.html) verwenden, um einen SPF-Datensatz zu überprüfen.
 
 SPF ist eine Technik, mit der Sie in gewissem Umfang sicherstellen können, dass der in einer E-Mail verwendete Domain-Name nicht gefälscht wird. Wenn eine Nachricht von einer Domain empfangen wird, wird der DNS-Server der Domain abgefragt. Die Antwort ist ein kurzer Datensatz (der SPF-Datensatz), der angibt, welche Server für das Senden von E-Mails von dieser Domain autorisiert sind. Wenn wir davon ausgehen, dass nur der Eigentümer der Domain über die Mittel verfügt, um diesen Datensatz zu ändern, können wir davon ausgehen, dass mit dieser Technik die Absenderadresse nicht gefälscht werden kann, zumindest nicht der Teil rechts von „@“.
 
-Im letzten [RFC 4408-Spezifikation](https://www.rfc-editor.org/info/rfc4408)verwendet werden, werden zwei Elemente der Nachricht verwendet, um die Domain zu bestimmen, die als Absender gilt: die vom SMTP-Befehl &quot;HELO&quot;(oder &quot;EHLO&quot;) angegebene Domain und die Domain, die durch die Adresse des Headers &quot;Return-Path&quot;(oder &quot;MAIL FROM&quot;) angegeben wird, die auch die Bounce-Adresse ist. Verschiedene Überlegungen ermöglichen es, nur einen dieser Werte zu berücksichtigen. Wir empfehlen, dass beide Quellen dieselbe Domain angeben.
+In der endgültigen [RFC 4408-Spezifikation](https://www.rfc-editor.org/info/rfc4408) werden zwei Elemente der Nachricht verwendet, um die Domäne zu bestimmen, die als Absender gilt: die vom SMTP-Befehl &quot;HELO&quot;(oder &quot;EHLO&quot;) angegebene Domäne und die von der Adresse des &quot;Return-Path&quot;-Headers (oder &quot;MAIL FROM&quot;) angegebene Domain, die auch die Bounce-Adresse ist. Verschiedene Überlegungen ermöglichen es, nur einen dieser Werte zu berücksichtigen. Wir empfehlen, dass beide Quellen dieselbe Domain angeben.
 
 Durch die Überprüfung des SPF ist eine Auswertung der Gültigkeit der Absender-Domain gewährleistet.
 
-* **Keines**: Es konnte keine Evaluierung durchgeführt werden.
+* **None**: Es konnte keine Auswertung durchgeführt werden.
 * **Neutral**: Die abgefragte Domäne aktiviert keine Evaluierung.
-* **Pass**: Die Domain wird als echt angesehen.
-* **Fail**: Die Domain ist gefälscht und die Nachricht sollte abgelehnt werden.
-* **SoftFail**: Die Domain ist wahrscheinlich gefälscht, aber die Nachricht sollte nicht ausschließlich aufgrund dieses Ergebnisses abgelehnt werden.
+* **Pass**: Die Domäne wird als echt angesehen.
+* **Fail**: Die Domäne ist gefälscht und die Nachricht sollte abgelehnt werden.
+* **SoftFail**: Die Domäne ist wahrscheinlich gefälscht, aber die Nachricht sollte nicht ausschließlich aufgrund dieses Ergebnisses abgelehnt werden.
 * **TempError**: Ein temporärer Fehler hat die Auswertung angehalten. Die Nachricht kann abgelehnt werden.
 * **PermError**: Die SPF-Einträge der Domain sind ungültig.
 
@@ -50,9 +50,9 @@ DKIM hat sozusagen die **DomainKeys**-Authentifizierung ersetzt.
 Für die Verwendung von DKIM müssen folgende Voraussetzungen gegeben sein:
 
 * **Sicherheit**: Die Verschlüsselung ist ein Schlüsselelement des DKIM. Um das Sicherheitsniveau des DKIM sicherzustellen, empfiehlt sich die Verschlüsselungsgröße 1024b als Best Practice. Niedrigere DKIM-Schlüssel gelten von den meisten Zugangsanbietern nicht als gültig.
-* **Reputation**: Der Ruf basiert auf der IP-Adresse und/oder Domäne, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl des Selektors ist wichtig: Vermeiden Sie die Beibehaltung des &quot;Standard&quot;-Selektors, der von jedem verwendet werden könnte und daher eine schwache Reputation aufweist. Sie müssen einen anderen Selektor für **Treue- und Akquise-Kommunikation** und zur Authentifizierung.
+* **Reputation**: Der Ruf basiert auf der IP und/oder der Domäne, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl des Selektors ist wichtig: Vermeiden Sie die Beibehaltung des &quot;Standard&quot;-Selektors, der von jedem verwendet werden könnte und daher eine schwache Reputation aufweist. Sie müssen einen anderen Selektor für **Aufbewahrung im Vergleich zur Akquise-Kommunikation** und für die Authentifizierung implementieren.
 
-Erfahren Sie mehr über DKIM-Voraussetzungen bei Verwendung von Campaign Classic in [diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Weitere Informationen zur Voraussetzung für DKIM bei Verwendung von Campaign Classic finden Sie in [diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 

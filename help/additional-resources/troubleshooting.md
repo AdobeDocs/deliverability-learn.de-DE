@@ -8,8 +8,8 @@ team: ACS
 exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 91%
+source-wordcount: '677'
+ht-degree: 87%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 
 Nachstehend finden Sie einige Best Practices, die Ihnen helfen können, Probleme mit der Zustellbarkeit zu erkennen und zu beheben.
 
-## Ein Problem mit der Zustellbarkeit erkennen {#identify-deliverability-issue}
+## Problem mit der Zustellbarkeit identifizieren {#identify-deliverability-issue}
 
-Um ein mögliches Problem zu identifizieren, werden die Elemente unter [diese Seite](/help/ongoing-monitoring.md) kann Ihre Aufmerksamkeit lenken.
+Um ein mögliches Problem zu identifizieren, können die auf [dieser Seite](/help/ongoing-monitoring.md) aufgelisteten Elemente Ihre Aufmerksamkeit auf sich lenken.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -27,7 +27,7 @@ Subscriber activity: opens, clicks and/or transactions are lower than usual.
 Seed accounts show filtered or non-delivered mailings.
 -->
 
-## Mögliche Gründe ermitteln {#potential-causes}
+## Mögliche Ursachen {#potential-causes}
 
 Stellen Sie sich folgende Fragen, um die möglichen Ursachen für Ihr Zustellbarkeitsproblem zu ermitteln:
 
@@ -44,7 +44,7 @@ Stellen Sie sich folgende Fragen, um die möglichen Ursachen für Ihr Zustellbar
 
 ### Beschwerden
 
-[](/help/metrics/complaints.md)Beschwerden werden durch Abonnenten definiert, die E-Mails als Spam melden, indem sie in ihrem Posteingang auf die entsprechende Schaltfläche klicken.
+[Beschwerden](/help/metrics/complaints.md) werden von Abonnenten definiert, die E-Mails als Spam melden, indem sie in ihrem Posteingang auf die entsprechende Schaltfläche klicken.
 
 Wenn Ihr Versandproblem durch Beschwerden verursacht wurde:
 * Sie müssen versuchen zu ermitteln, warum sich Empfänger beschweren.
@@ -61,7 +61,7 @@ Beschwerden stammen zum Teil auch von Abonnenten, die einfach keine E-Mails mehr
 
 ### Datengültigkeit
 
-**Hardbounces treten auf, wenn Sie bei einem ISP Nachrichten an eine nicht zustellbare Adresse senden.****** Eine Adresse kann aus zahlreichen Gründen unzustellbar sein, z. B.:
+**Hardbounces** treten auf, wenn Sie bei einem ISP an eine **nicht zustellbare Adresse** senden. Eine Adresse kann aus zahlreichen Gründen unzustellbar sein, z. B.:
 * Falsch geschriebene Adresse. Das kann mit einem echtzeitbasierten Datenvalidierungsdienst oder durch Vorschreiben eines Opt-in mit Bestätigung behoben werden, bevor Marketing-E-Mails an diese Adresse gesendet werden.
 * Fehlerhafte Liste oder Datenquelle. Wenn die Adresse aus einer neuen Quelle stammt, überprüfen Sie, wie sie erfasst wurde, und stellen Sie sicher, dass die entsprechende Berechtigung erteilt wurde.
 * Senden an eine Adresse, die einmal aktiv war, aber nach einer gewissen Phase der Inaktivität geschlossen oder beendet wurde.

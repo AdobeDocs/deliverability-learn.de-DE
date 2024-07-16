@@ -11,14 +11,14 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
 # Einführung in Best Practices zur Zustellbarkeit
 
-Die Zustellbarkeit von E-Mails, ein wichtiger Faktor für den Erfolg jedes Marketing-Programms, unterliegt ständig wechselnden Kriterien und Regeln. Die Internet-Diensteanbieter müssen ständig gegen Spammer vorgehen und sind daher gezwungen, ausgeklügelte Filtertechniken zu entwickeln, um ihre Kundinnen und Kunden zu schützen. E-Mail-Versender bekommen die Auswirkungen dieser Bemühungen zu spüren. Um in unserer digitalen Welt erfolgreich bestehen zu können, müssen sie ihre E-Mail-Strategie regelmäßig anpassen und dabei die wichtigsten Zustellbarkeits-Trends berücksichtigen, damit sie Ihre Audiences optimal erreichen.
+Die Zustellbarkeit von E-Mails, ein wichtiger Faktor für den Erfolg jedes Marketing-Programms, unterliegt ständig wechselnden Kriterien und Regeln. Die Internet-Diensteanbieter müssen ständig gegen Spammer vorgehen und sind daher gezwungen, ausgeklügelte Filtertechniken zu entwickeln, um ihre Kundinnen und Kunden zu schützen. E-Mail-Versender bekommen die Auswirkungen dieser Bemühungen zu spüren. Um in unserer digitalen Welt erfolgreich bestehen zu können, müssen sie ihre E-Mail-Strategie regelmäßig anpassen und dabei die wichtigsten Zustellbarkeits-Trends berücksichtigen, damit sie Ihre Zielgruppen optimal erreichen.
 
 Laut [!DNL Lifewire] gibt es heute über 3,8 Milliarden E-Mail-Adressen. Darüber hinaus berichten die Social-Media-Profis [!DNL Lori Lewis] und [!DNL Chad Callahan], dass jede Minute 188 Millionen E-Mails verschickt werden, was mehr als die Hälfte der Weltbevölkerung umfasst. Aber die Zeiten, in denen eine maximale Anzahl an E-Mails für minimale Konversionen gesendet wurde, sind vorbei. Tatsächlich besteht die Gefahr, dass durch die Berücksichtigung des Volumens allein Ihre aktivsten Kunden ihre E-Mails nicht erhalten. Dies kann für Sie als Absender große Auswirkungen auf den Umsatz haben. E-Mails als kostengünstigen Kanal mit unbegrenztem Potenzial zu betrachten, stellt eine Herausforderung und eine Schwachstelle dar.
 
@@ -26,7 +26,7 @@ In unserem digitalen Zeitalter erwarten die Menschen, schnell begeistert zu werd
 
 Geben wir ehrlich zu, dass Sie sich heute mehr denn je von Ihren Mitbewerbern abheben müssen. Das bedeutet, Ihren Kunden einzigartige, personalisierte und relevante Kundenerlebnisse zu bieten. Andernfalls riskieren Sie, einen Kunden für immer zu verlieren. Eine integrierte, dynamische Multi-Channel-Strategie, die Ihre Zielgruppe dazu motiviert, aktiv zu bleiben, ist unverzichtbar.
 
-In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Nutzen Sie ihn, um den E-Mail-Kanal in Ihrem Marketing-Mix an vorderster Front zu halten, mit hoher Priorität auf Zustellbarkeit, Platzierung im Posteingang und Ihrem Umsatz.
+In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Verwenden Sie ihn, um den E-Mail-Kanal bei der Zustellbarkeit, Platzierung im Posteingang und Ihrem Umsatz an vorderster Front im Marketing-Mix zu halten.
 
 Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 
@@ -34,7 +34,7 @@ Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 2. [Zustellbarkeitsmetriken](/help/metrics/metrics-overview.md)
 3. [Interaktion](/help/engagement.md)
 4. [Verfahren beim Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
-5. [Erste Impressionen – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
+5. [Erste Impressions – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
 7. [Regelmäßiger Versand](/help/sender-permanence.md)
 8. [Besonderheiten der Internetdienstanbieter](/help/internet-service-provider-specifics/overview.md)

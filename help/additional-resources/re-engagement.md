@@ -8,8 +8,8 @@ team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 26%
+source-wordcount: '913'
+ht-degree: 24%
 
 ---
 
@@ -24,9 +24,9 @@ Einige der Best Practices bei der Implementierung der Zustellbarkeit bestehen da
 >
 >Weitere Informationen zu Wiedergewinnungsstrategien und Zustellbarkeitsdiensten von Adobe erhalten sie von Ihrem Zustellbarkeitsberater oder Ihrem Adobe-Vertreter.
 
-## Wie beurteilen ISPs inaktives Verhalten? {#how-do-isps-view-non-engagement-activity-}
+## Wie beurteilen ISPs die Aktivität ohne Interaktion? {#how-do-isps-view-non-engagement-activity-}
 
-Seit Jahren verwenden ISPs Interaktions-Feedback-Metriken ihrer Benutzer, um zu entscheiden, wo Nachrichten platziert werden oder ob sie überhaupt gesendet werden sollen. Benutzer [Interaktion](/help/engagement.md) besteht sowohl aus positivem als auch negativem Feedback und einer kontinuierlichen Überwachung durch ISPs. Ohne Interaktion ist vielleicht einer der Hauptfaktoren für negative Interaktion. Aus der Sicht der Zustellbarkeit kann das konsequente Senden von Kampagnen an Benutzer, die keine Interaktion zeigen, auch die Reputation Ihrer IP-Adresse und Ihrer Domänen insgesamt beeinträchtigen.
+Seit Jahren verwenden ISPs Interaktions-Feedback-Metriken ihrer Benutzer, um zu entscheiden, wo Nachrichten platziert werden oder ob sie überhaupt gesendet werden sollen. Benutzer [Interaktion](/help/engagement.md) besteht aus positivem und negativem Feedback und ISPs überwachen beide konstant. Ohne Interaktion ist vielleicht einer der Hauptfaktoren für negative Interaktion. Aus der Sicht der Zustellbarkeit kann das konsequente Senden von Kampagnen an Benutzer, die keine Interaktion zeigen, auch die Reputation Ihrer IP-Adresse und Ihrer Domänen insgesamt beeinträchtigen.
 
 ISPs wie Gmail, Microsoft® und OATH sehen nicht interaktive Nachrichten als unerwünschte E-Mails an und beginnen mit der Umleitung von Nachrichten in den Spam-Ordner. Diese Abonnenten besitzen möglicherweise nicht mehr das E-Mail-Konto, was als Spam-Falle &quot;recycelt&quot;verwendet werden kann. Das bedeutet, dass die Adresse einige Zeit lang ungültig war und alle Nachrichten abgelehnt werden. Wenn Ihr Abonnentenverwaltungssystem keine &quot;Hard-bounce&quot;-Adressen entfernt, führt dies wahrscheinlich zu Spam-Fallen, die zu erheblichen Versandproblemen führen können.
 
@@ -78,6 +78,6 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 * [Trackinglogs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
 * [Trackinglogs in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Adobe Customer Journey-Management**
+**Adobe Customer Journey Management**
 
 * [Nachrichten-Tracking](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=de)

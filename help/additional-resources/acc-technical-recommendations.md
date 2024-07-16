@@ -29,7 +29,7 @@ Die Wahl der Domain für ein Reverse DNS hat Auswirkungen auf den Umgang mit bes
 
 >[!NOTE]
 >
->Sie können [dieses externe Tool](https://mxtoolbox.com/SuperTool.aspx) , um die Konfiguration einer Domain zu überprüfen.
+>Sie können [dieses externe Tool](https://mxtoolbox.com/SuperTool.aspx) verwenden, um die Konfiguration einer Domäne zu überprüfen.
 
 ### MX-Regeln {#mx-rules}
 
@@ -39,7 +39,7 @@ Genauer gesagt werden sie verwendet, um die Geschwindigkeit zu steuern, mit der 
 
 >[!NOTE]
 >
->Weitere Informationen zur MX-Verwaltung in Adobe Campaign Classic finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Weiterführende Informationen zur MX-Verwaltung in Adobe Campaign Classic finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -71,18 +71,18 @@ definiert die beiden IP-Adressen 12.34.56.78 und 12.34.56.79 als berechtigt, E-M
 
 Recommendations zum Definieren eines SPF-Datensatzes:
 
-* Hinzufügen **~all** (SoftFail) **-all** (Fehler) am Ende alle Server mit Ausnahme der definierten zurückweisen. Andernfalls können Server diese Domain (mit einer neutralen Auswertung) fälschen.
-* Nicht hinzufügen **ptr** (openspf.org empfiehlt dies als kostspielig und unzuverlässig).
+* Fügen Sie am Ende **~all** (SoftFail) oder **-all** (Fail) hinzu, um alle Server abzulehnen, die nicht definiert sind. Andernfalls können Server diese Domain (mit einer neutralen Auswertung) fälschen.
+* Fügen Sie nicht **ptr** hinzu (openspf.org empfiehlt dies als kostspielig und unzuverlässig).
 
 >[!NOTE]
 >
->Weitere Informationen zu SPF finden Sie unter [diesem Abschnitt](/help/additional-resources/authentication.md#spf).
+>Weitere Informationen zu SPF finden Sie in [diesem Abschnitt](/help/additional-resources/authentication.md#spf).
 
 ## Authentifizierung
 
 >[!NOTE]
 >
->Erfahren Sie mehr über die verschiedenen Formen der E-Mail-Authentifizierung in [diesem Abschnitt](/help/additional-resources/authentication.md).
+>Weitere Informationen zu den verschiedenen Formen der E-Mail-Authentifizierung finden Sie in [diesem Abschnitt](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
@@ -90,7 +90,7 @@ Recommendations zum Definieren eines SPF-Datensatzes:
 >
 >Bei gehosteten oder hybriden Installationen erfolgt die DKIM-E-Mail-Authentifizierungssignatur für alle Nachrichten mit allen Domains durch den Enhanced MTA, wenn Sie auf den [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages) aktualisiert haben.
 
-Verwenden [DKIM](/help/additional-resources/authentication.md#dkim) Für Adobe Campaign Classic ist die folgende Voraussetzung erforderlich:
+Die Verwendung von [DKIM](/help/additional-resources/authentication.md#dkim) mit Adobe Campaign Classic erfordert die folgende Voraussetzung:
 
 **Adobe Campaign-Optionsdeklaration**: In Adobe Campaign basiert der private DKIM-Schlüssel auf einem DKIM-Selektor und einer Domäne. Es ist derzeit nicht möglich, mehrere private Schlüssel für dieselbe Domäne/Subdomäne mit verschiedenen Selektoren zu erstellen. Es ist nicht möglich zu definieren, welche Selektordomäne/Subdomäne für die Authentifizierung in weder der Plattform noch der E-Mail verwendet werden muss. Die Plattform wählt alternativ einen der privaten Schlüssel aus, was bedeutet, dass die Authentifizierung mit hoher Wahrscheinlichkeit fehlschlägt.
 
@@ -157,17 +157,17 @@ Gmail, Outlook.com, Yahoo! und Microsoft Outlook unterstützen diese Methode. Ei
 
 Es gibt zwei Versionen der Header-Funktion List-Unsubscribe :
 
-* **&quot;mailto&quot; List-Unsubscribe** - Klicken Sie bei dieser Methode auf die **Abmelden** -Link sendet eine vorausgefüllte E-Mail an die im E-Mail-Header angegebene Abmelde-Adresse. [Weitere Informationen](#mailto-list-unsubscribe)
+* **&quot;mailto&quot; List-Unsubscribe** - Mit dieser Methode sendet das Klicken auf den Link **Unsubscribe** eine vorausgefüllte E-Mail an die Abmelde-Adresse, die im E-Mail-Header angegeben ist. [Weitere Informationen](#mailto-list-unsubscribe)
 
-* **&quot;One-Click&quot; List-Unsubscribe** - Klicken Sie bei dieser Methode auf die **Abmelden** -Link abmeldet den Benutzer direkt. [Weitere Informationen](#one-click-list-unsubscribe)
+* **&quot;One-Click&quot; List-Unsubscribe** - Mit dieser Methode wird der Benutzer durch Klicken auf den Link **Unsubscribe** direkt abgemeldet. [Weitere Informationen](#one-click-list-unsubscribe)
 
 >[!NOTE]
 >
->Ab dem 1. Juni 2024 werden wichtige ISPs von den Absendern verlangen, **One-Click List-Unsubscribe**.
+>Ab dem 1. Juni 2024 fordern große ISPs von Absendern die Einhaltung von **1-Klick-List-Unsubscribe**.
 
 ### &quot;mailto&quot; List-Unsubscribe {#mailto-list-unsubscribe}
 
-Mit dieser Methode können Sie auf die **Abmelden** -Link sendet eine vorausgefüllte E-Mail an die im E-Mail-Header angegebene Abmelde-Adresse.
+Bei dieser Methode sendet das Klicken auf den Link **Abmeldung** eine vorausgefüllte E-Mail an die im E-Mail-Header angegebene Abmelde-Adresse.
 
 Um &quot;mailto&quot; List-Unsubscribe zu verwenden, müssen Sie eine Befehlszeile eingeben, in der Sie eine E-Mail-Adresse angeben, z. B.: `List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>`
 
@@ -177,19 +177,19 @@ Um &quot;mailto&quot; List-Unsubscribe zu verwenden, müssen Sie eine Befehlszei
 
 Sie können auch eine dynamische &quot;Mailto&quot;-List-Unsubscribe mithilfe einer Befehlszeile erstellen, z. B.: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
-Zu implementieren **&quot;mailto&quot; List-Unsubscribe** In Campaign haben Sie folgende Möglichkeiten:
+Um **&quot;mailto&quot; List-Unsubscribe** in Campaign zu implementieren, haben Sie folgende Möglichkeiten:
 
-* Fügen Sie die Befehlszeile direkt in die Versand- oder Versandvorlage ein - [Erfahren Sie mehr](#adding-a-command-line-in-a-delivery-template)
+* Fügen Sie die Befehlszeile direkt in den Versand oder die Versandvorlage hinzu - [Erfahren Sie, wie ](#adding-a-command-line-in-a-delivery-template)
 
-* Typologieregel erstellen - [Erfahren Sie mehr](#creating-a-typology-rule)
+* Erstellen einer Typologieregel - [Erfahren Sie, wie ](#creating-a-typology-rule)
 
 #### Hinzufügen einer Befehlszeile in einem Versand oder einer Vorlage {#adding-a-command-line-in-a-delivery-template}
 
-Die Befehlszeile muss der **[!UICONTROL Zusätzliche SMTP-Header]** im SMTP-Header der E-Mail.
+Die Befehlszeile muss im Abschnitt **[!UICONTROL Zusätzliche SMTP-Header]** des SMTP-Headers der E-Mail hinzugefügt werden.
 
 Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
 
-Geben Sie beispielsweise das folgende Skript in das **[!UICONTROL Zusätzliche SMTP-Header]** -Feld: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Klicken Sie auf **unsubscribe** -Link sendet eine E-Mail an die Adresse unsubscribe@domain.com .
+Geben Sie beispielsweise das folgende Skript in das Feld **[!UICONTROL Zusätzliche SMTP-Header]** ein: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Wenn Sie auf den Link **unsubscribe** klicken, wird eine E-Mail an die Adresse unsubscribe@domain.com gesendet.
 
 Sie können auch eine dynamische Adresse verwenden. Um beispielsweise eine E-Mail an die für die Plattform definierte Fehleradresse zu senden, können Sie das folgende Skript verwenden: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
@@ -199,7 +199,7 @@ Sie können auch eine dynamische Adresse verwenden. Um beispielsweise eine E-Mai
 
 Die Regel muss das Script zur Erzeugung der Befehlszeile beinhalten und im E-Mail-Header enthalten sein.
 
-Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules) erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen.
 
 >[!NOTE]
 >
@@ -207,9 +207,9 @@ Erfahren Sie, wie Sie Typologieregeln in Adobe Campaign v7/v8 erstellen in [dies
 
 ### One-Click List-Unsubscribe {#one-click-list-unsubscribe}
 
-Mit dieser Methode können Sie auf die **Abmelden** -Link abmeldet den Benutzer direkt, sodass nur eine einzige Aktion zum Abmelden erforderlich ist.
+Bei dieser Methode werden durch Klicken auf den Link **Abmelden** die Abmeldung des Benutzers direkt aufgehoben, sodass nur eine einzige Aktion zum Abmelden erforderlich ist.
 
-Ab dem 1. Juni 2024 werden wichtige ISPs von den Absendern verlangen, **One-Click List-Unsubscribe**.
+Ab dem 1. Juni 2024 fordern große ISPs von Absendern die Einhaltung von **1-Klick-List-Unsubscribe**.
 
 Zur Erfüllung dieser Anforderung müssen die Absender
 
@@ -219,22 +219,22 @@ Zur Erfüllung dieser Anforderung müssen die Absender
 
 Um die One-Click List-Unsubscribe-POST direkt in Adobe Campaign v7/v8 zu unterstützen, müssen Sie die Webanwendung &quot;Abmeldeempfänger ohne Klick&quot;hinzufügen. Gehen Sie dazu wie folgt vor:
 
-1. Navigieren Sie zu **[!UICONTROL Ressourcen]** > **[!UICONTROL Online]** > **[!UICONTROL Webanwendungen]**.
+1. Wechseln Sie zu **[!UICONTROL Ressourcen]** > **[!UICONTROL Online]** > **[!UICONTROL Webanwendungen]**.
 
-1. Laden Sie &quot;Empfänger abmelden ohne Klick&quot; hoch. [XML](/help/assets/WebAppUnsubNoClick.xml.zip) -Datei.
+1. Laden Sie die Datei &quot;&quot;Empfänger abmelden, kein Klick&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip) hoch.
 
-So konfigurieren Sie **One-Click List-Unsubscribe** In Campaign haben Sie folgende Möglichkeiten:
+Zur Konfiguration von **1-Klick-List-Unsubscribe** in Campaign haben Sie folgende Möglichkeiten:
 
-* Fügen Sie die Befehlszeile in den Versand oder die Versandvorlage hinzu - [Erfahren Sie mehr](#one-click-delivery-template)
-* Typologieregel erstellen - [Erfahren Sie mehr](#one-click-typology-rule)
+* Fügen Sie die Befehlszeile in der Versand- oder Versandvorlage hinzu - [Erfahren Sie, wie](#one-click-delivery-template)
+* Erstellen einer Typologieregel - [Erfahren Sie, wie ](#one-click-typology-rule)
 
 #### Konfigurieren von One-Click List-Unsubscribe im Versand oder in der Vorlage {#one-click-delivery-template}
 
 Gehen Sie wie folgt vor, um die einmalige Listenabmeldung im Versand oder in der Versandvorlage zu konfigurieren.
 
-1. Navigieren Sie zu **[!UICONTROL SMTP]** in den Versandeigenschaften.
+1. Gehen Sie zum Abschnitt **[!UICONTROL SMTP]** der Versandeigenschaften.
 
-1. under **[!UICONTROL Zusätzliche SMTP-Header]** Geben Sie die Befehlszeilen wie im folgenden Beispiel ein. Jede Kopfzeile sollte sich in einer separaten Zeile befinden.
+1. Geben Sie unter **[!UICONTROL Zusätzliche SMTP-Header]** die Befehlszeilen ein, z. B. im folgenden Beispiel. Jede Kopfzeile sollte sich in einer separaten Zeile befinden.
 
 Beispiel:
 
@@ -251,7 +251,7 @@ Im obigen Beispiel wird die einmalige List-Unsubscribe für ISPs aktiviert, die 
 
 Gehen Sie wie folgt vor, um die einmalige Listenabmeldung mithilfe einer Typologieregel zu konfigurieren.
 
-1. Navigieren Sie in der Navigationsstruktur zu **[!UICONTROL Typologieregeln]** und klicken **[!UICONTROL Neu]**.
+1. Wechseln Sie in der Navigationsstruktur zu **[!UICONTROL Typologieregeln]** und klicken Sie auf **[!UICONTROL Neu]**.
 
    ![Bild](../assets/CreatingTypologyRules1.png)
 
@@ -260,8 +260,8 @@ Gehen Sie wie folgt vor, um die einmalige Listenabmeldung mithilfe einer Typolog
 
    * **[!UICONTROL Regeltyp]**: **[!UICONTROL Kontrolle]**
    * **[!UICONTROL Phase]**: **[!UICONTROL Zu Beginn der Zielgruppenbestimmung]**
-   * **[!UICONTROL Kanal]**: **[!UICONTROL Email]**
-   * **[!UICONTROL Ebene]**: Ihre Wahl
+   * **[!UICONTROL Kanal]**: **[!UICONTROL E-Mail]**
+   * **[!UICONTROL Level]**: Ihre Wahl
    * **[!UICONTROL Aktiv]**
 
 
@@ -274,8 +274,8 @@ Gehen Sie wie folgt vor, um die einmalige Listenabmeldung mithilfe einer Typolog
    >Der unten beschriebene Code ist nur als Beispiel zu verwenden.
 
    In diesem Beispiel wird Folgendes beschrieben:
-   * Konfigurieren Sie einen &quot;mailto&quot; List-Unsubscribe. Es fügt die Header hinzu oder hängt die vorhandenen &quot;mailto:&quot;-Parameter an und ersetzt sie durch: &lt;mailto..>>, https://...
-   * Fügen Sie in die Kopfzeile &quot;One-Click List-Unsubscribe&quot;ein. Sie verwendet `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
+   * Konfigurieren Sie einen &quot;mailto&quot; List-Unsubscribe. Es fügt die Header hinzu oder hängt die vorhandenen &quot;mailto:&quot;-Parameter an und ersetzt sie durch: &lt;mailto..>, https://...
+   * Fügen Sie in die Kopfzeile &quot;One-Click List-Unsubscribe&quot;ein. Es verwendet `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
 
    >[!NOTE]
    >
@@ -391,7 +391,7 @@ Gehen Sie wie folgt vor, um die einmalige Listenabmeldung mithilfe einer Typolog
 
    >[!CAUTION]
    >
-   >Stellen Sie sicher, dass **[!UICONTROL Zusätzliche SMTP-Header]** in den Versandeigenschaften leer ist.
+   >Stellen Sie sicher, dass das Feld **[!UICONTROL Zusätzliche SMTP-Header]** in den Versandeigenschaften leer ist.
 
    ![Bild](../assets/CreatingTypologyRules5.png)
 
@@ -409,9 +409,9 @@ Gehen Sie wie folgt vor, um die einmalige Listenabmeldung mithilfe einer Typolog
 
 SMTP (Simple Mail Transfer Protocol) ist ein Internet-Standard für die E-Mail-Übertragung.
 
-Die SMTP-Fehler, die nicht von einer Regel überprüft werden, werden im Abschnitt **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Verwaltung von Fehlern]** > **[!UICONTROL Versandlogqualifizierung]** Ordner. Diese Fehlermeldungen werden standardmäßig als unerreichbare Softbounces interpretiert.
+Die SMTP-Fehler, die nicht von einer Regel überprüft werden, werden im Ordner **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Versandlogqualifizierung]** aufgelistet. Diese Fehlermeldungen werden standardmäßig als unerreichbare Softbounces interpretiert.
 
-Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel hinzugefügt werden in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Verwaltung von Fehlern]** > **[!UICONTROL Mail-Regelsätze]** , wenn Sie das Feedback von den SMTP-Servern richtig qualifizieren möchten. Andernfalls führt die Plattform nach einer bestimmten Anzahl von Tests unnötige Versuche durch (im Fall unbekannter Benutzer) oder platziert bestimmte Empfänger fälschlicherweise unter Quarantäne.
+Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL E-Mail-Regelsätze]** hinzugefügt werden, wenn Sie das Feedback von den SMTP-Servern richtig qualifizieren möchten. Andernfalls führt die Plattform nach einer bestimmten Anzahl von Tests unnötige Versuche durch (im Fall unbekannter Benutzer) oder platziert bestimmte Empfänger fälschlicherweise unter Quarantäne.
 
 ### Dedizierte IPs {#dedicated-ips}
 

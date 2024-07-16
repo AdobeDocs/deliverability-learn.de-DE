@@ -12,8 +12,8 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 22%
+source-wordcount: '188'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 Wenn Sie neuen Traffic senden, sollten Sie nur Ihre am meisten engagierten Benutzer in den frühen Phasen der IP-Erwärmung ansprechen. Dies trägt dazu bei, eine positive Reputation aus dem &quot;get-go&quot;-Programm herzustellen, um effektiv Vertrauen zu schaffen, bevor Sie Ihre weniger engagierten Zielgruppen einbinden. Hier finden Sie eine grundlegende Formel für die Interaktion:
 
-![Interaktionsformel](../assets/formula-for-enagement.png)
+![Formel für Interaktion](../assets/formula-for-enagement.png)
 
 In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann je nachdem, ob die Formel auf einer Gesamtebene oder für bestimmte Versandtypen oder Kampagnen angewendet wird, stark variieren. Die spezifischen Targeting-Kriterien müssen von Ihrem Adobe-Zustellbarkeitsberater bereitgestellt werden, da jeder Absender und ISP variiert und in der Regel einen benutzerdefinierten Plan erfordert.
 
@@ -29,7 +29,7 @@ In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese M
 
 **Analytics**
 
-* [Erhöhung der Interaktions- und Bindungsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und kennen Sie die zugrunde liegenden Ursachen, die die Treue in Ihren mobilen Apps fördern. Verwenden Sie Data Science-Algorithmen in Segment-IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu überblicken.*
+* [Erhöhung der Interaktions- und Bindungsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifizieren interaktiver Zielgruppen durch ihr Verhalten mithilfe von Kohorten und Erkennen der zugrunde liegenden Ursachen, die die Treue in Ihren mobilen Apps fördern. Verwenden Sie Datenwissenschaftsalgorithmen in Segment IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu kennen.*
 
 **Campaign Standard**
 

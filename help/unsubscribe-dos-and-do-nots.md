@@ -28,7 +28,7 @@ Wir haben eine Liste der Dinge erstellt, die zu tun sind und die vermieden werde
 
 + Einige Ideen, wie der Abmelde-Link hervorgehoben werden kann: Zentrieren Sie ihn, unterstreichen Sie ihn und kühlen Sie ihn. Platzieren Sie sie entweder ganz oben oder ganz unten in der E-Mail. Machen Sie es zu einer anderen Schriftfarbe. Verwenden Sie in der Spracheinstellung des Benutzers das Wort &quot;UNSUBSCRIBE&quot;. Verwenden Sie keine Blüten oder übermäßiges Biage.
 
-**DO:** Lassen Sie das Laufwerk zum Abmelden von Links zu einer Landingpage führen, über die der Benutzer bestätigen kann, dass er aus der Liste entfernt werden möchte.
+**DO:** Lassen Sie das Laufwerk Ihres Abmelde-Links zu einer Landingpage führen, über die der Benutzer bestätigen kann, dass er aus der Liste entfernt werden möchte.
 
 Die Version auf der Landingpage sollte einen Link enthalten, der auf &quot;Abmeldung bestätigen&quot;verweist, und vielleicht einen weiteren Link, der besagt: &quot;Lass mich mich abwählen und die Häufigkeit der E-Mails, die ich von dir erhalte, verringern&quot;. Dies ist zwar keine Abmeldemethode mit einem Klick, hilft jedoch, Bot-Klicks zu vermeiden, die zu einer fehlerhaften Abmeldung führen.
 
@@ -44,11 +44,11 @@ Die Version auf der Landingpage sollte einen Link enthalten, der auf &quot;Abmel
 
 + Wichtig: Abhängig vom Standort/der Gerichtsbarkeit Ihrer Benutzer können Datenschutzbedenken bezüglich der Einbeziehung der vollständigen E-Mail-Adresse bestehen. Möglicherweise müssen Sie eine Hash-Version der E-Mail-Adresse im Voraus ausfüllen. Dies liegt daran, dass die E-Mail möglicherweise von der ursprünglich abonnierten Adresse weitergeleitet wurde. Wenden Sie sich an Ihre Rechtsgruppe, um Ihre spezifischen Anforderungen zu verstehen.
 
-**DO:** Vergewissern Sie sich, dass die Abmeldung erfolgreich gesendet wurde, und bestätigen Sie, wann mit dem Erhalt von E-Mails gerechnet werden kann.
+**DO:** Vergewissern Sie sich, dass die Abmeldung erfolgreich gesendet wurde, und bestätigen Sie, wann mit dem Beenden des Empfangs von E-Mails zu rechnen ist.
 
 + Wenn sie sich bereits abgemeldet haben und es erneut versuchen, teilen Sie ihnen mit, dass sie sich bereits abgemeldet haben und wann (Datum/Uhrzeit).
 
-**DO:** Befolgen Sie die Abmeldung und entfernen Sie die Adresse rechtzeitig.
+**DO:** Beehren Sie die Abmeldung und entfernen Sie die Adresse zeitnah.
 
 + Die Rechtzeitigkeit hängt von den lokalen Gesetzen und der Gerichtsbarkeit ab. Wenden Sie sich daher an einen Rechtsbeistand, der Ihnen Auskunft darüber gibt, was für Ihr Unternehmen gilt.
 
@@ -56,38 +56,38 @@ Die Version auf der Landingpage sollte einen Link enthalten, der auf &quot;Abmel
 
 + Es ist in Ordnung, Ihren Abonnenten Optionen zu geben - dies kann über ein Präferenzzentrum/eine Opt-out-Initiative verwaltet werden.
 
-**DO:** Verwenden Sie einen Header &quot;List Unsubscribe&quot;in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht dort zu finden sind, wo der Benutzer nach Abmeldungen sucht.
+**DO:** Verwenden Sie einen List Unsubscribe-Header in Ihren E-Mail-Vorlagen, damit E-Mail-Clients (z. B. gmail.com), die Abmelde-Links oben in der E-Mail anzeigen, leicht zu finden sind, wo der Benutzer nach Abmeldungen sucht.
 
 
 ## Die do nots
 
 
-**NICHT:** Bringen Sie den Abmelde-Link in Ihren Inhalt in die Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
+**NICHT:** Bringen Sie den Abmelde-Link in Ihrem Inhalt in der Hoffnung, dass Abonnenten aus Frustration &quot;aufgeben&quot;.
 
 + Dies ist ein schlechtes Benutzererlebnis und kann zu vermehrten Beschwerden führen, was sich negativ auf Ihre Zustellbarkeit und Reputation auswirken kann.
 
-**NICHT:** Die Abmeldung wird schwierig, sobald der Kunde in das Formular gelangt ist. Trickserei ist ärgerlich - und in einigen Fällen sogar rechtswidrig.
+**NICHT:** Machen Sie es schwierig, sich abzumelden, sobald der Kunde in das Formular gelangt ist. Trickserei ist ärgerlich - und in einigen Fällen sogar rechtswidrig.
 
 + Seien Sie direkt und vermeiden Sie Verwirrung beim Endbenutzer.
 
-**NICHT:** Der Benutzer muss im Abmeldeformular manuell eine E-Mail-Adresse hinzufügen.
+**DO NOT:** Sorgen Sie dafür, dass der Benutzer manuell eine E-Mail-Adresse zum Abmeldeformular hinzufügt.
 
 + Die abonnierte Adresse kann sich von der Adresse unterscheiden, an die sich der Benutzer für die E-Mail angemeldet hat (z. B. weitergeleitet). Möglicherweise kennen sie nicht die E-Mail-Adresse, die für das ursprüngliche Abonnement verwendet wurde.
 
-**NICHT:** Melden Sie sich bei Ihrem Konto an, um sich abzumelden.
+**DO NOT:** Melden Sie sich von dem Benutzer bei seinem Konto an, um sich abzumelden.
 
 + Möglicherweise senden Sie die E-Mail an die falsche Adresse und der Eigentümer der Adresse hat möglicherweise keinen Zugriff auf das Konto. Wenn der Empfänger die E-Mail erhält, sollte er die Möglichkeit haben, sich allein vom Link in der E-Mail abzumelden. Es sollten keine weiteren Maßnahmen oder Informationen erforderlich sein.
 + Je weniger Schritte ein Kunde unternehmen muss, desto besser.
 
-**NICHT:** Senden Sie eine E-Mail, in der bestätigt wird, dass sich die Person abgemeldet hat.
+**DO NOT:** Senden Sie eine E-Mail, in der bestätigt wird, dass sich die Person abgemeldet hat.
 
 + Wenn Sie dies tun, haben Sie Ihr Versprechen bereits gebrochen, ihnen nicht mehr E-Mails zu schicken.
 
-**NICHT:** Seien Sie finster in Ihrer Sprache. &quot;Ich höre nicht gerne von tollen Angeboten - melden Sie mich bitte ab!&quot;
+**NICHT:** Seien Sie in Ihrer Sprache dunkel. &quot;Ich höre nicht gerne von tollen Angeboten - melden Sie mich bitte ab!&quot;
 
 + Das kann als unhöflich auffallen. Vermeiden Sie einen negativen Ton.
 
-**NICHT:** Erzwingen Sie sie, Ihnen einen Grund anzugeben, warum sie sich abgemeldet haben, bevor Sie die Anfrage bearbeiten.
+**DO NOT:** Zwingt sie dazu, Ihnen einen Grund anzugeben, warum sie sich abgemeldet haben, bevor Sie die Anfrage bearbeiten.
 
 + Wenn Sie dem Kunden die Möglichkeit geben, diese Informationen hinzuzufügen, können Sie sich für künftige Einblicke als hilfreich erweisen. Sie können diese Informationen jedoch als optionales Feld auf der Landingpage zum Abmelden festlegen.
 

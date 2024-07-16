@@ -10,8 +10,8 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 5%
+source-wordcount: '1594'
+ht-degree: 3%
 
 ---
 
@@ -21,15 +21,15 @@ Die besten Quellen für neue E-Mail-Adressen sind direkte Quellen wie Anmeldunge
 
 Einige Hinweise zu diesen Anmeldemethoden:
 
-**Physikalischer Laden** Die Listensammlung kann aufgrund verbaler oder schriftlicher Adresseingaben Probleme mit der Rechtschreibung in den Adressen verursachen. Es wird empfohlen, so schnell wie möglich eine Bestätigungs-E-Mail nach der Registrierung im Geschäft zu versenden.
+**Die Auflistung der physischen Speicher**-Listen kann aufgrund von verbalen oder schriftlichen Adresseingaben Probleme mit der Rechtschreibung in den Adressen verursachen. Es wird empfohlen, so schnell wie möglich eine Bestätigungs-E-Mail nach der Registrierung im Geschäft zu versenden.
 
-Die am häufigsten verwendete Form von **Website-Anmeldung** ist &quot;Single Opt-in&quot;. Dies ist der absolute Mindeststandard, den Sie zum Erwerb von E-Mail-Adressen verwenden sollten. Eine einmalige Anmeldung ist der Fall, wenn der Inhaber einer bestimmten E-Mail-Adresse einem Absender die Erlaubnis erteilt, ihnen Marketing-E-Mails zu senden, in der Regel durch das Senden der Adresse über ein Webformular oder eine In-Store-Anmeldung. Es ist zwar möglich, eine erfolgreiche E-Mail-Kampagne mit dieser Methode durchzuführen, doch kann dies zu Problemen führen.
+Die häufigste Form von **Website-Anmeldung** ist &quot;Single Opt-in&quot;. Dies ist der absolute Mindeststandard, den Sie zum Erwerb von E-Mail-Adressen verwenden sollten. Eine einmalige Anmeldung ist der Fall, wenn der Inhaber einer bestimmten E-Mail-Adresse einem Absender die Erlaubnis erteilt, ihnen Marketing-E-Mails zu senden, in der Regel durch das Senden der Adresse über ein Webformular oder eine In-Store-Anmeldung. Es ist zwar möglich, eine erfolgreiche E-Mail-Kampagne mit dieser Methode durchzuführen, doch kann dies zu Problemen führen.
 
 * Nicht bestätigte E-Mail-Adressen können Tippfehler aufweisen oder falsch, falsch oder bösartig verwendet werden. Tippfehler und fehlerhafte Adressen verursachen hohe Absprungraten, was zu Bausteinen führen kann, die von ISPs ausgegeben wurden, oder zu IP-Reputationsverlusten.
 
 * Die böswillige Unterwerfung bekannter Spamfallen (manchmal auch als &quot;Listen-Vergiftung&quot;bezeichnet) kann zu enormen Problemen bei der Zustellung und Reputation führen, wenn der Besitzer dieser Falle Maßnahmen ergreift. Es ist unmöglich zu wissen, ob der Empfänger wirklich ohne Bestätigung zu einer Marketingliste hinzugefügt werden möchte. Dies macht es ebenso unmöglich, die Erwartungen des Empfängers zu setzen und kann zu erhöhten Spam-Beschwerden führen - und manchmal auf die Blockierungsliste setzend, wenn die erfasste E-Mail zufällig eine Spamfalle ist.
 
-Eine Anleitung zur Minimierung der Probleme, die sowohl im physischen Speicher als auch in einem einzelnen Opt-in auftreten, finden Sie unter [Datenqualität und -hygiene](#data-quality-and-hygiene) in diesem Handbuch finden Sie Details und Vorteile der Anmeldung mit zweifacher Bestätigung.
+Eine Anleitung zur Minimierung der Probleme, die sowohl im physischen Speicher als auch in einem einzigen Opt-in auftreten, finden Sie im Abschnitt [Datenqualität und -hygiene](#data-quality-and-hygiene) in diesem Handbuch, in dem Details und Vorteile einer doppelten Anmeldung erläutert werden.
 
 >[!NOTE]
 >
@@ -75,15 +75,15 @@ Wenden Sie sich an Ihre Anwälte, um lokale und nationale Gesetze bezüglich E-M
 
 Es gibt viele andere Möglichkeiten, Adressen zu sammeln, jede mit eigenen Chancen, Herausforderungen und Nachteilen. Adobe empfiehlt diese im Allgemeinen nicht, da die Verwendung häufig durch anbieterakzeptable Nutzungsrichtlinien eingeschränkt wird. Wir werden uns einige gebräuchliche Beispiele ansehen, damit Sie die Gefahren lernen können, die Ihnen dabei helfen, die Risiken einzuschränken oder zu vermeiden:
 
-**Liste kaufen oder mieten**
+**Eine Liste kaufen oder mieten**
 Es gibt viele Arten von E-Mail-Adressen. Primäre E-Mails, Arbeits-E-Mails, E-Mails von Schulen, sekundäre E-Mails und inaktive E-Mails, um einige zu nennen. Bei den Arten von Adressen, die über gekaufte oder gemietete Listen erfasst und weitergegeben werden, handelt es sich selten um primäre E-Mail-Konten, bei denen fast alle Interaktionen und Kaufaktivitäten stattfinden.
 
-Wenn Sie Glück haben, erhalten Sie sekundäre Konten, bei denen Menschen nach Angeboten und Angeboten suchen, wenn sie bereit sind, für etwas einzukaufen. Dies führt in der Regel zu niedrigen Interaktionsraten - wenn überhaupt. Wenn Sie kein Glück haben, ist die Liste voller inaktiver E-Mails, das könnten nun Spamfallen sein. Häufig erhalten Sie eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listen einem E-Mail-Programm mehr als. Diese Praxis ist durch die [Akzeptierbare Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/de/legal/terms/aup.html).
+Wenn Sie Glück haben, erhalten Sie sekundäre Konten, bei denen Menschen nach Angeboten und Angeboten suchen, wenn sie bereit sind, für etwas einzukaufen. Dies führt in der Regel zu niedrigen Interaktionsraten - wenn überhaupt. Wenn Sie kein Glück haben, ist die Liste voller inaktiver E-Mails, das könnten nun Spamfallen sein. Häufig erhalten Sie eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listen einem E-Mail-Programm mehr als. Diese Vorgehensweise ist durch die [akzeptable Nutzungsrichtlinie für Adobe Campaign](https://www.adobe.com/de/legal/terms/aup.html) untersagt.
 
-**Listen anhängen**
-Dies sind Kunden, die sich entschieden haben, mit Ihrer Marke zu interagieren, was großartig ist. Sie entschieden sich jedoch für eine andere Methode als die E-Mail-Interaktion (im Geschäft, in sozialen Medien usw.). Sie konnten nicht empfänglich sein, eine nicht angeforderte E-Mail von Ihnen zu erhalten, und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie sie nicht bereitgestellt haben. Diese Methode birgt das Risiko, einen Kunden oder potenziellen Kunden, der mit Ihrer Marke beschäftigt ist, in einen Kritiker zu verwandeln, der nicht mehr Ihrer Marke vertraut und stattdessen in Ihren Wettbewerb eintritt. Diese Praxis ist durch die [Akzeptierbare Adobe Campaign-Nutzungsrichtlinie](https://www.adobe.com/de/legal/terms/aup.html).
+**Listen append**
+Dies sind Kunden, die sich entschieden haben, mit Ihrer Marke zu interagieren, was großartig ist. Sie entschieden sich jedoch für eine andere Methode als die E-Mail-Interaktion (im Geschäft, in sozialen Medien usw.). Sie konnten nicht empfänglich sein, eine nicht angeforderte E-Mail von Ihnen zu erhalten, und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie sie nicht bereitgestellt haben. Diese Methode birgt das Risiko, einen Kunden oder potenziellen Kunden, der mit Ihrer Marke beschäftigt ist, in einen Kritiker zu verwandeln, der nicht mehr Ihrer Marke vertraut und stattdessen in Ihren Wettbewerb eintritt. Diese Vorgehensweise ist durch die [akzeptable Nutzungsrichtlinie für Adobe Campaign](https://www.adobe.com/de/legal/terms/aup.html) untersagt.
 
-**Messen oder andere Veranstaltungen**
+**Messe- oder sonstige Ereignisabruf**
 Das Sammeln von Adressen an einem Messestand oder durch eine andere offizielle, eindeutig markierte Methode kann nützlich sein. Das Risiko besteht darin, dass viele Ereignisse wie diese alle Adressen erfassen und über die Ereignisproduzenten oder den Host verteilen. Das bedeutet, dass die Inhaber dieser E-Mail-Adressen nie angefordert haben, E-Mails von Ihrer Marke zu erhalten. Diese Abonnenten beschweren sich wahrscheinlich und markieren Ihre E-Mail als Spam, und sie haben möglicherweise keine genauen Kontaktinformationen bereitgestellt.
 
 **Preisausschreiben**

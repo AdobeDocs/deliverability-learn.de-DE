@@ -8,8 +8,8 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2061'
-ht-degree: 100%
+source-wordcount: '2043'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe se
 | MX | E-Mail-Server für eingehende Nachrichten angeben | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Sender Policy Framework | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM (TXT) | DomainKeys Identified Mail (mit DomainKeys identifizierte E-Mail) | <i>client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| Einträge auf Hosts (A) | Mirror-Seiten, Bild-Hosting und Tracking-Links, alle sendenden Domains | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
+| Einträge auf Hosts (A) | Mirrorseiten, Bild-Hosting und Tracking-Links, alle sendenden Domains | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
 | Umgekehrtes DNS (PTR) | Ordnet die IP-Adressen des Kunden einem Host-Namen unter dem Markennamen des Kunden zu | 18.101.100.192.in-addr.arpa domain name pointer r18.email.example.com |
 | CNAME | Stellt einen Alias für einen anderen Domain-Namen bereit | t1.email.example.com ist ein Alias für t1.email.example.campaign.adobe.com |
 
@@ -94,13 +94,13 @@ Wenn sich der Kunde für die Verwendung von CNAMEs entscheidet, anstatt eine Sub
 
 ## Allgemeine Anforderungen für die Bereitstellung
 
-Bei der Implementierung einer neuen Enterprise-Marketing-Lösung gibt es Anforderungen an die nach außen gerichteten Komponenten.  Dazu gehören das Hosten von Landingpages und Web-Formularen, das Einrichten von Links und Websites, die getrackt werden sollen, das Anzeigen von Mirror-Seiten und das Konfigurieren einer Opt-out-Seite.
+Bei der Implementierung einer neuen Enterprise-Marketing-Lösung gibt es Anforderungen an die nach außen gerichteten Komponenten.  Dazu gehören das Hosten von Landingpages und Web-Formularen, das Einrichten von Links und Websites, die getrackt werden sollen, das Anzeigen von Mirrorseiten und das Konfigurieren einer Opt-out-Seite.
 
 Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfänger der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.  Wenn man z. B. eine URL wie http://www.customer.com/ betrachtet, würde die Domain „www.customer.com“ lauten.  Die Subdomain davon wäre „www“.
 
 ### Anforderungen an Subdomains
 
-Bestimmen Sie im Adobe Campaign-Programm die Subdomain(s), die für gebrandete URLs (Mirror-Seiten und Tracking-URLs) verwendet werden sollen.  Legen Sie außerdem fest, wie bei E-Mail-Sendungen die Absenderadresse, der Absendername und die Antwortadresse für jede Subdomain lauten sollen.
+Bestimmen Sie im Adobe Campaign-Programm die Subdomain(s), die für gebrandete URLs (Mirrorseiten und Tracking-URLs) verwendet werden sollen.  Legen Sie außerdem fest, wie bei E-Mail-Sendungen die Absenderadresse, der Absendername und die Antwortadresse für jede Subdomain lauten sollen.
 
 Füllen Sie die folgende Tabelle aus. Die erste Zeile ist nur ein Beispiel.
 
@@ -125,13 +125,13 @@ Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, m
 |--- |--- |
 | `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com. </br> `<subdomain>` NS b.ns.campaign.adobe.com. </br> `<subdomain>` NS c.ns.campaign.adobe.com. </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
 
-## Tracking, Mirror-Seiten, Ressourcen
+## Tracking, Mirrorseiten, Ressourcen
 
-Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß delegiert wurden, erstellt das Adobe TechOps-Team zwei oder mehr untergeordneter Domains, um Tracking und Mirror-Seiten unabhängig zu verwalten.
+Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß delegiert wurden, erstellt das Adobe TechOps-Team zwei oder mehr untergeordneter Domains, um Tracking und Mirrorseiten unabhängig zu verwalten.
 
 | Typ | Domain |
 |--- |--- |
-| Mirror-Seiten | m.`<subdomain>` |
+| Mirrorseiten | m.`<subdomain>` |
 | Tracking | t.`<subdomain>` |
 | Ressourcen | res.`<subdomain>` |
 

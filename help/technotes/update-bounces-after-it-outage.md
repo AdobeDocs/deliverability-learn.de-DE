@@ -9,8 +9,8 @@ role: Admin
 level: Beginner
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 53%
+source-wordcount: '403'
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ Wie in den meisten Fällen, in denen ein Internetdienstanbieter (ISP) ausfällt,
 
 Die Symptome waren:
 
-* **Softbounces** mit der Nachricht `452 requested action aborted: try again later` - diese wurden automatisch wiederholt und es sind keine Aktionen erforderlich.
+* **Softbounces** mit der Meldung `452 requested action aborted: try again later` - diese wurden automatisch wiederholt, und es sind keine Aktionen erforderlich.
 
 * **Hardbounces** mit der Nachricht `550 <email address> recipient rejected` wurden von dem ISP am 26. Januar zwischen 8:00 und 14:00 Uhr Ortszeit zurückgeschickt, um zu verhindern, dass seine Server weiter überlastet werden. Wie vom Italia Online-Postmaster bestätigt, handelt es sich hierbei nicht um echte Hardbounces. Daher empfehlen wir, die Quarantäne für alle E-Mail-Adressen aufzuheben, die am 26. Januar 2023 aufgrund dieser Nachricht ausgeschlossen wurden.
 
@@ -43,16 +43,16 @@ Die Symptome waren:
 
 Gemäß der Standardlogik für die Behandlung von Bounces hat Adobe Campaign diese Empfänger automatisch der Quarantäneliste mit dem **[!UICONTROL Status]** **[!UICONTROL Quarantäne]** hinzugefügt. Um dies zu korrigieren, müssen Sie Ihre Quarantänetabelle in Campaign aktualisieren, indem Sie diese Empfänger finden und entfernen oder ihren **[!UICONTROL Status]** auf **[!UICONTROL Gültig]** ändern, damit der nächtliche Bereinigungs-Workflow sie entfernt.
 
-Um die Empfänger zu finden, die von diesem Problem betroffen waren, oder für den Fall, dass dies bei einem anderen ISP erneut auftritt, lesen Sie bitte die folgenden Anweisungen:
+Um die Empfänger zu finden, die von diesem Problem betroffen waren, oder falls dies bei einem anderen ISP erneut auftritt, lesen Sie die folgenden Anweisungen:
 
-* Campaign Classic v7 und Campaign v8 finden Sie unter [diese Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Campaign Standard finden Sie unter [diese Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Informationen zu Campaign Classic v7 und Campaign v8 finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Campaign Standard: siehe [diese Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
-Gemäß der standardmäßigen Bounce-Verarbeitungslogik hat Adobe Journey Optimizer diese E-Mail-Adressen automatisch mit einer **[!UICONTROL Grund]** Einstellung von **[!UICONTROL Ungültiger Empfänger]**. Um dies zu korrigieren, müssen Sie die Unterdrückungsliste aktualisieren, indem Sie diese E-Mail-Adressen suchen und entfernen.
+Gemäß der standardmäßigen Bounce-Verarbeitungslogik hat Adobe Journey Optimizer diese E-Mail-Adressen automatisch zur Unterdrückungsliste hinzugefügt, wobei die Einstellung **[!UICONTROL Grund]** den Wert **[!UICONTROL Ungültiger Empfänger]** aufweist. Um dies zu korrigieren, müssen Sie die Unterdrückungsliste aktualisieren, indem Sie diese E-Mail-Adressen suchen und entfernen.
 
-Nach der Identifizierung können diese Adressen mithilfe der **[!UICONTROL Löschen]** Schaltfläche. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
+Nach der Identifizierung können diese Adressen mithilfe der Schaltfläche **[!UICONTROL Löschen]** manuell aus der Unterdrückungsliste entfernt werden. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
 
-Weitere Informationen finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
+Weitere Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 

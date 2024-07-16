@@ -12,8 +12,8 @@ team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 35%
+source-wordcount: '155'
+ht-degree: 21%
 
 ---
 
@@ -42,4 +42,4 @@ Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu iden
 
 ## Zusätzliche Ressourcen
 
-* Erfahren Sie, wie Sie Zustellbarkeitsprobleme in [diesem Abschnitt](/help/additional-resources/troubleshooting.md).
+* In [diesem Abschnitt](/help/additional-resources/troubleshooting.md) erfahren Sie, wie Sie Zustellbarkeitsprobleme beheben können.
