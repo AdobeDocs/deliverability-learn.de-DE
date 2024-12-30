@@ -26,7 +26,7 @@ In unserem digitalen Zeitalter erwarten die Menschen, schnell begeistert zu werd
 
 Geben wir ehrlich zu, dass Sie sich heute mehr denn je von Ihren Mitbewerbern abheben müssen. Das bedeutet, Ihren Kunden einzigartige, personalisierte und relevante Kundenerlebnisse zu bieten. Andernfalls riskieren Sie, einen Kunden für immer zu verlieren. Eine integrierte, dynamische Multi-Channel-Strategie, die Ihre Zielgruppe dazu motiviert, aktiv zu bleiben, ist unverzichtbar.
 
-In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Verwenden Sie ihn, um den E-Mail-Kanal bei der Zustellbarkeit, Platzierung im Posteingang und Ihrem Umsatz an vorderster Front im Marketing-Mix zu halten.
+In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Verwenden Sie diesen Kanal, um den E-Mail-Kanal an der Spitze Ihres Marketing-Mix zu halten, wobei Zustellbarkeit, Posteingangsplatzierung und Umsatz höchste Priorität haben.
 
 Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 

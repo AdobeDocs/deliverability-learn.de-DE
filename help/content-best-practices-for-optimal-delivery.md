@@ -1,6 +1,6 @@
 ---
 title: Best Practices für Inhalte für eine optimale Zustellbarkeit
-description: Inhalt ist wichtig. Sie haben unsere Perspektive zur Relevanz bereits gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Zustellbarkeit in Bezug auf Inhalte.
+description: Inhalt ist der Schlüssel. Sie haben bereits unsere Sicht der Relevanz gelesen, aber hier sind ein paar zusätzliche Tipps, um Ihre Zustellbarkeit in Bezug auf Inhalte zu optimieren.
 topics: Deliverability
 jira: KT-5260
 thumbnail: kt5260.jpg
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 # Best Practices für Inhalte für eine optimale Zustellbarkeit
 
-Inhalt ist wichtig. Sie haben unsere Perspektive zur Relevanz bereits gelesen, aber hier sind einige zusätzliche Tipps zur Optimierung Ihrer Zustellbarkeit in Bezug auf Inhalte:
+Inhalt ist der Schlüssel. Sie haben bereits unsere Sicht der Relevanz gelesen, aber hier sind ein paar zusätzliche Tipps, um Ihre Zustellbarkeit in Bezug auf Inhalte zu optimieren:
 
-* **Vermeiden Sie eine zu große HTML-Datei**. Halten Sie unter 100 KB, versuchen Sie jedoch, zwischen 60 und 80 KB zu bleiben, um eine langsame Bereitstellung zu verhindern.
-* **Verwenden Sie ALT-Tags zu Ihrem Vorteil**. Alt-Tags befinden sich im Bildcode der HTML und zeigen Text an, wenn das Bild nicht sichtbar oder geladen ist. Statt eine einfache Beschreibung wie &quot;Produkt-Shot&quot;zu haben, möchten Sie vielleicht etwas überzeugenderes sagen wie: &quot;Jetzt kaufen und 30% Rabatt.&quot;
-* **Vermeiden Sie zu viele Bilder.** Die meisten ISPs blockieren jetzt standardmäßig Bilder. Sie möchten eine Möglichkeit haben, Ihre Zielgruppe zu erfassen, ohne dass die Bilder aktiviert sind, damit sie sie aktivieren.
+* **Vermeiden Sie zu große HTML-Dateien**. Unter 100 KB bleiben, aber versuchen, zwischen 60 und 80 KB zu bleiben, um einen langsamen Versand zu verhindern.
+* **Verwenden Sie ALT-Tags zu Ihrem Vorteil**. Alt-Tags befinden sich direkt im Bildcode der HTML und zeigen Text an, wenn das Bild nicht sichtbar ist oder geladen wird. Statt einer einfachen Beschreibung wie „Product Shot“ möchten Sie vielleicht etwas Überzeugenderes sagen, wie: „Jetzt kaufen und 30 % Rabatt erhalten.“
+* **Vermeiden Sie zu viele Bilder.** Die meisten ISPs blockieren jetzt standardmäßig Bilder. Sie möchten eine Möglichkeit haben, Ihre Zielgruppe zu erfassen, ohne die Bilder zu aktivieren, sodass sie sie dann aktivieren.
 
 ## Produktspezifische Ressourcen
 

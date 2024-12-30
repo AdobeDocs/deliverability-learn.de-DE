@@ -19,11 +19,11 @@ ht-degree: 31%
 
 In den folgenden Technotes erfahren Sie mehr über aktuelle Updates zur Zustellbarkeit.
 
-* [Implementieren von Gmail&#39;s Brand Indicators for Message Identification (BIMI)](../technotes/implement-bimi.md)
+* [Implementieren der Markenindikatoren von Gmail zur Nachrichtenidentifizierung (BIMI)](../technotes/implement-bimi.md)
 
 ## Allgemeine Ressourcen
 
-In diesem Abschnitt finden Sie einige zusätzliche Ressourcen zur Zustellbarkeit, z. B. spezifische Empfehlungen und Best Practices, andere Tools oder Verfahren zur Fehlerbehebung.
+In diesem Abschnitt werden einige zusätzliche Ressourcen zur Zustellbarkeit aufgelistet, z. B. spezifische Empfehlungen und Best Practices, andere Tools oder Fehlerbehebungsverfahren.
 
 * [Alles über Spam-Fallen](../../help/additional-resources/all-about-spam-traps.md)
 * [E-Mail-Reputation mit IP-Warming verbessern](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -39,7 +39,7 @@ In diesem Abschnitt finden Sie einige zusätzliche Ressourcen zur Zustellbarkeit
 
 ## Produktspezifische Ressourcen
 
-Darüber hinaus finden Sie in diesem Abschnitt eine Reihe produktspezifischer Ressourcen, die Ihnen bei der Implementierung der Zustellbarkeit und der erfolgreichen Umsetzung Ihrer Adobe-Lösungen helfen.
+Darüber hinaus finden Sie in diesem Abschnitt eine Reihe produktspezifischer Ressourcen, die Ihnen bei der Implementierung der Zustellbarkeit und dem erfolgreichen Einsatz Ihrer Adobe-Lösungen helfen.
 
 **[!DNL Adobe Campaign]**
 

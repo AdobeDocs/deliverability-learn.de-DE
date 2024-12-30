@@ -19,17 +19,17 @@ ht-degree: 16%
 
 # Kriterien für die Zielgruppenbestimmung
 
-Wenn Sie neuen Traffic senden, sollten Sie nur Ihre am meisten engagierten Benutzer in den frühen Phasen der IP-Erwärmung ansprechen. Dies trägt dazu bei, eine positive Reputation aus dem &quot;get-go&quot;-Programm herzustellen, um effektiv Vertrauen zu schaffen, bevor Sie Ihre weniger engagierten Zielgruppen einbinden. Hier finden Sie eine grundlegende Formel für die Interaktion:
+Wenn Sie neuen Traffic versenden, sollten Sie in den frühen Phasen des IP-Warming-Vorgangs nur die aktivsten Benutzer ansprechen. Auf diese Weise können Sie von Anfang an eine positive Reputation aufbauen, um effektiv Vertrauen aufzubauen, bevor Sie Ihre weniger interaktiven Zielgruppen einbinden. Hier ist eine einfache Formel für die Interaktion:
 
-![Formel für Interaktion](../assets/formula-for-enagement.png)
+![Formel für die Interaktion](../assets/formula-for-enagement.png)
 
-In der Regel basiert die Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann je nachdem, ob die Formel auf einer Gesamtebene oder für bestimmte Versandtypen oder Kampagnen angewendet wird, stark variieren. Die spezifischen Targeting-Kriterien müssen von Ihrem Adobe-Zustellbarkeitsberater bereitgestellt werden, da jeder Absender und ISP variiert und in der Regel einen benutzerdefinierten Plan erfordert.
+In der Regel basiert eine Interaktionsrate auf einem bestimmten Zeitraum. Diese Metrik kann stark variieren, je nachdem, ob die Formel auf einer allgemeinen Ebene oder für bestimmte Mailing-Typen oder Kampagnen angewendet wird. Die spezifischen Targeting-Kriterien müssen in Zusammenarbeit mit Ihrem Adobe-Zustellbarkeitsberater angegeben werden, da jeder Absender und ISP variiert und normalerweise einen benutzerdefinierten Plan erfordert.
 
 ## Produktspezifische Ressourcen
 
 **Analytics**
 
-* [Erhöhung der Interaktions- und Bindungsraten (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifizieren interaktiver Zielgruppen durch ihr Verhalten mithilfe von Kohorten und Erkennen der zugrunde liegenden Ursachen, die die Treue in Ihren mobilen Apps fördern. Verwenden Sie Datenwissenschaftsalgorithmen in Segment IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu kennen.*
+* [Wie Sie die Interaktions- und Kundenbindungsraten steigern können (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und lernen Sie die zugrunde liegenden Ursachen kennen, die zu einer Verklebung in Ihren Mobile Apps führen. Verwenden Sie Datenwissenschaftsalgorithmen in Segment IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu kennen.*
 
 **Campaign Standard**
 

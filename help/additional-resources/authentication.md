@@ -1,6 +1,6 @@
 ---
 title: Authentifizierung
-description: Erfahren Sie mehr über SPF, DKIM und DMARC-Authentifizierungsmethoden.
+description: Erfahren Sie mehr über Authentifizierungsmethoden für SPF, DKIM und DMARC.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -21,19 +21,19 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->Sie können [dieses externe Tool](https://www.kitterman.com/spf/validate.html) verwenden, um einen SPF-Datensatz zu überprüfen.
+>Sie können [dieses externe Tool) verwenden](https://www.kitterman.com/spf/validate.html) um einen SPF-Eintrag zu überprüfen.
 
 SPF ist eine Technik, mit der Sie in gewissem Umfang sicherstellen können, dass der in einer E-Mail verwendete Domain-Name nicht gefälscht wird. Wenn eine Nachricht von einer Domain empfangen wird, wird der DNS-Server der Domain abgefragt. Die Antwort ist ein kurzer Datensatz (der SPF-Datensatz), der angibt, welche Server für das Senden von E-Mails von dieser Domain autorisiert sind. Wenn wir davon ausgehen, dass nur der Eigentümer der Domain über die Mittel verfügt, um diesen Datensatz zu ändern, können wir davon ausgehen, dass mit dieser Technik die Absenderadresse nicht gefälscht werden kann, zumindest nicht der Teil rechts von „@“.
 
-In der endgültigen [RFC 4408-Spezifikation](https://www.rfc-editor.org/info/rfc4408) werden zwei Elemente der Nachricht verwendet, um die Domäne zu bestimmen, die als Absender gilt: die vom SMTP-Befehl &quot;HELO&quot;(oder &quot;EHLO&quot;) angegebene Domäne und die von der Adresse des &quot;Return-Path&quot;-Headers (oder &quot;MAIL FROM&quot;) angegebene Domain, die auch die Bounce-Adresse ist. Verschiedene Überlegungen ermöglichen es, nur einen dieser Werte zu berücksichtigen. Wir empfehlen, dass beide Quellen dieselbe Domain angeben.
+In der endgültigen [RFC 4408-Spezifikation](https://www.rfc-editor.org/info/rfc4408) werden zwei Elemente der Nachricht verwendet, um die als Absender betrachtete Domain zu bestimmen: die vom SMTP-Befehl „HELO“ (oder „EHLO„) angegebene Domain und die von der Adresse des „Return-Path“-Headers (oder „MAIL FROM„) angegebene Domain, die auch die Bounce-Adresse ist. Verschiedene Überlegungen ermöglichen es, nur einen dieser Werte zu berücksichtigen. Wir empfehlen, dass beide Quellen dieselbe Domain angeben.
 
 Durch die Überprüfung des SPF ist eine Auswertung der Gültigkeit der Absender-Domain gewährleistet.
 
 * **None**: Es konnte keine Auswertung durchgeführt werden.
-* **Neutral**: Die abgefragte Domäne aktiviert keine Evaluierung.
-* **Pass**: Die Domäne wird als echt angesehen.
-* **Fail**: Die Domäne ist gefälscht und die Nachricht sollte abgelehnt werden.
-* **SoftFail**: Die Domäne ist wahrscheinlich gefälscht, aber die Nachricht sollte nicht ausschließlich aufgrund dieses Ergebnisses abgelehnt werden.
+* **Neutral**: Die abgefragte Domain ermöglicht keine Auswertung.
+* **Pass**: Die Domain wird als authentisch betrachtet.
+* **Fehler**: Die Domain ist gefälscht und die Nachricht sollte abgelehnt werden.
+* **SoftFail**: Die Domain ist wahrscheinlich gefälscht, aber die Nachricht sollte nicht nur aufgrund dieses Ergebnisses abgelehnt werden.
 * **TempError**: Ein temporärer Fehler hat die Auswertung angehalten. Die Nachricht kann abgelehnt werden.
 * **PermError**: Die SPF-Einträge der Domain sind ungültig.
 
@@ -41,7 +41,7 @@ Bitte beachten Sie, dass es bis zu 48 Stunden in Anspruch nehmen kann, bis in de
 
 ## DKIM {#dkim}
 
-Die DKIM-Authentifizierung (DomainKeys Identified Mail) ist ein Nachfolger von SPF. Es verwendet eine Verschlüsselung mit öffentlichen Schlüsseln, mit der der E-Mail-Empfangs-Server überprüfen kann, ob eine Nachricht tatsächlich von der angegebenen Person oder Organisation gesendet wurde und ob der Nachrichteninhalt zwischen dem Versandzeitpunkt (und dem &quot;Signieren&quot;von DKIM) und dem Empfangszeitpunkt verändert wurde. Bei diesem Standard wird in der Regel die Domain im &quot;Von&quot;- oder &quot;Absender&quot;-Header genutzt.
+Die DKIM-Authentifizierung (DomainKeys Identified Mail) ist eine Nachfolgeauthentifizierung von SPF. Sie verwendet eine Verschlüsselung mit öffentlichem Schlüssel, mit der der empfangende E-Mail-Server überprüfen kann, ob eine Nachricht tatsächlich von der Person oder Entität gesendet wurde, von der sie behauptet, dass sie gesendet wurde, und ob der Nachrichteninhalt zwischen dem ursprünglichen Versand (und DKIM „signiert„) und dem Empfang geändert wurde. Bei diesem Standard wird in der Regel die Domain im &quot;Von&quot;- oder &quot;Absender&quot;-Header genutzt.
 
 DKIM geht auf eine Kombination der Authentifizierungsprinzipien DomainKeys von Yahoo! und Identified Internet Mail von Cisco zurück und dient der Prüfung der Authentizität von Absender-Domains sowie der Sicherstellung der Integrität von Nachrichten.
 
@@ -49,17 +49,17 @@ DKIM hat sozusagen die **DomainKeys**-Authentifizierung ersetzt.
 
 Für die Verwendung von DKIM müssen folgende Voraussetzungen gegeben sein:
 
-* **Sicherheit**: Die Verschlüsselung ist ein Schlüsselelement des DKIM. Um das Sicherheitsniveau des DKIM sicherzustellen, empfiehlt sich die Verschlüsselungsgröße 1024b als Best Practice. Niedrigere DKIM-Schlüssel gelten von den meisten Zugangsanbietern nicht als gültig.
-* **Reputation**: Der Ruf basiert auf der IP und/oder der Domäne, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl des Selektors ist wichtig: Vermeiden Sie die Beibehaltung des &quot;Standard&quot;-Selektors, der von jedem verwendet werden könnte und daher eine schwache Reputation aufweist. Sie müssen einen anderen Selektor für **Aufbewahrung im Vergleich zur Akquise-Kommunikation** und für die Authentifizierung implementieren.
+* **Sicherheit**: Verschlüsselung ist ein Schlüsselelement der DKIM. Um das Sicherheitsniveau der DKIM zu gewährleisten, ist 1024b die empfohlene Verschlüsselungsgröße. Niedrigere DKIM-Schlüssel werden von den meisten Zugriffsanbietern nicht als gültig erachtet.
+* **Reputation**: Die Reputation basiert auf der IP-Adresse und/oder der Domain, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl des Selektors ist wichtig: Vermeiden Sie es, den „Standard“ beizubehalten, der von jedem verwendet werden könnte und daher eine schwache Reputation hat. Sie müssen einen anderen Selektor für **Aufbewahrungs- vs. Akquise-Kommunikation** und für die Authentifizierung implementieren.
 
-Weitere Informationen zur Voraussetzung für DKIM bei Verwendung von Campaign Classic finden Sie in [diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Weitere Informationen zu den Voraussetzungen für die Verwendung von DKIM beim Campaign Classic finden [ in diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
-DMARC (Domain-based Message Authentication, Reporting and Conformance) ist die neueste Art der E-Mail-Authentifizierung. Bei der Entscheidung, ob eine E-Mail weitergeleitet wird oder fehlschlägt, kommt sowohl SPF- als auch DKIM-Authentifizierung zum Einsatz. DMARC ist einzigartig und auf zwei wichtige Arten leistungsstark:
+DMARC (Domain-based Message Authentication, Reporting and Conformance) ist die neueste Art der E-Mail-Authentifizierung. Bei der Entscheidung, ob eine E-Mail weitergeleitet wird oder fehlschlägt, kommt sowohl SPF- als auch DKIM-Authentifizierung zum Einsatz. DMARC ist in zweierlei Hinsicht einzigartig und leistungsstark:
 
-* Konformität - ermöglicht es dem Absender, ISPs anzuweisen, was mit allen Nachrichten zu tun ist, die nicht authentifiziert werden können (z. B.: Nicht akzeptieren).
-* Berichterstellung : Dieser Bericht liefert dem Absender einen detaillierten Bericht, in dem alle Nachrichten, bei denen die DMARC-Authentifizierung fehlgeschlagen ist, sowie die jeweils verwendete &quot;Von&quot;-Domäne und IP-Adresse aufgeführt sind. Auf diese Weise kann ein Unternehmen legitime E-Mails identifizieren, die nicht authentifiziert werden können und eine Art &quot;Korrektur&quot;erfordern (z. B. das Hinzufügen von IP-Adressen zu seinem SPF-Datensatz) sowie die Quellen und die Häufigkeit von Phishing-Versuchen auf seinen E-Mail-Domains.
+* Konformität - Auf diese Weise kann der Absender die ISPs anweisen, was mit jeder Nachricht zu tun ist, die sich nicht authentifizieren kann (zum Beispiel: akzeptieren Sie sie nicht).
+* Reporting - liefert dem Absender einen detaillierten Bericht mit allen Nachrichten, bei denen die DMARC-Authentifizierung fehlgeschlagen ist, sowie der jeweils verwendeten Absender-Domain und IP-Adresse. Auf diese Weise kann ein Unternehmen legitime E-Mails identifizieren, bei denen die Authentifizierung fehlschlägt und die eine Art von „Fehlerbehebung“ erfordern (z. B. Hinzufügen von IP-Adressen zu seinem SPF-Eintrag). Außerdem können die Quellen und die Prävalenz von Phishing-Versuchen in ihren E-Mail-Domains identifiziert werden.
 
 >[!NOTE]
 >

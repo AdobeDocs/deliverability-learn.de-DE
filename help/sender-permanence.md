@@ -1,6 +1,6 @@
 ---
 title: Regelmäßiger Versand
-description: Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsistenten Sendevolumens und einer konsistenten Versandstrategie, um die Reputation des ISP zu wahren.
+description: Die Sendepersistenz ist der Prozess der Erstellung eines konsistenten Versandvolumens und einer konsistenten Versandstrategie, um die Reputation des ISPs zu wahren.
 topics: Deliverability
 jira: KT-5261
 thumbnail: kt5261.jpg
@@ -17,16 +17,16 @@ ht-degree: 2%
 
 # Regelmäßiger Versand
 
-Die Versendung von Dauerhaftigkeit ist der Prozess der Festlegung eines konsistenten Sendevolumens und einer konsistenten Versandstrategie, um die Reputation des ISP zu wahren. Im Folgenden finden Sie einige Gründe, warum eine permanente Absenderspeicherung wichtig ist:
+Die Sendepersistenz ist der Prozess der Erstellung eines konsistenten Versandvolumens und einer konsistenten Versandstrategie, um die Reputation des ISPs zu wahren. Es gibt einige Gründe, warum die Dauerhaftigkeit des Absenders wichtig ist:
 
-* Spammer werden normalerweise &quot;IP-Adressenwechsel&quot;durchführen, d. h. sie verschieben den Traffic über viele IP-Adressen hinweg, um Reputationsprobleme zu vermeiden.
-* Konsistenz ist der Schlüssel, um ISPs zu beweisen, dass der Absender seriös ist, und nicht zu versuchen, Reputationsprobleme zu umgehen, die auf schlechte Versandpraktiken zurückzuführen sind.
-* Die Aufrechterhaltung dieser konsistenten Strategien über einen langen Zeitraum hinweg ist erforderlich, bevor einige ISPs die Reputation des Absenders überhaupt berücksichtigen.
+* Spammer verwenden in der Regel den „IP-Adressen-Hop“, d. h. sie verlagern den Traffic ständig über viele IP-Adressen, um Reputationsprobleme zu vermeiden.
+* Konsistenz ist entscheidend, um den ISPs zu beweisen, dass der Absender seriös ist, und nicht zu versuchen, Reputationsprobleme zu umgehen, die das Ergebnis schlechter Versandpraktiken sind.
+* Die Aufrechterhaltung dieser konsistenten Strategien über einen langen Zeitraum ist erforderlich, bevor einige ISPs den Absender überhaupt als seriös betrachten.
 
-**Hier sind einige Beispiele:**
+**Im Folgenden finden Sie einige Beispiele:**
 
-![Gute Übertragungsdauer](assets/Sender_Permanence_1.png)
+![Gute Sendebeständigkeit](assets/Sender_Permanence_1.png)
 
-![Unangemessener Verbleib beim Senden](assets/Sender_Permanence_2.png)
+![Fehlerhafte Sendepersistenz](assets/Sender_Permanence_2.png)
 
-![Zulässige Versandlaufzeit](assets/Sender_Permanence_3.png)
+![Akzeptable Sendepermanenz](assets/Sender_Permanence_3.png)

@@ -1,6 +1,6 @@
 ---
-title: So wechseln Sie beim Wechsel von E-Mail-Plattformen reibungslos.
-description: Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch bestehende, etablierte IP-Adressen zu übersetzen. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln.
+title: Reibungsloser Wechsel zwischen E-Mail-Plattformen
+description: Beim Verschieben von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch Ihre vorhandenen, etablierten IP-Adressen zu übertragen. Es ist wichtig, dass Sie Best Practices befolgen, um eine positive Reputation zu entwickeln, wenn Sie von Neuem beginnen.
 topics: Deliverability
 jira: KT-5259
 thumbnail: kt5259.jpg
@@ -19,15 +19,15 @@ ht-degree: 7%
 
 # Reibungsloser Wechsel zwischen E-Mail-Plattformen
 
-Bei der Umstellung von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch Ihre vorhandenen, etablierten IP-Adressen zu überarbeiten. Es ist wichtig, dass Sie Best Practices befolgen, um beim Neustart einen positiven Ruf zu entwickeln. Da die neuen IP-Adressen, die Sie verwenden werden, noch nicht über die Reputation verfügen, können ISPs den von ihnen stammenden E-Mails nicht vollständig vertrauen und müssen bei der Zustellung an ihre Kunden vorsichtig sein.
+Beim Verschieben von E-Mail-Dienstanbietern (ESPs) ist es nicht möglich, auch Ihre bestehenden, etablierten IP-Adressen zu übertragen. Es ist wichtig, dass Sie Best Practices befolgen, um eine positive Reputation zu entwickeln, wenn Sie von Neuem beginnen. Da die neuen IP-Adressen, die Sie verwenden werden, noch nicht bekannt sind, können die ISPs den von ihnen kommenden E-Mails nicht vollständig vertrauen und müssen bei dem, was sie für die Zustellung an ihre Kunden zulassen, vorsichtig sein.
 
-Die Schaffung eines positiven Rufs ist ein Prozess. Sobald es aber feststeht, werden kleine negative Indikatoren weniger Auswirkungen auf Sie und Ihren E-Mail-Versand haben.
+Einen positiven Ruf aufzubauen, ist ein Prozess. Aber sobald es etabliert ist, haben kleine negative Indikatoren weniger Auswirkungen auf Sie und Ihren E-Mail-Versand.
 
 ![Übergangsprozess](../assets/transition-process.png)
 
-Die Dauer der Aufwärmphase Ihrer IP-Adressen und Domänen kann variieren, doch für typische Absender ist es üblich, bis zu einem achtwöchigen Benchmark eine Reputation bei höchstens Tier-1-ISPs herzustellen (Gmail, Microsoft, Verizon/Yahoo/AOL usw.).
+Die Zeit zum Aufwärmen Ihrer IP-Adressen und Domains kann variieren, aber bis zu einer achtwöchigen Benchmark ist bei typischen Absendern üblich, um eine Reputation bei den meisten Tier-1-ISPs (Gmail, Microsoft, Verizon/Yahoo/AOL usw.) aufzubauen.
 
-In den nächsten Abschnitten werden wir einige Schlüsselbereiche untersuchen, auf die wir uns auf die richtige Integration konzentrieren können:
+In den nächsten Abschnitten werden wir einige Schlüsselbereiche untersuchen, auf die wir uns konzentrieren müssen, um ordnungsgemäß zu integrieren:
 
 1. [Infrastruktur](/help/transition-process/infrastructure.md)
 2. [Kriterien für die Zielgruppenbestimmung](/help/transition-process/targeting-criteria.md)

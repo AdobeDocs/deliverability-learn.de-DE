@@ -15,7 +15,7 @@ ht-degree: 24%
 
 # Best Practices zur Rückgewinnung {#re-engagement}
 
-Einige der Best Practices bei der Implementierung der Zustellbarkeit bestehen darin, eine gesunde Abonnentenbasis zu erhalten und die Zustellbarkeit durch Rückgewinnungsstrategien zu verbessern.
+Bei der Implementierung der Zustellbarkeit bestehen einige der Best Practices darin, einen intakten Abonnentenstamm beizubehalten und die Zustellbarkeit durch Rückgewinnungsstrategien (oder Win-Back-Strategien) zu verbessern.
 
 * Die Aufrechterhaltung eines gesunden Abonnentenstamms ist einer der Hauptaspekte für einen guten und konsistenten Versand. Viele Zustellbarkeitsprobleme entstehen durch schlechte Datenpraxis und Wartung.
 * Eines der häufigsten Probleme, mit denen Marketing-Experten heutzutage konfrontiert sind, ist die Inaktivität von Abonnenten (auch als „niedrige“ oder „fehlende Interaktion“ bezeichnet), die sich negativ auf den Versand von E-Mails auswirken und einen niedrigen ROI verursachen kann.
@@ -24,15 +24,15 @@ Einige der Best Practices bei der Implementierung der Zustellbarkeit bestehen da
 >
 >Weitere Informationen zu Wiedergewinnungsstrategien und Zustellbarkeitsdiensten von Adobe erhalten sie von Ihrem Zustellbarkeitsberater oder Ihrem Adobe-Vertreter.
 
-## Wie beurteilen ISPs die Aktivität ohne Interaktion? {#how-do-isps-view-non-engagement-activity-}
+## Wie sehen ISPs Nicht-Interaktionsaktivitäten? {#how-do-isps-view-non-engagement-activity-}
 
-Seit Jahren verwenden ISPs Interaktions-Feedback-Metriken ihrer Benutzer, um zu entscheiden, wo Nachrichten platziert werden oder ob sie überhaupt gesendet werden sollen. Benutzer [Interaktion](/help/engagement.md) besteht aus positivem und negativem Feedback und ISPs überwachen beide konstant. Ohne Interaktion ist vielleicht einer der Hauptfaktoren für negative Interaktion. Aus der Sicht der Zustellbarkeit kann das konsequente Senden von Kampagnen an Benutzer, die keine Interaktion zeigen, auch die Reputation Ihrer IP-Adresse und Ihrer Domänen insgesamt beeinträchtigen.
+Seit Jahren verwenden ISPs Feedback-Metriken von ihren Benutzern, um zu entscheiden, wo Nachrichten platziert werden sollen oder ob sie überhaupt gesendet werden sollen. Die [Interaktion](/help/engagement.md) besteht aus positivem und negativem Feedback, und die ISPs überwachen beide kontinuierlich. Sich nicht einzubringen, ist vielleicht einer der Hauptverursacher negativen Engagements. Aus Sicht der Zustellbarkeit kann das konsistente Senden von Kampagnen an Benutzende, die keine Interaktion zeigen, auch die allgemeine Reputation Ihrer IP-Adresse und Domains beeinträchtigen.
 
-ISPs wie Gmail, Microsoft® und OATH sehen nicht interaktive Nachrichten als unerwünschte E-Mails an und beginnen mit der Umleitung von Nachrichten in den Spam-Ordner. Diese Abonnenten besitzen möglicherweise nicht mehr das E-Mail-Konto, was als Spam-Falle &quot;recycelt&quot;verwendet werden kann. Das bedeutet, dass die Adresse einige Zeit lang ungültig war und alle Nachrichten abgelehnt werden. Wenn Ihr Abonnentenverwaltungssystem keine &quot;Hard-bounce&quot;-Adressen entfernt, führt dies wahrscheinlich zu Spam-Fallen, die zu erheblichen Versandproblemen führen können.
+ISPs wie Gmail, Microsoft® und OATH betrachten die Abwesenheit von Interaktionen als unerwünschte E-Mails und leiten Nachrichten an den Spam-Ordner weiter. Außerdem ist es möglich, dass diese Abonnenten nicht mehr der Eigentümer des E-Mail-Kontos sind und dies als „recycelte“ Spam-Falle verwendet werden kann. Dies bedeutet, dass die Adresse einige Zeit ungültig war und alle Nachrichten zurückgewiesen wurden. Wenn Ihr Abonnentenverwaltungssystem keine „Hardbounce“-Adressen entfernt, ist es wahrscheinlich, dass E-Mails an Spam-Fallen gesendet werden, was zu erheblichen Versandproblemen führen kann.
 
-## Wie sollten Sie bei Inaktivität vorgehen? {#how-should-you-approach-inactivity-}
+## Wie sollte man an Inaktivität herangehen? {#how-should-you-approach-inactivity-}
 
-Kunden, die die Adobe-Plattform verwenden, können Inaktivität in ihrer Instanz anzeigen, indem sie die Daten zum Öffnen und Klicken entsprechend dem Segment überprüfen. Da die Nichtinteraktion den Versand behindern kann, besteht der erste Gedanke darin, Abonnenten aus der Datenbank zu entfernen. Dies kann sich jedoch manchmal als falsche Option erweisen. Daher ist eine Rückgewinnungsstrategie (auch als Win-back-Strategie bezeichnet) die beste Empfehlung, die Abonnenten beizubehalten, die an E-Mails interessiert sind, und diejenigen, die keine Aktivität mehr zeigen, schrittweise abzuschaffen.
+Kunden und Kundinnen, die die Adobe-Plattform verwenden, können Inaktivität in ihrer Instanz anzeigen, indem sie die Daten zum Öffnen und Klicken entsprechend dem Segment überprüfen. Da die Nichtinteraktion den Versand behindern kann, besteht der erste Gedanke darin, Abonnentinnen und Abonnenten aus der Datenbank zu entfernen. Dies kann sich jedoch manchmal als falsche Option erweisen. Daher ist eine Rückgewinnungsstrategie (auch als „Win-back-Strategie“ bezeichnet) die beste Empfehlung, Abonnentinnen und Abonnenten, die am Erhalt von E-Mails interessiert sind, beizubehalten und diejenigen, die keine Aktivität mehr zeigen, schrittweise auszuschließen.
 
 ## Funktionieren Rückgewinnungskampagnen wirklich? {#do-re-engagement-campaigns-really-work-}
 
@@ -40,17 +40,17 @@ Laut einer Studie von Return Path erzielten Rückgewinnungskampagnen eine Öffnu
 
 ![](../../help/assets/deliverability_implementation_1.png)
 
-## Wie wird eine Rückgewinnungskampagne erstellt? {#how-do-you-create-a-re-engagement-campaign-}
+## Wie erstelle ich eine Rückgewinnungskampagne? {#how-do-you-create-a-re-engagement-campaign-}
 
 ### Phase 1 {#phase-1}
 
-* Der erste Schritt besteht darin, Abonnenten zu identifizieren, die wenig bis gar keine Öffnungs- oder Klickaktivität haben, und diese Gruppe entsprechend nach einem bestimmten Zeitrahmen zu segmentieren. Die Faustregel besteht darin, Abonnenten zu überprüfen, die innerhalb der letzten 90 Tage keine E-Mail geöffnet oder angeklickt haben. Dies variiert jedoch je nach Art des Unternehmens (z. B. saisonaler Versand).
-* Außerdem sollten Sie bei der Festlegung von Zeitrahmen bedenken, dass ISPs und Anbieter von Blockierungslisten bei der Interaktion von zwischen 1,5 und 1,8 Jahren ausgehen. Verhaltensaktivitäten wie Käufe und Website-Aktivitäten oder andere Touchpoints, z. B. Voreinstellungen während der Anmeldungsphase oder des ersten Kontaktpunkts.
+* Der erste Schritt besteht darin, Abonnentinnen und Abonnenten zu identifizieren, die wenig oder gar keine Öffnungs- oder Klickaktivität haben, und diese Gruppe dementsprechend basierend auf einem bestimmten Zeitrahmen zu segmentieren. Die Faustregel lautet, Abonnentinnen und Abonnenten zu überprüfen, die in den letzten 90 Tagen keine E-Mail geöffnet oder geklickt haben. Dies variiert jedoch je nach Art des Geschäfts (z. B. saisonaler Versand).
+* Außerdem sollten Sie bei der Festlegung von Zeitrahmen bedenken, dass ISPs und Anbieter von Blockierungslisten bei der Interaktion von zwischen 1,5 und 1,8 Jahren ausgehen. Auch Verhaltensaktivitäten wie Käufe und Website-Aktivitäten oder andere Touchpoints, wie z. B. Voreinstellungen während der Anmeldungsphase oder des ersten Kontaktpunkts.
 
 ### Phase 2 {#phase-2}
 
-* Sobald ein Segment definiert wurde, besteht der nächste Schritt darin, eine Rückgewinnungskampagne zu erstellen, die den Abonnenten entsprechend den identifizierten Metriken unterstützt. Das Erstellen einer Betreffzeile trägt dazu bei, das Interesse des Abonnenten zu erhöhen. Laut einer Studie von Return Path generieren Betreffzeilen und Inhalte mit dem Status &quot;Wir vermissen Sie&quot; höhere Antwortraten als &quot;Wir wollen Sie zurück&quot;.
-* Es kann auch ein Anreiz für die erneute Interaktion mit der E-Mail angeboten werden. Bei der Prüfung von Angeboten mit Rabatten ist es am besten, Beträge in Dollar oder Prozentsätze zu verwenden. Return Path schlägt dies ebenfalls vor, da es höhere Antwortraten erhält. Schließlich ist auch die Durchführung von A/B-Tests zur Überprüfung von Antwort- und Erfolgsraten eine nützliche Option.
+* Sobald ein Segment definiert ist, besteht der nächste Schritt darin, eine Rückgewinnungskampagne zu erstellen, die den Abonnenten entsprechend den identifizierten Metriken anspricht. Das Erstellen einer Betreffzeile trägt dazu bei, das Interesse der Abonnentinnen und Abonnenten zu erhöhen. Laut einer Studie zum Return Path generieren Betreffzeilen und Inhalte, die „Wir vermissen euch“ ausdrücken, höhere Antwortraten als „Wir wollen euch zurück“.
+* Es kann auch ein Anreiz für eine erneute Interaktion mit der E-Mail angeboten werden. Bei der Berücksichtigung von Angeboten mit Rabatten ist es am besten, Dollarbeträge versus Prozentsätze zu verwenden. Return Path schlägt auch vor, dies zu tun, da es höhere Antwortraten verursacht. Schließlich ist auch die Durchführung von A/B-Split-Tests zur Überprüfung der Antwort- und Erfolgsraten eine nützliche Option.
 
 ### Phase 3 {#phase-3}
 
@@ -62,12 +62,12 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 
 ### Phase 4 {#phase-4}
 
-* In der nächsten Phase werden Abonnenten identifiziert, die kontinuierlich keine Aktivität zeigen, und der Versand von E-Mails an sie wird schrittweise über einen bestimmten Zeitraum reduziert. Wenn im vergangenen Jahr keine Aktivität stattgefunden hat, ist es gut, die E-Mail-Anmeldung der Abonnenten auf Eis zu legen. Obwohl sie kein Interesse am E-Mail-Inhalt gezeigt haben, besteht immer die Möglichkeit, dass sie ihr Abonnement durch einmalige Bestätigungskampagne reaktivieren lassen.
-* Mit Bestätigungskampagnen können Sie lange inaktive Abonnenten fragen, ob sie auf der Abonnementliste bleiben möchten. Bei der Erstellung der Kampagne ist es vorzuziehen, einen Link &quot;Hier klicken&quot;hinzuzufügen, damit der Benutzer die Aktion bestätigen und seine Adresse überprüfen kann. Auf diese Weise kann die Aktion in der Datenbank aufgezeichnet werden. Nachfolgend finden Sie ein Beispiel für eine Bestätigungs-E-Mail:
+* In der nächsten Phase werden Abonnentinnen und Abonnenten identifiziert, die kontinuierlich keine Aktivität zeigen, und der Versand von E-Mails an sie über einen bestimmten Zeitraum wird schrittweise reduziert. Wenn im letzten Jahr keine Aktivität verzeichnet wurde, empfiehlt es sich, das E-Mail-Abonnement der Abonnenten auf „Zurückgestellt“ zu setzen. Obwohl sie kein Interesse am E-Mail-Inhalt gezeigt haben, gibt es immer eine letzte Chance, dass sie ihr Abonnement durch eine einmalige Bestätigungskampagne reaktivieren.
+* Bestätigungskampagnen sind eine gute Möglichkeit, Abonnentinnen und Abonnenten, die lange Zeit inaktiv sind, zu fragen, ob sie auf der Abonnement-Liste bleiben möchten. Bei der Erstellung der Kampagne ist es vorzuziehen, einen Link „Hier klicken“ hinzuzufügen, damit der Benutzer die Aktion bestätigen und seine Adresse überprüfen kann. Auf diese Weise kann die Aktion in der Datenbank aufgezeichnet werden. Nachfolgend finden Sie ein Beispiel für eine Bestätigungs-E-Mail:
 
   ![](../../help/assets/deliverability_implementation_3.png)
 
-  Sobald der Abonnent eine Aktion durchgeführt hat, kann eine Landingpage mit einer Bestätigung seiner erneuten Anmeldung angeboten werden. Nachfolgend finden Sie ein Beispiel für die Landingpage:
+  Sobald der Abonnent eine Aktion durchgeführt hat, kann eine Landingpage mit der Bestätigung seiner Wiederabmeldung angeboten werden. Nachfolgend finden Sie ein Beispiel für die Landingpage:
 
   ![](../../help/assets/deliverability_implementation_4.png)
 
@@ -76,7 +76,7 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 **Adobe Campaign**
 
 * [Trackinglogs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [Trackinglogs in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [Trackinglogs im Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
 **Adobe Customer Journey Management**
 

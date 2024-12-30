@@ -1,6 +1,6 @@
 ---
 title: Echtzeit-Blackhole-Listen
-description: Erfahren Sie mehr über Organisationen, die Listen mit IP-Adressen und Domänen führen, die von Spammern verwendet werden könnten.
+description: Erfahren Sie mehr über Organisationen, die Listen mit IP-Adressen und Domains führen, die von Spammern verwendet werden könnten.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -21,7 +21,7 @@ Diese Art von Datenbanken, die über einen DNS-Mechanismus abgefragt werden, nen
 
 * Nach IP-Adresse: Auflistung von IP-Adressen, die Spam senden oder ihn wahrscheinlich weiterleiten.
 * Nach Absender-Domain: Auflistung von Absender-Domains (vollständige Domain der Bounce-Message-Adresse), die Spam senden oder eine falsche Konfiguration aufweisen.
-* Nach Webdomäne: Auflistung der in den URLs der im Spam-Inhalt enthaltenen Links und Bilder enthaltenen Domains (High-Level-Domains, wie bei den Registrierstellen registriert). In Adobe-Lösungen ist die zu berücksichtigende Domain im Allgemeinen die für das Tracking verwendete Adresse.
+* Nach Webdomain: Listet die Domains (Domänen auf hoher Ebene, wie bei den Registrierungsstellen registriert) auf, die in den URLs der Links und Bilder im Spam-Inhalt gefunden wurden. Bei Adobe-Lösungen ist die zu berücksichtigende Domain im Allgemeinen die für das Tracking verwendete Adresse.
 
 Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umfassendere Liste finden Sie unter [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
@@ -51,7 +51,7 @@ Im Folgenden finden Sie eine Liste der am häufigsten verwendeten RBLs. Eine umf
 
 * **iX Manitu**
 
-  Dies ist eine Liste von IP-Adressen, die in Deutschland häufig verwendet wird. Siehe [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  Dies ist eine Liste von IPs, die in Deutschland weit verbreitet ist. Siehe [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

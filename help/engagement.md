@@ -1,6 +1,6 @@
 ---
 title: Interaktion
-description: Interaktion ist zum wichtigsten Faktor geworden, der sich auf die Platzierungsentscheidungen im Posteingang auswirkt.
+description: Die Interaktion ist zum wichtigsten Faktor bei der Entscheidungsfindung bezüglich der Platzierung im Posteingang geworden.
 topics: Deliverability
 jira: KT-5257
 thumbnail: kt5257.jpg
@@ -19,41 +19,41 @@ ht-degree: 2%
 
 # Interaktion
 
-Interaktion ist zum wichtigsten Faktor geworden, der sich auf die Platzierungsentscheidungen im Posteingang auswirkt. Im Laufe der Jahre haben ISPs ihren Fokus von inhaltsbezogenen Filtern auf ein Verhaltensmodell verlagert und sich dabei in hohem Maße auf positive und negative Interaktionsaktionen verlassen. Positive Interaktion umfasst in erster Linie Öffnungen, Klicks, Weiterleitungen und Antworten. Zu den negativen Interaktionen gehören das Löschen ohne Öffnen, Ignorieren, Abmelden und Kennzeichnen als Spam. Das Erhalten ausdrücklicher Berechtigungen ist die Grundlage für eine positive E-Mail-Interaktion. Sobald eine Marke über die Erlaubnis verfügt, sollte diese Beziehung durch regelmäßige Messung und Erfüllung der Kundenerwartungen durch Häufigkeit und Inhalt gefördert werden.
+Die Interaktion ist zum wichtigsten Faktor bei der Entscheidungsfindung bezüglich der Platzierung im Posteingang geworden. Im Laufe der Jahre haben ISPs ihren Fokus von inhaltsbezogenen Filtern auf ein Verhaltensmodell verlagert und stützen sich dabei stark auf positive und negative Interaktionsaktionen. Positive Interaktion umfasst in erster Linie Öffnungen, Klicks, Weiterleitungen und Antworten. Negative Interaktionen umfassen das Löschen ohne Öffnen, Ignorieren, Abmelden und Markieren als Spam. Der Erhalt einer ausdrücklichen Erlaubnis ist die Grundlage für eine positive E-Mail-Interaktion. Sobald eine Marke die Erlaubnis hat, sollte diese Beziehung durch regelmäßige Messung und Erfüllung der Kundenerwartungen durch Häufigkeit und Inhalt gepflegt werden.
 
-Eine gute Öffnungs- und Klickrate hängt von vielen Faktoren für verschiedene Absender ab. Wenden Sie sich an Ihren Zustellbarkeitsberater, um spezifische Ziele und Grundlinien für Ihr E-Mail-Programm festzulegen.
+Eine gute Öffnungs- und Klickrate hängt von vielen Faktoren für verschiedene Absender ab. Wenden Sie sich an Ihren Zustellbarkeitsberater, um spezifische Ziele und Baselines für Ihr E-Mail-Programm festzulegen.
 
-Die E-Mail-Interaktion ist auch ein Begriff, der zur Beschreibung eines Metriktyps verwendet wird, der bei der Ermittlung des IP-Ansehens hilft. ISPs, die eigene Portale besitzen (Hotmail, AOL, Yahoo, Gmail usw.) verfügen über eine enorme Menge an Daten zur Interaktion ihrer Kunden mit ihrer E-Mail. Er kann Öffnungen, Klicks und viele andere Formen der Interaktion sehen, selbst wenn die E-Mail in den Spam-Ordner verschoben oder daraus entfernt wird. Sie können auch sehen, ob die E-Mail-Adresse, an die sie gesendet wurde, im Adressbuch der Kunden enthalten ist oder nicht.
+E-Mail-Interaktion ist auch ein Begriff, der verwendet wird, um einen Typ von Metrik zu beschreiben, der bei der Bestimmung der IP-Reputation hilft. ISPs, die über eigene Portale verfügen (Hotmail, AOL, Yahoo, Gmail usw.) verfügen über eine enorme Menge an Daten über die Interaktionen ihrer Kunden mit ihren E-Mails. Sie können Öffnungen, Klicks und viele andere Interaktionsformen sehen, auch wenn E-Mails in den Spam-Ordner verschoben oder daraus entfernt werden. Sie können auch sehen, ob die E-Mail-Adresse, an die sie gesendet wurde, im Kundenadressbuch enthalten ist oder nicht.
 
-Obwohl Sie als Absender nicht alle gleichen Interaktionsmetriken verfolgen können, sind Öffnungen und Klicks ein guter Ausgangspunkt. Beachten Sie, dass ISPs nur die E-Mail-Interaktion sehen. Während andere Formen der Interaktion für das gesamte Unternehmen wichtig sind, haben ISPs nur Sichtbarkeit und erstellen Filterentscheidungen basierend auf E-Mail-Metriken.
+Als Absender können Sie zwar nicht alle derselben Interaktionsmetriken verfolgen, aber Öffnungen und Klicks sind ein guter Ausgangspunkt. Beachten Sie, dass ISPs nur Einblick in E-Mail-Interaktionen haben. Während andere Formen der Interaktion für das Unternehmen als Ganzes wichtig sind, haben ISPs nur Sichtbarkeit und treffen Filterentscheidungen basierend auf E-Mail-Metriken.
 
-## Qualität über Menge
+## Qualität vor Quantität
 
-**Das organische Listenwachstum** ist der Eckpfeiler einer gesunden Liste. Viele Marketing-Experten legen den Fokus auf das Listenwachstum. Aus der Sicht der Zustellbarkeit ist es jedoch wichtig, eine Qualitätsliste mit stark engagierten Abonnenten zu erstellen. Der kontinuierliche Versand von E-Mails an eine größtenteils nicht engagierte Zielgruppe kann Ihre Reputation beim Versand verringern und die Wahrscheinlichkeit, dass Ihre E-Mail im Ordner &quot;Spam&quot;oder &quot;Junk&quot;landet, deutlich erhöhen.
+**Organisches Listenwachstum** ist der Grundstein einer gesunden Liste. Viele Marketing-Fachleute konzentrieren sich stark auf das Listenwachstum, aber aus Sicht der Zustellbarkeit ist es wichtig, eine Qualitätsliste mit hochgradig interaktiven Abonnenten zu erstellen. Das kontinuierliche Senden von E-Mails an eine größtenteils unbeteiligte Zielgruppe kann Ihren Ruf als Versender mindern und die Wahrscheinlichkeit, dass Ihre E-Mail in den Spam- oder Junk-Ordner gelangt, erheblich erhöhen.
 
-Die **Versandhäufigkeit** ist beim Erstellen und Verwalten eines E-Mail-Marketing-Programms wichtig. Das Festlegen der Erwartungen der Empfänger während Ihrer Willkommensnachricht ist eine sehr nützliche Strategie, mit der Menschen wissen, was sie erwarten. Diese Erwartungen müssen jedoch erfüllt werden: Der Versand von E-Mails kann zu oft zu Kundenmüdigkeit führen und in einigen Fällen zu erhöhten Beschwerden und Abmeldungen führen.
+**Mailing-Häufigkeit** ist wichtig, wenn Sie ein E-Mail-Marketing-Programm erstellen und verwalten. Die Erwartungen der Empfänger während Ihrer Begrüßungsnachricht festzulegen ist eine sehr nützliche Strategie, wenn die Menschen wissen möchten, was sie erwarten können. Diese Erwartungen müssen jedoch erfüllt werden: Ein zu häufiger E-Mail-Versand kann zu Ermüdung bei den Kunden führen und in einigen Fällen zu vermehrten Beschwerden und Abmeldungen führen.
 
-Die richtige Häufigkeit ist etwas, das jeder Marketing-Experte für sein spezifisches Marketing-Programm finden muss. Wir empfehlen, verschiedene Frequenzen zu testen, um das richtige Gleichgewicht für jedes spezifische Marketing-Programm zu finden. Die Interaktion und Aktivierung von Empfängern ist eine der wichtigsten Maßnahmen, die ein Marketingexperte treffen kann, um den Erfolg eines E-Mail-Marketingprogramms sicherzustellen.
+Die richtige Häufigkeit ist etwas, das jeder Marketer für sein spezifisches Marketing-Programm finden muss. Wir empfehlen, verschiedene Häufigkeiten zu testen, um das richtige Gleichgewicht für jedes spezifische Marketing-Programm zu finden. Um den Erfolg eines E-Mail-Marketing-Programms sicherzustellen, ist es von größter Bedeutung, die Empfängerinnen und Empfänger aktiv zu halten.
 
-## Interessensänderung
+## Wechselnde Interessen
 
-Die Interessen der Abonnenten entwickeln sich ständig weiter, und Marketing-Experten müssen verstehen, dass das Engagement für eine Marke vorübergehend sein kann. Einige Abonnenten werden sich abmelden, aber viele werden unerwünschte E-Mails einfach löschen oder ignorieren. Aus der Sicht des Verbrauchers wird jede Nachricht, die unerwünscht oder unerwünscht ist, als Spam wahrgenommen. Daher müssen sich Marketer für den Verlust von Interesse auf das **berechtigungsbasierte Marketing** und die **Überwachung der Interaktion** verlassen. Um eine optimale Platzierung im Posteingang zu erreichen, empfehlen wir Marketing-Experten, Abonnenten mithilfe von Reaktivierungskampagnen und einer Win-back-Strategie strategisch erneut anzusprechen, was für E-Mail-Marketing-Experten sehr nützliche Tools sein können.
+Die Abonnenteninteressen entwickeln sich ständig weiter, und Marketing-Experten müssen verstehen, dass die Bindung an eine Marke vorübergehend sein kann. Einige Abonnenten werden sich abmelden, aber viele werden einfach unerwünschte E-Mails löschen oder ignorieren. Aus Verbrauchersicht wird jede Nachricht, die unerwünscht oder unerwünscht ist, als Spam wahrgenommen. Daher müssen Marketing-Fachleute sich auf **berechtigungsbasiertes Marketing** und **die Interaktion** überwachen), wenn sie Interesse verlieren. Um eine optimale Platzierung im Posteingang zu erreichen, empfehlen wir Marketing-Experten, Abonnentinnen und Abonnenten mithilfe von Reaktivierungskampagnen und einer Win-Back-Strategie strategisch erneut zu kontaktieren. Dies können sehr nützliche Tools für einen E-Mail-Marketing-Experten sein.
 
-Eine **Win-back-Strategie** ist der Fall, wenn regelmäßig ein Sonderanreiz an einen bestimmten Teil einer Marketing-Datenbank gesendet wird, um zu versuchen, eine Liste mit geringer Öffnungs- und Klickaktivität erneut zu aktivieren. Positive Antworten werden beibehalten und der Teil der Liste, der nicht reagiert, wird in den inaktiven Status verschoben und wird nicht mehr an gesendet.
+Eine **Win-Back** Strategie liegt vor, wenn regelmäßig ein spezieller Anreiz an einen bestimmten Teil einer Marketing-Datenbank gesendet wird, um die Interaktion mit einer Liste wiederherzustellen, die eine niedrige Öffnungs- und Klickaktivität hatte. Positive Antworten werden beibehalten und der Teil der Liste, der nicht reagiert, wird in einen inaktiven Status verschoben und wird nicht mehr an gesendet.
 
-Eine **Reaktivierungskampagne** ist ähnlich, wird jedoch verwendet, um eine Liste einmal erneut zu bestätigen. Dies ist nützlich, wenn es um alte, veraltete Listen geht - solche, die seit über 12 Monaten oder sogar Jahren nicht an gesendet wurden. Diese Art von Kampagne wird in der Regel auch durch Blockierungslisten erzwungen, um einen Block zu lösen. Die Abonnenten, die sich nicht erfolgreich über diesen Prozess erneut engagieren, sollten von künftigen E-Mail-Promotions ausgeschlossen werden.
+Eine **Reaktivierungskampagne** ähnelt sich, wird jedoch verwendet, um eine Liste einmal erneut zu bestätigen, was bei alten, veralteten Listen nützlich ist - Listen, die seit mehr als 12 Monaten oder sogar Jahren nicht an gesendet wurden. Diese Art von Kampagne wird normalerweise auch von Blockierungslisten durchgesetzt, um eine Blockierung aufzulösen. Die Abonnentinnen und Abonnenten, die über diesen Prozess nicht erfolgreich erneut interagiert haben, sollten von zukünftigen E-Mail-Promotions ausgeschlossen werden.
 
-Die beste Möglichkeit, eine Win-back- oder Reaktivierungskampagne zu implementieren, ist Ihr E-Mail-Programm und sollte vollständig auf Ihre geschäftlichen Anforderungen und Situationen abgestimmt sein.
+Die beste Möglichkeit, eine Win-Back- oder Reaktivierungskampagne zu implementieren, ist Ihrem E-Mail-Programm vorbehalten und sollte vollständig an Ihre geschäftlichen Anforderungen und Situationen angepasst werden.
 
-## Antwort ist auch Interaktion
+## Antwort-an ist auch Interaktion
 
-Es ist einfach, Ihre E-Mail-Antwort einfach auf eine &quot;No-Response&quot;-Adresse zu setzen, aber dies wäre ein Fehler, der das Gesamtbild außer Acht lässt.
+Es ist einfach, Ihre Antwort-E-Mail als „No-Reply“-Adresse festzulegen, aber dies wäre ein Fehler, der das Gesamtbild übersieht.
 
-Wenn Empfänger auf Marketing-E-Mails antworten, wird eine Antwort erwartet. Durch Aktivierung eines **Antwort- und Antwortsystems** verbessern Sie die Reputation Ihres Absenders. Dies erhöht die Wahrscheinlichkeit positiver Zustellbarkeits- und Platzierungsraten im Posteingang.
+Wenn Empfänger auf Marketing-E-Mails antworten, wird eine Antwort erwartet. Durch die Aktivierung **Systems „Antwort und Antwort** können Sie die Reputation Ihres Absenders verbessern. Dies erhöht die Wahrscheinlichkeit positiver Zustellbarkeit und Posteingangsplatzierungsraten.
 
-Es ist auch ein viel besseres Kundenerlebnis und wird dazu beitragen, die positive Wahrnehmung Ihrer Marke durch die Verbraucher zu steigern. Schließlich steht in nichts &quot;Bitte machen Sie Geschäfte mit uns&quot; wie &quot;wir wollen von Ihnen hören.&quot;
+Es ist auch ein viel besseres Kundenerlebnis und wird dazu beitragen, eine positive Verbraucherwahrnehmung Ihrer Marke zu steigern. Schließlich steht in keinem Wort „Bitte machen Sie Geschäfte mit uns“ so viel wie „wir wollen von Ihnen hören.“
 
-Ein letzter wichtiger Teil der Antwort-Strategie besteht darin, dass, wenn Sie eine echte E-Mail-Adresse haben, auf die sie antworten können, Sie sicherstellen, dass sie von einem Benutzer überwacht wird und es sich nicht nur um eine automatische Antwort handelt. Wenn die verpassten Erwartungen nicht überwacht werden, können sie den Kunden frustrieren und zu Beschwerden oder einer geringeren Interaktion führen.
+Ein letzter wichtiger Teil der Antwortstrategie besteht darin, dass Benutzer, die über eine echte E-Mail-Adresse verfügen, darauf antworten können, sicherstellen, dass sie von jemandem überwacht werden und es sich nicht nur um eine automatische Antwort handelt. Werden diese Erwartungen nicht genau beobachtet, kann dies den Kunden frustrieren und zu Beschwerden oder einem geringeren Engagement führen.
 
 ## Produktspezifische Ressourcen
 

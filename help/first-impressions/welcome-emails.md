@@ -1,6 +1,6 @@
 ---
 title: Willkommens-E-Mails
-description: Erfahren Sie, welche Schlüsselelemente beim Erstellen Ihrer Willkommens-E-Mails zu beachten sind.
+description: Erfahren Sie, welche wichtigen Elemente beim Erstellen Ihrer Begrüßungs-E-Mails zu berücksichtigen sind.
 topics: Deliverability
 jira: KT-7064
 thumbnail: kt7064.jpg
@@ -17,33 +17,33 @@ ht-degree: 0%
 
 # Willkommens-E-Mails
 
-## Entwickeln einer Willkommensstrategie
+## Entwickeln einer Begrüßungsstrategie
 
-Ihre Willkommens-E-Mails sind der wichtigste grundlegende Faktor für ein erfolgreiches E-Mail-Programm. Abonnenten, die mit Ihren Willkommens-E-Mails interagieren, haben im Durchschnitt eine mehr als vierfache Wahrscheinlichkeit, mit anderen gesendeten E-Mails in Kontakt zu treten, wenn Sie eine einzelne Begrüßungs-E-Mail senden. Außerdem ist es 12-mal wahrscheinlicher, dass sie weiterhin aktiv sind, wenn Sie eine Reihe von drei Willkommens-E-Mails versenden.
+Ihre Begrüßungs-E-Mails sind der größte grundlegende Faktor für ein erfolgreiches E-Mail-Programm. Im Durchschnitt ist die Wahrscheinlichkeit, dass Abonnentinnen und Abonnenten, die mit Ihren Begrüßungs-E-Mails interagieren, mit anderen E-Mails, die Sie senden, mehr als viermal so hoch, wenn Sie nur eine Begrüßungs-E-Mail senden. Außerdem ist die Wahrscheinlichkeit, dass sie weiterhin interagieren, 12-mal höher, wenn Sie eine Reihe von drei Begrüßungs-E-Mails senden.
 
-Unabhängig von Ihrer Strategie ist es unwahrscheinlich, dass Abonnenten, die überhaupt keine Begrüßungs-E-Mail erhalten oder die keine Verbindung zu Ihrer Willkommensnachricht herstellen, in zufriedene Abonnenten umgewandelt werden. Ein gut geplanter und sorgfältig gestalteter Begrüßungsplan, der das Denken darüber einschließt, was, wann und wer Ihrer Nachrichten zu einem positiven ersten Eindruck und zum besten Weg zur langfristigen Zufriedenheit der Abonnenten führt.
+Unabhängig von Ihrer Strategie ist es unwahrscheinlich, dass Abonnentinnen und Abonnenten, die keine Begrüßungs-E-Mail erhalten oder keine Verbindung zu Ihrer Begrüßungsnachricht herstellen, zu zufriedenen Abonnentinnen und Abonnenten werden. Ein gut geplanter und sorgfältig ausgearbeiteter Willkommensplan, der das Nachdenken über das Was, Wann und Wer Ihrer Nachrichten beinhaltet, führt zu einem positiven ersten Eindruck und dem besten Weg zur langfristigen Kundenzufriedenheit.
 
 ## Schlüsselelemente
 
-Beachten Sie beim Erstellen Ihrer Willkommens-E-Mails oder -E-Mails Folgendes:
+Beim Erstellen Ihrer Begrüßungs-E-Mail oder E-Mails sind folgende Schlüsselelemente zu beachten:
 
-**Senden der Nachricht ASAP**
-Wenn Sie eine Promotion anbieten, wartet Ihr neuer Abonnent wahrscheinlich auf der Website auf die E-Mail, bevor er seinen Kauf tätigt. Eine Verzögerung von 5-10 Minuten kann einen verlorenen Verkauf bedeuten. Auch wenn Sie keine Werbeaktion haben, zeigen sie derzeit Interesse an Ihrer Marke. Man muss also mit ihnen interagieren, während ihr Interesse an der Spitze steht, anstatt sich zu einem späteren Zeitpunkt eine Chance zu nehmen.
+**Senden Sie Ihre Nachricht so schnell wie möglich**
+Wenn Sie eine Promotion anbieten, wartet Ihr neuer Abonnent wahrscheinlich auf der Website, um die E-Mail zu erhalten, bevor er seinen Kauf tätigt. Eine Verzögerung von 5-10 Minuten kann hier einen verlorenen Verkauf bedeuten. Auch wenn Sie keine Promotion haben, zeigen sie derzeit Interesse an Ihrer Marke. Man muss sich also mit ihnen auseinander setzen, solange ihr Interesse am höchsten ist, anstatt zu einem späteren Zeitpunkt eine Chance zu ergreifen.
 
-**Erstellen Sie starke Betreffzeilen und Pre-Header**
-Sie müssen sich nicht nur für die Anmeldung bedanken, sondern auch deren Aufmerksamkeit erfassen und ihnen einen Grund geben, die E-Mail zu öffnen. Vergessen Sie nicht, den zusätzlichen Raum in der Kopfzeile zu nutzen, um Ihre Sache zu machen.
+**Erstellen Sie aussagekräftige Betreffzeilen und Pre-Header**
+Sie müssen ihnen nicht nur für die Anmeldung danken, sondern auch ihre Aufmerksamkeit erregen und ihnen einen Grund geben, die E-Mail öffnen zu wollen. Vergessen Sie nicht, den zusätzlichen Platz im Pre-Header für Ihre Sache zu nutzen.
 
 **Erwartungen festlegen**
-Vergewissern Sie sich, dass Sie sich auf ein positives Erlebnis für sie konzentrieren. Geben Sie an, was sie von Ihnen erwarten sollten und wie oft sie es erwarten. Eine gute Idee ist auch, ihnen die Möglichkeit zu geben, ihr Erlebnis einfach zu verwalten (d. h. einen Link zu einem Präferenzzentrum). Erwägen Sie auch das Hinzufügen von Links zu vorherigen Inhalten, damit Benutzer auf die Inhalte verweisen können, die sie abonnieren.
+Machen Sie deutlich, dass Sie sich auf eine positive Erfahrung für sie konzentrieren. Geben Sie an, was Sie von Ihnen erwarten sollten und wie oft Sie damit rechnen müssen. Eine gute Idee ist auch, ihnen eine Möglichkeit zu bieten, ihr Erlebnis einfach zu verwalten (d. h. einen Link zu einem Präferenzzentrum). Erwägen Sie auch, Links zu früheren Inhalten hinzuzufügen, damit Benutzer auf die Inhalte verweisen können, die sie abonniert haben.
 
-**Ermöglichen Sie ihnen ein Gefühl für Ihre Marke**
-Jede Marke hat eine Stimme. Lassen Sie Ihre Willkommens-E-Mail deutlich erscheinen. Dies hilft Ihrem neuen Abonnenten, sich mehr mit der Marke zu verbinden, und verhindert, dass er sich von einer Stiländerung bei späteren E-Mails überrascht fühlt.
+**Lassen Sie sie ein Gefühl für Ihre Marke bekommen**
+Jede Marke hat eine Stimme. Lassen Sie Ihre in Ihrer Begrüßungs-E-Mail deutlich angezeigt werden. Dies hilft Ihren neuen Abonnenten, sich mehr mit der Marke zu verbinden und verhindert, dass sie sich von einer Stiländerung bei späteren E-Mails überrascht fühlen.
 
 **Halten Sie es kurz**
-Du hast viel zu sagen und ein leidenschaftliches Ohr in deinem neuen Abonnenten. Ihre erste Botschaft sollte jedoch kurz, einfach, bis zur Sache und nicht überwältigend sein.
+Sie haben viel zu sagen und ein eifriges Ohr in Ihrem neuen Abonnenten. Aber Ihre erste Botschaft sollte kurz, einfach und auf den Punkt gebracht sein und nicht überwältigend.
 
-**Eine Reihe von E-Mails senden**
-Wie bereits erwähnt, haben Sie einer aufmerksamen Zielgruppe viel zu sagen. Durch die Erstellung einer vollständigen Begrüßungsserie (3-5 E-Mails) können Sie jede einzelne Serie so weit halten, dass alle Informationen, die Sie freigeben möchten, weiterhin abgedeckt sind. Darüber hinaus fördert sie das anhaltende Interesse des Abonnenten, was zu anhaltend positiver Interaktion, erhöhter Reputation und verbesserter Zustellbarkeit führt.
+**Senden einer Reihe von E-Mails**
+Wie bereits erwähnt, haben Sie einer aufmerksamen Zielgruppe viel zu sagen. Die Erstellung einer vollständigen Willkommensreihe (3-5 E-Mails) ermöglicht es Ihnen, jede von ihnen auf den Punkt zu bringen, während Sie dennoch alle Informationen abdecken, die Sie teilen möchten. Darüber hinaus wird das fortgesetzte Interesse der Abonnenten gefördert, was zu fortgesetzter positiver Interaktion, verbesserter Reputation und verbesserter Zustellbarkeit führt.
 
-**Get personal**
-Wenn Sie eine Reihe von Willkommens-E-Mails verwenden, verwenden Sie eine davon, um den persönlichen Kontakt zu zeigen. Verwenden Sie alle Informationen, die Sie bei der Anmeldung oder beim Kauf erfasst haben, um zu zeigen, wie Sie ihr Erlebnis für sie einzigartig und wertvoller gestalten können. Wenn Sie noch keine Daten gesammelt haben, können Sie damit zeigen, was Sie tun können, wenn Sie die Gelegenheit dazu haben. Dann fragen Sie sie nach den Informationen, die Sie benötigen, um ihr Erlebnis anzureichern.
+**Persönlich werden**
+Wenn Sie eine Reihe von Begrüßungs-E-Mails verfassen, verwenden Sie eine davon, um die persönliche Note anzuzeigen. Verwenden Sie alle Informationen, die Sie bei der Anmeldung oder beim Kauf gesammelt haben, um zu demonstrieren, wie Sie ihre Erfahrung einzigartig und wertvoller für sie machen können. Wenn Sie noch keine Daten gesammelt haben, nutzen Sie dies als Gelegenheit zu zeigen, was Sie tun könnten, wenn Sie die Gelegenheit dazu hätten. Fragen Sie sie dann nach den Informationen, die Sie zur Bereicherung ihrer Erfahrung benötigen.

@@ -1,6 +1,6 @@
 ---
 title: Besonderheiten der Internetdienstanbieter
-description: ISPs sind nicht alle gleich. Sie konzentrieren sich bei der Bestimmung, welche E-Mail an den Posteingang ihrer Benutzer weitergeleitet werden soll und welche E-Mail in den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen wird. Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einer Handvoll ISPs geben. Es soll nicht eine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
+description: Die ISPs sind nicht alle gleich. Sie konzentrieren sich auf verschiedene Dinge, wenn sie bestimmen, welche E-Mails an den Posteingang ihrer Benutzer weitergeleitet werden sollen und welche E-Mails an den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen werden. Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einer Handvoll der ISPs geben. Es soll keine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
 topics: Deliverability
 jira: KT-
 doc-type: article
@@ -18,9 +18,9 @@ ht-degree: 14%
 
 # Besonderheiten der Internetdienstanbieter
 
-ISPs sind nicht alle gleich. Sie konzentrieren sich bei der Bestimmung, welche E-Mail an den Posteingang ihrer Benutzer weitergeleitet werden soll und welche E-Mail in den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen wird.
+Die ISPs sind nicht alle gleich. Sie konzentrieren sich auf verschiedene Dinge, wenn sie bestimmen, welche E-Mails an den Posteingang ihrer Benutzer weitergeleitet werden sollen und welche E-Mails an den Spam-Ordner gefiltert oder überhaupt nicht durchgelassen werden.
 
-Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einer Handvoll ISPs geben. Es soll nicht eine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
+Wir werden einen kurzen Überblick über die wichtigen Unterschiede zwischen einer Handvoll der ISPs geben. Es soll keine vollständige Liste aller ISPs sein oder alle möglichen Unterschiede abdecken.
 
 * [Gmail](./gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](./microsoft.md)

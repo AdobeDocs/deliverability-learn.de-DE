@@ -1,6 +1,6 @@
 ---
 title: ISP-spezifische Überlegungen beim IP-Warming
-description: ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist.
+description: ISPs haben unterschiedliche Regeln und unterschiedliche Sichtweisen auf ihren Traffic. Dies erfordert einen benutzerdefinierten Plan, der zu Beginn nur die am stärksten engagierten Benutzenden anspricht.
 topics: Deliverability
 jira: KT-7054
 thumbnail: kt7054.jpg
@@ -19,9 +19,9 @@ ht-degree: 16%
 
 # ISP-spezifische Überlegungen beim IP-Warming
 
-ISPs haben unterschiedliche Regeln und Möglichkeiten, ihren Traffic anzusehen. Gmail ist beispielsweise einer der komplexesten ISPs, da sie neben allen anderen Reputationsmaßnahmen die Interaktion sehr genau (Öffnungen und Klicks) betrachten. Dies erfordert einen benutzerdefinierten Plan, der nur auf die am meisten engagierten Benutzer zu Beginn ausgerichtet ist. Andere ISPs erfordern möglicherweise auch dasselbe. Wenden Sie sich an Ihren Adobe-Zustellbarkeitsberater, um einen spezifischen Plan zu erstellen.
+ISPs haben unterschiedliche Regeln und unterschiedliche Sichtweisen auf ihren Traffic. Beispielsweise ist Gmail einer der anspruchsvollsten ISPs, da sie die Interaktion sehr streng betrachten (Öffnungen und Klicks) zusätzlich zu allen anderen Reputationsmessungen. Dies erfordert einen benutzerdefinierten Plan, der zu Beginn nur die am stärksten engagierten Benutzenden anspricht. Andere ISPs können dies ebenfalls verlangen. Wenden Sie sich an Ihren Adobe-Zustellbarkeitsberater, um einen bestimmten Plan zu erstellen.
 
-Weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden ausgewählten Gruppe von Anbietern finden Sie im Abschnitt [Besonderheiten des Internet-Dienstanbieters](/help/internet-service-provider-specifics/overview.md) :
+Weitere Informationen [ wichtigen Unterschiede zwischen den folgenden ausgewählten Anbietergruppen finden ](/help/internet-service-provider-specifics/overview.md) im Abschnitt „Besonderheiten der Internetdienstanbieter“:
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
@@ -29,4 +29,4 @@ Weitere Informationen zu den wichtigen Unterschieden zwischen der folgenden ausg
 
 ## Zusätzliche Ressourcen
 
-* In [diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md) erfahren Sie mehr über die Verbesserung der Reputation Ihrer E-Mail mit IP-Warming.
+* Weitere Informationen zur Verbesserung der E-Mail-Reputation mit IP-Warming finden [ in diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

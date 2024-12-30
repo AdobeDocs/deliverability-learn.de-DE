@@ -17,9 +17,9 @@ ht-degree: 87%
 
 Nachstehend finden Sie einige Best Practices, die Ihnen helfen können, Probleme mit der Zustellbarkeit zu erkennen und zu beheben.
 
-## Problem mit der Zustellbarkeit identifizieren {#identify-deliverability-issue}
+## Ermitteln eines Zustellbarkeitsproblems {#identify-deliverability-issue}
 
-Um ein mögliches Problem zu identifizieren, können die auf [dieser Seite](/help/ongoing-monitoring.md) aufgelisteten Elemente Ihre Aufmerksamkeit auf sich lenken.
+Um ein mögliches Problem zu identifizieren, können die auf [ Seite aufgelisteten Elemente ](/help/ongoing-monitoring.md) Aufmerksamkeit erregen.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -27,7 +27,7 @@ Subscriber activity: opens, clicks and/or transactions are lower than usual.
 Seed accounts show filtered or non-delivered mailings.
 -->
 
-## Mögliche Ursachen {#potential-causes}
+## Hypothese potenzieller Ursachen {#potential-causes}
 
 Stellen Sie sich folgende Fragen, um die möglichen Ursachen für Ihr Zustellbarkeitsproblem zu ermitteln:
 
@@ -40,14 +40,14 @@ Stellen Sie sich folgende Fragen, um die möglichen Ursachen für Ihr Zustellbar
 * Was ist das &quot;sichere&quot; Segment in meiner Datei in Bezug auf Aktualität?
 * Verfüge ich über Reaktivierungs- und Wiederbestätigungsstrategien für Segmente, die nicht als sicher definiert sind?
 
-## Problem beheben {#address-issue}
+## Beheben des Problems {#address-issue}
 
 ### Beschwerden
 
-[Beschwerden](/help/metrics/complaints.md) werden von Abonnenten definiert, die E-Mails als Spam melden, indem sie in ihrem Posteingang auf die entsprechende Schaltfläche klicken.
+[Beschwerden](/help/metrics/complaints.md) werden von Abonnentinnen und Abonnenten definiert, die E-Mails als Spam melden, indem sie auf die entsprechende Schaltfläche in ihrem Posteingang klicken.
 
 Wenn Ihr Versandproblem durch Beschwerden verursacht wurde:
-* Sie müssen versuchen zu ermitteln, warum sich Empfänger beschweren.
+* Sie müssen ermitteln, warum sich Empfänger beschweren.
 * Sie können auch überlegen, den Link zum Abmelden an den Anfang Ihrer E-Mail zu verschieben. So werden Abonnenten dazu ermutigt, sich abzumelden, anstatt sich über die Spam-Schaltfläche zu beschweren.
 
 Absender können aus ihren [Feedback Loop](/help/transition-process/infrastructure.md#feedback-loops) -Beschwerden eine Vielzahl von Daten sammeln:
@@ -68,7 +68,7 @@ Beschwerden stammen zum Teil auch von Abonnenten, die einfach keine E-Mails mehr
 
 ### Interaktion
 
-Neben Beschwerden und Datenvalidität konzentrieren sich ISPs bei Versandentscheidungen mehr denn je auf **positive Interaktion**. Sie versuchen herauszufinden, ob Abonnenten Ihre E-Mails öffnen oder aber löschen, ohne sie gelesen zu haben. Da sie diese Daten nicht mit Absendern teilen, müssen wir die verfügbaren Informationen verwenden und Öffnungen/Klicks/Transaktionen als Interaktion übersetzen.
+Neben Beschwerden und Datenvalidität konzentrieren sich ISPs bei Versandentscheidungen mehr denn je auf **positive Interaktion**. Sie versuchen herauszufinden, ob Abonnenten Ihre E-Mails öffnen oder aber löschen, ohne sie gelesen zu haben. Da diese Daten nicht an Absender weitergegeben werden, müssen wir die uns zur Verfügung stehenden Informationen verwenden und Öffnungen/Klicks/Transaktionen als Interaktion übersetzen.
 
 Im Rahmen der laufenden Reputationssicherung ist es wichtig, zu verstehen, wie engagiert Abonnenten auf Ihrer Liste sind, und eine **Aktualitäts-Risikohierarchie** für die Abonnenten in jeder Datei zu erstellen. Neuigkeit wird als letztes Öffnungs-, Klick-, Transaktions- oder Anmeldedatum definiert. Dieser Zeitrahmen kann sich je nach Vertikale unterscheiden. Gehen Sie dazu folgendermaßen vor:
 

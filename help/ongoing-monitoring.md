@@ -1,6 +1,6 @@
 ---
 title: Laufende Überwachung
-description: Nach welchen Problemen müssen Sie suchen?
+description: Auf welche Probleme müssen Sie achten?
 topics: Deliverability
 jira: KT-5263
 thumbnail: kt5263.jpg
@@ -19,12 +19,12 @@ ht-degree: 21%
 
 # Laufende Überwachung
 
-Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu identifizieren, bei dem Sie möglicherweise Unterstützung von Experten benötigen:
+Im Folgenden finden Sie einige Möglichkeiten, ein mögliches Problem zu identifizieren, bei dem Sie Unterstützung von Fachleuten benötigen:
 
-* Es gibt einen beobachteten Anstieg bei Hard- oder Softbounces. Dies könnte auf eine Blockierungsliste oder auf andere Zustellbarkeitsprobleme hindeuten.
-* Die Öffnungs- und Klickmetriken nehmen merklich ab, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf die potenzielle Platzierung von Massenordnern.
-* Die Beschwerden nehmen beträchtlich zu. Dies kann durch eine Quelle mit schlechter Qualität verursacht werden.
-* Sie verfügen über strategische Initiativen, die sich auf die Zustellbarkeit auswirken könnten. Dazu gehören unter anderem die Akquise von Abonnenten, Interaktionsstrategien, saisonale Strategien oder erhebliche Änderungen der Häufigkeit und des Kampagnentyps.
+* Es gibt einen beobachteten Anstieg von Hard- und Softbounces. Dies kann auf eine Blockierungsauflistung oder ein anderes Zustellbarkeitsproblem hinweisen.
+* Es gibt einen merklichen Rückgang bei den Öffnungs- und Klickmetriken, während die Zustellraten hoch bleiben. Dies ist ein Hinweis auf eine potenzielle Massenordnerplatzierung.
+* Es gibt eine signifikante Zunahme an Beschwerden. Dies kann auf eine schlechte Listequalität zurückzuführen sein.
+* Sie haben alle strategischen Initiativen, die sich auf die Zustellbarkeit auswirken könnten. Dazu gehören unter anderem die Akquise durch Abonnenten, Interaktionsstrategien, saisonale Strategien oder wesentliche Änderungen der Häufigkeit und des Kampagnentyps.
 
 ## Produktspezifische Ressourcen
 
@@ -42,4 +42,4 @@ Im Folgenden finden Sie einige Möglichkeiten, um ein mögliches Problem zu iden
 
 ## Zusätzliche Ressourcen
 
-* In [diesem Abschnitt](/help/additional-resources/troubleshooting.md) erfahren Sie, wie Sie Zustellbarkeitsprobleme beheben können.
+* Erfahren Sie in ([ Abschnitt), wie Sie Zustellbarkeitsprobleme ](/help/additional-resources/troubleshooting.md) können.

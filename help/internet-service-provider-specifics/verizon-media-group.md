@@ -1,6 +1,6 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, usw.)
-description: "[!DNL Verizon Media Group] ist im Allgemeinen eine der drei Top-Domänen für die meisten B2C-Listen. Sie verhalten sich etwas einzigartig, da sie im Allgemeinen bei Reputationsproblemen eine Massenpostsendung drosseln oder blockieren."
+description: '[!DNL Verizon Media Group] ist im Allgemeinen eine der drei Top-Domains für die meisten B2C-Listen. Sie verhalten sich etwas einzigartig, da sie im Allgemeinen E-Mails drosseln oder massenhaft versenden, wenn Reputationsprobleme auftreten.'
 topics: Deliverability
 jira: KT-5320
 doc-type: article
@@ -18,22 +18,22 @@ ht-degree: 3%
 
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon usw.)
 
-[!DNL Verizon Media Group] ist im Allgemeinen eine der drei Top-Domänen für die meisten B2C-Listen. Sie verhalten sich etwas einzigartig, da sie im Allgemeinen bei Reputationsproblemen eine Massenpostsendung drosseln oder blockieren.
+[!DNL Verizon Media Group] ist im Allgemeinen eine der drei Top-Domains für die meisten B2C-Listen. Sie verhalten sich etwas einzigartig, da sie im Allgemeinen E-Mails drosseln oder massenhaft versenden, wenn Reputationsprobleme auftreten.
 
 Im Folgenden finden Sie einige Highlights:
 
-## Wichtige Daten
+## Welche Daten sind wichtig?
 
-[!DNL Verizon Media Group] (VMG) hat eigene proprietäre Spam-Filter erstellt und verwaltet, die eine Mischung aus Inhalt und URL-Filterung sowie Spam-Beschwerden verwenden. Zusammen mit Gmail gehören sie zu den frühen Anbietern von ISPs, die E-Mails nach Domain und IP-Adresse filtern.
+[!DNL Verizon Media Group] (VMG) hat eigene Spam-Filter erstellt und verwaltet, die eine Mischung aus Inhalts- und URL-Filtern und Spam-Beschwerden verwenden. Zusammen mit Gmail sind sie einer der frühzeitig nutzenden ISPs, die E-Mails nach Domain und IP-Adresse filtern.
 
-## Welche Daten werden bereitgestellt?
+## Welche Daten stellen sie zur Verfügung?
 
-VMG verfügt über eine FBL, mit der Beschwerdedaten an Absender zurückgegeben werden. Außerdem werden weitere Daten erprobt.
+VMG verfügt über eine FBL, die dazu dient, Beschwerderinformationen an die Absender zurückzugeben. Außerdem wird geprüft, ob in Zukunft weitere Daten hinzugefügt werden können.
 
 ## Reputation des Absenders
 
-Die Reputation eines Absenders besteht aus einer Kombination aus IP-Adresse, Domain und Adresse. Der Ruf wird anhand der herkömmlichen Komponenten berechnet, einschließlich Beschwerden, Spamfallen, inaktiven oder fehlerhaften Adressen und Interaktionen. VMG verwendet Ratenbegrenzung (auch als Drosselung bezeichnet) zusammen mit Massenordnern, um sich gegen Spam zu schützen. Sie ergänzen ihre internen Filtersysteme mit einigen schwarzen Listen vom Typ [!DNL Spamhaus], einschließlich PBL, SBL und XBL, um ihre Benutzer zu schützen.
+Die Reputation eines Absenders besteht aus einer Kombination aus IP-Adresse, Domain und Absenderadresse. Die Reputation wird anhand der herkömmlichen Komponenten berechnet, einschließlich Beschwerden, Spam-Fallen, inaktive oder falsch formatierte Adressen und Interaktion. VMG setzt Ratenbegrenzung (auch als Drosselung bezeichnet) zusammen mit Massenordnern ein, um sich gegen Spam zu schützen. Sie ergänzen ihre internen Filtersysteme mit einigen [!DNL Spamhaus] schwarzen Listen, einschließlich PBL, SBL und XBL, um ihre Benutzer zu schützen.
 
 ## Insights
 
-VMG verfügt in letzter Zeit über regelmäßige Wartungszeiträume für alte, inaktive E-Mail-Adressen. Dies bedeutet, dass häufig ein signifikanter Anstieg bei ungültigen Adressabsprüngen zu beobachten ist, was sich auf Ihre Lieferrate über einen kurzen Zeitraum auswirken kann. Sie reagieren auch auf hohe Raten ungültiger Adressabsprünge von Absendern, was auf die Notwendigkeit hinweist, die Akquise- oder Interaktionsrichtlinien zu verschärfen. Absender können bei etwa 1 Prozent ungültigen Adressen oft negative Auswirkungen feststellen.
+VMG verfügt in letzter Zeit über regelmäßige Wartungszeiträume für alte, inaktive E-Mail-Adressen. Dies bedeutet, dass es häufig zu einem erheblichen Anstieg von ungültigen E-Mail-Adressen kommt, was sich kurzfristig auf Ihre Zustellrate auswirken kann. Sie reagieren auch auf eine hohe Anzahl von Bounces durch ungültige Adressen von einem Absender, was auf die Notwendigkeit hinweist, die Akquise- oder Interaktionsrichtlinien zu verschärfen. Absender können oft negative Auswirkungen bei etwa 1 Prozent ungültigen Adressen erleben.

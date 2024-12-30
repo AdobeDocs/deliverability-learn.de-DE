@@ -1,6 +1,6 @@
 ---
-title: Erste Impressionen - Listensammlung und Willkommens-E-Mails
-description: Erfahren Sie, wie Sie sich für ein erfolgreiches E-Mail-Programm einrichten können, indem Sie einen guten ersten Eindruck machen.
+title: Erste Impressionen - Aufnahme in die Liste und Willkommens-E-Mails
+description: Erfahren Sie, wie Sie sich für die Ausführung eines erfolgreichen E-Mail-Programms einrichten können, indem Sie einen guten ersten Eindruck machen.
 topics: Deliverability
 jira: KT-5258
 thumbnail: kt5258.jpg
@@ -17,10 +17,10 @@ ht-degree: 4%
 
 # Erste Impressions – Aufnahme in die Liste und Willkommens-E-Mails
 
-Bei der Suche nach einer neuen Beziehung ist es entscheidend, einen guten ersten Eindruck zu machen. Ohne sie kann nichts anderes, was du sagst oder tust, eine Chance bekommen. Die Beziehung zwischen einer Marke und denen, die sich für die Interaktion entscheiden, unterscheidet sich nicht. Alles fängt irgendwo an. Und wenn es um die Durchführung eines E-Mail-Programms geht, beginnt es mit der Erfassung von E-Mail-Adressen und dem Empfang dieser Abonnenten in Ihrem Programm. Sehen wir uns an, wie Sie sich für ein erfolgreiches E-Mail-Programm einrichten können, indem Sie einen guten ersten Eindruck in diesen Bereichen machen.
+Bei der Suche nach einer neuen Beziehung ist es entscheidend, einen guten ersten Eindruck zu machen. Ohne sie bekommt nichts, was man sagt oder tut, eine Chance. Die Beziehung zwischen einer Marke und denjenigen, die mit ihnen interagieren, ist nicht anders. Alles beginnt irgendwo. Und wenn es um die Ausführung eines E-Mail-Programms geht, beginnt es mit dem Sammeln von E-Mail-Adressen und dem Begrüßen dieser Abonnenten zu Ihrem Programm. Sehen wir uns an, wie Sie sich für ein erfolgreiches E-Mail-Programm einrichten können, indem Sie in diesen Bereichen einen guten ersten Eindruck machen.
 
 Schritt 1: [Adresserfassung und Listenwachstum](/help/first-impressions/address-collection-and-list-growth.md):
-*Erfahren Sie, welche Quellen für neue E-Mail-Adressen am besten geeignet sind, wie Sie eine hohe Datenqualität sicherstellen und sich an die rechtlichen Richtlinien anpassen können.*
+*Erfahren Sie, was die besten Quellen für neue E-Mail-Adressen sind, wie Sie eine hohe Datenqualität sicherstellen und wie Sie die rechtlichen Richtlinien einhalten können.*
 
-Schritt 2: [Begrüßungs-E-Mails](/help/first-impressions/welcome-emails.md):
-*Erfahren Sie, welche Schlüsselelemente beim Erstellen Ihrer Willkommens-E-Mails zu beachten sind.*
+Schritt 2: [Willkommens-E-Mails](/help/first-impressions/welcome-emails.md):
+*Erfahren Sie, welche wichtigen Elemente beim Erstellen Ihrer Begrüßungs-E-Mails zu berücksichtigen sind.*
