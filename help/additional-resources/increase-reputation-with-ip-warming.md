@@ -7,9 +7,9 @@ activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
 source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1582'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Zu Beginn werden Ihnen eigene IP-Adressen (Internet Protocol) zugewiesen. Im Zus
 
 ## Welchen Zweck hat IP-Warming? {#why-ip-warming}
 
-ISPs oder Mailbox-Anbieter (MBP – Mailbox-Provider) ergreifen Vorsichtsmaßnahmen, wenn sie eine unbekannte IP-Adresse und sendende Domain erkennen. ISPs/MBPs prüfen die IP-Adresse und die sendende Domain sehr genau, um festzustellen, ob die von dieser IP-Adresse und Domain gesendeten E-Mails Spam sind oder nicht. Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt.
+ISPs oder Mailbox-Anbieter (MBP – Mailbox-Provider) ergreifen Vorsichtsmaßnahmen, wenn sie eine unbekannte IP-Adresse und sendende Domain erkennen. ISPs/MBPs prüfen die IP-Adresse und die sendende Domain sehr genau, um festzustellen, ob es sich bei den von dieser IP-Adresse und Domain gesendeten E-Mails um Spam handelt. Dies ist ein Standardverfahren, das bei jeder neuen sendenden IP-Adresse unabhängig vom Absendertyp zur Anwendung kommt.
 
 ISPs untersuchen sorgfältig das Versandvolumen, die Versandhäufigkeit, Beschwerden und Bounce-Raten, die von diesen E-Mail-Sendungen verursacht werden. Diese Werte werden alle genau geprüft, weil sie Indikatoren für die Reputation des Absenders sind – egal ob sie gut oder schlecht ist.
 
@@ -107,7 +107,7 @@ Weitere Informationen über [Interaktionen](/help/engagement.md).
 
 Sie könnten versucht sein, den Prozess des IP-Warmings zu überstürzen, indem Sie mehr als das empfohlene Volumen versenden, sich nicht die Zeit nehmen, Ihre aktivsten Abonnenten zu identifizieren, und es verabsäumen, diese Abonnenten zuerst anzuschreiben, um eine positive Reputation aufzubauen. Widerstehen Sie dieser Versuchung! Langfristig erzielen Sie dadurch keine Vorteile.
 
-Es ist sehr wichtig, dass Sie mit dem Versenden von E-Mails an Abonnentinnen und Abonnenten, die sich stark engagieren (per E-Mail!), nur in den Anfängen des IP-Warmings beginnen. Diese Kunden sind Ihre wertvollsten Kontakte und deren Bereitschaft, Ihre E-Mails zu öffnen, wird ISPs zeigen, dass Sie ein Marketer sind, der E-Mails versendet, die interessant sind und gern gelesen werden. Außerdem erkennen ISPs dadurch, dass Sie sich an die Regeln halten und Best Practices befolgen.
+Es ist sehr wichtig, dass Sie mit dem Versenden von E-Mails an Abonnentinnen und Abonnenten, die hochgradig interaktiv sind (per E-Mail), nur in den Anfangsstadien des IP-Warmings beginnen. Diese Kunden sind Ihre wertvollsten Kontakte und deren Bereitschaft, Ihre E-Mails zu öffnen, wird ISPs zeigen, dass Sie ein Marketer sind, der E-Mails versendet, die interessant sind und gern gelesen werden. Außerdem erkennen ISPs dadurch, dass Sie sich an die Regeln halten und Best Practices befolgen.
 
 ## Zusammenfassung
 
