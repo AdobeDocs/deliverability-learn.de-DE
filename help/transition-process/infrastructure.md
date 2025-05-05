@@ -66,8 +66,8 @@ Authentifizierung ist der Prozess, den ISPs verwenden, um die Identität eines A
 **Campaign**
 
 * Wie Sie eine Subdomain vollständig an Adobe Campaign Classic oder Standard delegieren, erfahren Sie in [diesem Abschnitt](/help/additional-resources/ac-domain-name-setup.md).
-* [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Classic delegieren.*
-* [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Standard delegieren.*
+* [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Classic delegieren.*
+* [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Standard delegieren.*
 * Weitere Informationen zur Implementierung einer Feedback-Schleife für eine Campaign Classic-Instanz finden Sie [ (diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Zusätzliche Ressourcen

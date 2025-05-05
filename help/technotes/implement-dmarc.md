@@ -99,7 +99,7 @@ DMARC-Datensätze enthalten mehrere Komponenten, die als DMARC-Tags bezeichnet w
 
 >[!NOTE]
 >
->Wenn Ihre Campaign-Instanz auf AWS gehostet wird, können Sie DMARC über das Control Panel für Ihre Subdomains implementieren. [Erfahren Sie, wie Sie DMARC-Datensätze mithilfe des Control Panels implementieren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Wenn Ihre Campaign-Instanz auf AWS gehostet wird, können Sie DMARC über das Control Panel für Ihre Subdomains implementieren. [Erfahren Sie, wie Sie DMARC-Datensätze mithilfe des Control Panels implementieren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=de).
 
 Ein häufiger Grund für DMARC-Fehler ist eine falsche Ausrichtung zwischen der „Von“- und der „Fehler-an“- oder der „Rückpfad“-Adresse. Um dies zu vermeiden, sollten Sie beim Einrichten von DMARC Ihre „Von“- und „Fehler-an“-Adresseinstellungen in Ihren Versandvorlagen überprüfen.
 

@@ -29,8 +29,8 @@ In der Regel basiert eine Interaktionsrate auf einem bestimmten Zeitraum. Diese 
 
 **Analytics**
 
-* [Wie Sie die Interaktions- und Kundenbindungsraten steigern können (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und lernen Sie die zugrunde liegenden Ursachen kennen, die zu einer Verklebung in Ihren Mobile Apps führen. Verwenden Sie Datenwissenschaftsalgorithmen in Segment IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu kennen.*
+* [Wie Sie die Interaktions- und Kundenbindungsraten steigern können (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=de#mobile-app-analytics): *Identifizieren Sie interaktive Zielgruppen anhand ihres Verhaltens mithilfe von Kohorten und lernen Sie die zugrunde liegenden Ursachen kennen, die zu einer Verklebung in Ihren Mobile Apps führen. Verwenden Sie Datenwissenschaftsalgorithmen in Segment IQ, um die Unterschiede und Ähnlichkeiten zwischen Segmenten zu kennen.*
 
 **Campaign Standard**
 
-* [KI-gestützte E-Mails: Prädiktive Interaktionsbewertung](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [KI-gestützte E-Mails: Prädiktive Interaktionsbewertung](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=de#predictive-scoring)

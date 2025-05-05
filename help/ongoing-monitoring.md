@@ -37,7 +37,7 @@ Im Folgenden finden Sie einige Möglichkeiten, ein mögliches Problem zu identif
 **Adobe Campaign Standard**
 
 * [Überwachen eines Versands](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=de)
-* [Versandzusammenfassung](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
+* [Versandzusammenfassung](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html?lang=de)
 * [Überwachen der Zustellbarkeit](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=de#testing-and-sending)
 
 ## Zusätzliche Ressourcen

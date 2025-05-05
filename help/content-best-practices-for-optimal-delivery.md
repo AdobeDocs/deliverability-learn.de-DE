@@ -29,8 +29,8 @@ Inhalt ist der Schlüssel. Sie haben bereits unsere Sicht der Relevanz gelesen, 
 
 **Campaign Classic**
 
-* [Steuern des Nachrichteninhalts](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [Steuern des Nachrichteninhalts](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=de)
 
 **Campaign Standard**
 
-* [Kontrollieren von E-Mail-Inhalten](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
+* [Kontrollieren von E-Mail-Inhalten](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=de#testing-and-sending)

@@ -45,8 +45,8 @@ Gemäß der Standardlogik für die Behandlung von Bounces hat Adobe Campaign die
 
 Um die Empfängerinnen und Empfänger zu finden, die von diesem Problem betroffen waren, oder für den Fall, dass dies bei einem anderen ISP erneut auftritt, lesen Sie bitte die folgenden Anweisungen:
 
-* Informationen zu Campaign Classic v7 und Campaign v8 finden Sie [dieser Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Weitere Campaign Standards finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Informationen zu Campaign Classic v7 und Campaign v8 finden Sie [dieser Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=de#unquarantine-bulk){_blank}.
+* Weitere Campaign Standards finden Sie auf [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=de#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ Gemäß der Standardlogik zur Handhabung von Bounces hat Adobe Journey Optimizer
 
 Nach der Identifizierung können diese Adressen manuell mithilfe der Schaltfläche **[!UICONTROL Löschen“ aus der]** entfernt werden. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
 
-Weitere Informationen finden Sie [ (diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
+Weitere Informationen finden Sie [ (diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de#remove-from-suppression-list){_blank}.
 

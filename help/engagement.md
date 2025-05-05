@@ -59,13 +59,13 @@ Ein letzter wichtiger Teil der Antwortstrategie besteht darin, dass Benutzer, di
 
 **Adobe Campaign Classic**
 
-* [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
-* [Druckregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=de#communication-channels)
+* [Druckregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=de)
 
 **Adobe Campaign Standard**
 
-* [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Ermüdungsregeln](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Die richtige Audience festlegen](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=de)
+* [Ermüdungsregeln](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html?lang=de)
 
 ## Zusätzliche Ressourcen
 

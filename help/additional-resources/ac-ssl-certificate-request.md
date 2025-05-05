@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um eine CSR-Datei (Certificate Signing Request) zu erha
 Im Folgenden finden Sie Best Practices:
 
 * Eine Anfrage pro delegierter Subdomain auslösen.
-* Es ist möglich, mehrere Subdomains in einer CSR-Anfrage zu kombinieren, jedoch nur innerhalb derselben Umgebung. In Campaign Classic sind der Marketing-Server, der [Mid-Sourcing-Server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html) und die [Ausführungsinstanz](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) beispielsweise drei separate Umgebungen.
+* Es ist möglich, mehrere Subdomains in einer CSR-Anfrage zu kombinieren, jedoch nur innerhalb derselben Umgebung. In Campaign Classic sind der Marketing-Server, der [Mid-Sourcing-Server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html?lang=de) und die [Ausführungsinstanz](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html?lang=de#execution-instance) beispielsweise drei separate Umgebungen.
 * Sie müssen vor jeder Verlängerung eines SSL-Zertifikats eine neue CSR erhalten. Verwenden Sie keine alte CSR-Datei aus einem Jahr oder länger.
 
 Sie müssen die folgenden Informationen angeben.
@@ -199,7 +199,7 @@ Es liegt in Ihrer Verantwortung, den Gültigkeitszeitraum zu überprüfen. Adobe
 
 * Erstellen Sie ein Support-Ticket, um mindestens zwei Wochen vor Ablauf des Zertifikats ein aktualisiertes Zertifikat anzufordern. Sie müssen keine zusätzliche CSR anfordern, es sei denn, die CSR-Details wurden geändert.
 
-* Wenn Sie Zugriff auf das [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) haben und Ihre Umgebung von Adobe in einer AWS-Umgebung gehostet wird, können Sie das Zertifikat über das Control Panel verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* Wenn Sie Zugriff auf das [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) haben und Ihre Umgebung von Adobe in einer AWS-Umgebung gehostet wird, können Sie das Zertifikat über das Control Panel verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de#monitoring-certificates).
 
 ### Schritt 8: Aktualisieren einer bestimmten Konfiguration {#update-configuration}
 
@@ -207,7 +207,7 @@ Sobald Sie sicher sind, dass die angeforderten SSL-Zertifikate ordnungsgemäß i
 
 >[!NOTE]
 >
->Beim Campaign Classic befinden sich die zu aktualisierenden URLs hauptsächlich im [Bereitstellungsassistenten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) und in [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=de) (Tracking, Mirrorseite und öffentliche Ressourcendomänen). Weitere Informationen zum Campaign Standard finden Sie unter [Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>Beim Campaign Classic befinden sich die zu aktualisierenden URLs hauptsächlich im [Bereitstellungsassistenten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html?lang=de#deployment-wizard) und in [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=de) (Tracking, Mirrorseite und öffentliche Ressourcendomänen). Weitere Informationen zum Campaign Standard finden Sie unter [Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html?lang=de#about-brand-identity).
 
 Sobald die Konfigurationen aktualisiert wurden, werden neue E-Mails mit HTTPS-URLs und nicht mit HTTP gesendet. Um zu überprüfen, ob die URLs jetzt sicher sind, können Sie die folgenden Tests schnell durchführen:
 
@@ -218,8 +218,8 @@ Sobald die Konfigurationen aktualisiert wurden, werden neue E-Mails mit HTTPS-UR
 
 **Campaign Classic**
 
-* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
+* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
 
 **Campaign Standard**
 
-* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
+* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
