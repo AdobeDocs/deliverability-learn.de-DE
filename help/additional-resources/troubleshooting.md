@@ -19,7 +19,7 @@ Nachstehend finden Sie einige Best Practices, die Ihnen helfen können, Probleme
 
 ## Ermitteln eines Zustellbarkeitsproblems {#identify-deliverability-issue}
 
-Um ein mögliches Problem zu identifizieren, können die auf [ Seite aufgelisteten Elemente ](/help/ongoing-monitoring.md) Aufmerksamkeit erregen.
+Um ein mögliches Problem zu identifizieren, können die auf [&#x200B; Seite aufgelisteten Elemente &#x200B;](/help/ongoing-monitoring.md) Aufmerksamkeit erregen.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.

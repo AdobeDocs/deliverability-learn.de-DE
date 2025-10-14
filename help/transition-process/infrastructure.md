@@ -68,9 +68,9 @@ Authentifizierung ist der Prozess, den ISPs verwenden, um die Identität eines A
 * Wie Sie eine Subdomain vollständig an Adobe Campaign Classic oder Standard delegieren, erfahren Sie in [diesem Abschnitt](/help/additional-resources/ac-domain-name-setup.md).
 * [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Classic delegieren.*
 * [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Standard delegieren.*
-* Weitere Informationen zur Implementierung einer Feedback-Schleife für eine Campaign Classic-Instanz finden Sie [ (diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* Weitere Informationen zur Implementierung einer Feedback-Schleife für eine Campaign Classic-Instanz finden Sie [&#x200B; (diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Zusätzliche Ressourcen
 
-* Weitere Informationen zu den Authentifizierungsmethoden von SPF, DKIM und DMARC finden Sie [ (diesem Abschnitt](/help/additional-resources/authentication.md).
-* Weitere Informationen zur Verbesserung der E-Mail-Reputation mit IP-Warming finden [ in diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Weitere Informationen zu den Authentifizierungsmethoden von SPF, DKIM und DMARC finden Sie [&#x200B; (diesem Abschnitt](/help/additional-resources/authentication.md).
+* Weitere Informationen zur Verbesserung der E-Mail-Reputation mit IP-Warming finden [&#x200B; in diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

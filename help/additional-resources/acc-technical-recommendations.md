@@ -76,13 +76,13 @@ Recommendations zum Definieren eines SPF-Eintrags:
 
 >[!NOTE]
 >
->Weitere Informationen zu SPF finden [ in diesem Abschnitt](/help/additional-resources/authentication.md#spf).
+>Weitere Informationen zu SPF finden [&#x200B; in diesem Abschnitt](/help/additional-resources/authentication.md#spf).
 
 ## Authentifizierung
 
 >[!NOTE]
 >
->Weitere Informationen zu den verschiedenen Formen der E-Mail-Authentifizierung finden [ in diesem Abschnitt](/help/additional-resources/authentication.md).
+>Weitere Informationen zu den verschiedenen Formen der E-Mail-Authentifizierung finden [&#x200B; in diesem Abschnitt](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 

@@ -42,4 +42,4 @@ Im Folgenden finden Sie einige Möglichkeiten, ein mögliches Problem zu identif
 
 ## Zusätzliche Ressourcen
 
-* Erfahren Sie in ([ Abschnitt), wie Sie Zustellbarkeitsprobleme ](/help/additional-resources/troubleshooting.md) können.
+* Erfahren Sie in ([&#x200B; Abschnitt), wie Sie Zustellbarkeitsprobleme &#x200B;](/help/additional-resources/troubleshooting.md) können.

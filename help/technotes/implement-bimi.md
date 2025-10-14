@@ -25,7 +25,7 @@ BIMI verbessert nicht direkt die Zustellbarkeit oder Ihre Reputation. Es kann da
 
 ## Wie sieht es aus?
 
-Auf der Seite der BIMI Gruppe finden Sie einige Beispiele für Implementierungen verschiedener Anbieter und weitere Details, bei welchen Anbietern das Logo [ wird](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
+Auf der Seite der BIMI Gruppe finden Sie einige Beispiele für Implementierungen verschiedener Anbieter und weitere Details, bei welchen Anbietern das Logo [&#x200B; wird](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## Wer ist die BIMI Group?
 

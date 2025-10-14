@@ -54,5 +54,5 @@ Gemäß der Standardlogik zur Handhabung von Bounces hat Adobe Journey Optimizer
 
 Nach der Identifizierung können diese Adressen manuell mithilfe der Schaltfläche **[!UICONTROL Löschen“ aus der]** entfernt werden. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
 
-Weitere Informationen finden Sie [ (diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de#remove-from-suppression-list){_blank}.
+Weitere Informationen finden Sie [&#x200B; (diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de#remove-from-suppression-list){_blank}.
 

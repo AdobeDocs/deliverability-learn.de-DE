@@ -52,7 +52,7 @@ Für die Verwendung von DKIM müssen folgende Voraussetzungen gegeben sein:
 * **Sicherheit**: Verschlüsselung ist ein Schlüsselelement der DKIM. Um das Sicherheitsniveau der DKIM zu gewährleisten, ist 1024b die empfohlene Verschlüsselungsgröße. Niedrigere DKIM-Schlüssel werden von den meisten Zugriffsanbietern nicht als gültig erachtet.
 * **Reputation**: Die Reputation basiert auf der IP-Adresse und/oder der Domain, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl des Selektors ist wichtig: Vermeiden Sie es, den „Standard“ beizubehalten, der von jedem verwendet werden könnte und daher eine schwache Reputation hat. Sie müssen einen anderen Selektor für **Aufbewahrungs- vs. Akquise-Kommunikation** und für die Authentifizierung implementieren.
 
-Weitere Informationen zu den Voraussetzungen für die Verwendung von DKIM beim Campaign Classic finden [ in diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Weitere Informationen zu den Voraussetzungen für die Verwendung von DKIM beim Campaign Classic finden [&#x200B; in diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 

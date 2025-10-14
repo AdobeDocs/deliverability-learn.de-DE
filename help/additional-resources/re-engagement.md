@@ -76,7 +76,7 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 **Adobe Campaign**
 
 * [Trackinglogs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=de#tracking-logs)
-* [Trackinglogs im Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=de#tracking-logs)
+* [Trackinglogs im Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=de#tracking-logs)
 
 **Adobe Customer Journey Management**
 
