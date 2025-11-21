@@ -9,7 +9,7 @@ auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 100%
    + [Spam-Fallen](/help/metrics/spam-traps.md)
    + [Bulking und Blockieren](/help/metrics/bulking-and-blocking.md)
 + [Interaktion](/help/engagement.md)
-+ Transformationsprozess – Wechsel zwischen E-Mail-Plattformen {#transition-process}
++ Verfahren beim Wechsel zwischen E-Mail-Plattformen {#transition-process}
    + [Reibungsloser Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
    + [Infrastruktur](/help/transition-process/infrastructure.md)
    + [Kriterien für die Zielgruppenbestimmung](/help/transition-process/targeting-criteria.md)
    + [ISP-spezifische Überlegungen beim IP-Warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
    + [Volumen](/help/transition-process/volume.md)
-+ Erste Impressions – Sammlung und Willkommens-E-Mails auflisten {#first-impressions}
-   + [Erste Impressions – Sammlung und Willkommens-E-Mails auflisten](/help/first-impressions/introduction.md)
++ Erste Impressions – Sammlung und Begrüßungs-E-Mails auflisten {#first-impressions}
+   + [Erste Impressions – Sammlung und Begrüßungs-E-Mails auflisten](/help/first-impressions/introduction.md)
    + [Adressensammlung und Listenwachstum](/help/first-impressions/address-collection-and-list-growth.md)
-   + [Willkommens-E-Mails](/help/first-impressions/welcome-emails.md)
+   + [Begrüßungs-E-Mails](/help/first-impressions/welcome-emails.md)
 + [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
 + [Regelmäßiger Versand](/help/sender-permanence.md)
-+ Besonderheiten der ISPs (Internetdienstanbieter) {#internet-service-provider-specifics}
++ Besonderheiten der Internetdienstanbieter {#internet-service-provider-specifics}
    + [Übersicht](/help/internet-service-provider-specifics/overview.md)
    + [Gmail](/help/internet-service-provider-specifics/gmail.md)
    + [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
@@ -45,7 +45,7 @@ ht-degree: 100%
 + [Laufende Überwachung](/help/ongoing-monitoring.md)
 + [Praktische Umsetzung](/help/putting-it-in-practice.md)
 + Anhang: Zusätzliche Ressourcen {#additional-resources}
-   + [Übersicht](/help/additional-resources/general-resources.md)
+   + [Überblick](/help/additional-resources/general-resources.md)
    + [Verhaltensregeln für Abmeldungen](/help/unsubscribe-dos-and-do-nots.md)
    + Allgemeine Ressourcen {#generic-resources}
       + [Alles über Spam-Fallen](/help/additional-resources/all-about-spam-traps.md)
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [SSL-Zertifikatanforderungsvorgang](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Einrichten einer neuen Plattform](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic – Technische Empfehlungen](/help/additional-resources/acc-technical-recommendations.md)
-   + Technotes {#technotes}
+   + Technotes{#technotes}
       + [Implementieren von DMARC](/help/technotes/implement-dmarc.md)
       + [Implementieren von BIMI](/help/technotes/implement-bimi.md)
       + [Aktualisierung von Bounces nach Ausfall von Italia Online](/help/technotes/update-bounces-after-it-outage.md)
