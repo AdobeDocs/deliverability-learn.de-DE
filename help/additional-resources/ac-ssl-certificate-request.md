@@ -28,7 +28,7 @@ Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-D
 
 >[!CAUTION]
 >
->Bevor Sie ein SSL-Zertifikat installieren, stellen Sie sicher, dass Sie über die Voraussetzungen auf [dieser Seite) ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate).
+>Bevor Sie ein SSL-Zertifikat installieren, stellen Sie sicher, dass Sie über die Voraussetzungen auf [dieser Seite) &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate).
 >
 >Adobe unterstützt nur bis zu 2048-Bit-Zertifikate. 4096-Bit-Zertifikate werden noch nicht unterstützt.
 
@@ -174,7 +174,7 @@ Sie müssen Folgendes angeben:
 
 Nachdem das SSL-Zertifikat installiert und von der Adobe-Kundenunterstützung bestätigt wurde, stellen Sie sicher, dass es für alle URLs erfolgreich installiert wurde.
 
-Führen Sie die folgenden Tests durch, bevor Sie das SSL-Installationsticket schließen. Stellen Sie außerdem sicher, dass Sie jede spezifische Konfiguration aktualisieren, wie in [diesem Abschnitt) ](#update-configuration).
+Führen Sie die folgenden Tests durch, bevor Sie das SSL-Installationsticket schließen. Stellen Sie außerdem sicher, dass Sie jede spezifische Konfiguration aktualisieren, wie in [diesem Abschnitt) &#x200B;](#update-configuration).
 
 Navigieren Sie zu den folgenden URLs in Ihrem Browser (ersetzen Sie „subdomain.customer.com“ durch Ihre Subdomain):
 
