@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
+source-git-commit: 0be68f5674904aa105985a6e5fc4771c41f7fe48
 workflow-type: tm+mt
 source-wordcount: '2124'
 ht-degree: 1%
@@ -15,20 +15,20 @@ ht-degree: 1%
 
 # SSL-Zertifikatanforderungsvorgang
 
-Nachdem Sie eine Domain zum Senden von E-Mails an Adobe delegiert haben (siehe [Domain-Namen einrichten](/help/additional-resources/ac-domain-name-setup.md)), erstellt und verwendet Adobe bestimmte Subdomains für bestimmte Funktionen.
+Nachdem Sie eine Domain zum Senden von E-Mails an Adobe delegiert haben (siehe [Domain-Name einrichten](/help/additional-resources/ac-domain-name-setup.md)), erstellt und verwendet Adobe bestimmte Subdomains für bestimmte Funktionen.
 
-Wenn Sie beispielsweise &quot;*.example.com“* Adobe für das Senden von E-Mails delegiert haben, erstellt Adobe Subdomains wie die folgenden:
+Wenn Sie beispielsweise *email.example.com) für den E-*-Versand an Adobe delegiert haben, erstellt Adobe Subdomains wie die folgenden:
 * *t.email.example.com* - für Tracking-Links
 * *m.email.example.com* - für Mirrorseiten
 * *res.email.example.com* - für gehostete Ressourcen (wie Bilder)
 
 Es wird empfohlen **diese Domains über SSL (HTTPS) zu**. Ungesicherte Links (HTTP) sind in der Tat anfällig für das Abfangen und werden Warnungen auf modernen Browsern anzeigen.
 
-Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-Datei anfordern und anschließend SSL-Zertifikate zum Installieren oder Verlängern von Adobe erwerben.
+Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-Datei anfordern und anschließend SSL-Zertifikate für Adobe erwerben, die installiert oder erneuert werden sollen.
 
 >[!CAUTION]
 >
->Bevor Sie ein SSL-Zertifikat installieren, stellen Sie sicher, dass Sie über die Voraussetzungen auf [dieser Seite) &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate).
+>Bevor Sie ein SSL-Zertifikat installieren, stellen Sie sicher, dass Sie über die Voraussetzungen auf [dieser Seite) ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate).
 >
 >Adobe unterstützt nur bis zu 2048-Bit-Zertifikate. 4096-Bit-Zertifikate werden noch nicht unterstützt.
 
@@ -54,11 +54,11 @@ Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-D
 
 ## Wichtigste Schritte
 
-1. Fordern Sie eine CSR-Datei (Certificate Signing Request) an und geben Sie die erforderlichen Informationen (Land, Bundesland, Stadt, Organisationsname, Name der Organisationseinheit usw.) zum Adobe an.
-1. Überprüfen Sie die vom Adobe generierte CSR-Datei und stellen Sie sicher, dass alle von Ihnen angegebenen Informationen korrekt sind.
+1. Fordern Sie eine CSR-Datei (Certificate Signing Request) an und stellen Sie Adobe die erforderlichen Informationen (Land, Bundesland, Stadt, Organisationsname, Name der Organisationseinheit usw.) bereit.
+1. Überprüfen Sie die von Adobe generierte CSR-Datei und stellen Sie sicher, dass alle von Ihnen angegebenen Informationen korrekt sind.
 1. Verwenden Sie die CSR-Details, um ein Zertifikat zu generieren, das von einer vertrauenswürdigen Zertifizierungsstelle signiert <!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
 1. Validieren Sie das SSL-Zertifikat und überprüfen Sie, ob es mit der CSR übereinstimmt.
-1. Geben Sie das SSL-Zertifikat an Adobe, der es installieren wird.
+1. Stellen Sie das SSL-Zertifikat an Adobe bereit, der es installieren wird.
 1. Testen Sie, ob das SSL-Zertifikat für jede gesicherte Subdomain erfolgreich installiert wurde.
 1. Überwachen des Gültigkeitszeitraums des SSL-Zertifikats.
 1. Aktualisieren Sie alle spezifischen Konfigurationen in Adobe Campaign.
@@ -70,7 +70,7 @@ Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-D
 Sie müssen die Domain-Namen und die Funktionen (Tracking, Mirror-Seiten, WebApps usw.) identifizieren, um zu sichern.
 >[!NOTE]
 >
->Adobe kann bei der Definition der Domain-Namen und Funktionen helfen, die einbezogen werden sollen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
+>Adobe kann bei der Definition der Domain-Namen und der einzubeziehenden Funktionen helfen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
 
 ### Schritt 1: CSR-Datei abrufen
 
@@ -83,7 +83,7 @@ Gehen Sie wie folgt vor, um eine CSR-Datei (Certificate Signing Request) zu erha
 Im Folgenden finden Sie Best Practices:
 
 * Eine Anfrage pro delegierter Subdomain auslösen.
-* Es ist möglich, mehrere Subdomains in einer CSR-Anfrage zu kombinieren, jedoch nur innerhalb derselben Umgebung. In Campaign Classic sind der Marketing-Server, der [Mid-Sourcing-Server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html?lang=de) und die [Ausführungsinstanz](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html?lang=de#execution-instance) beispielsweise drei separate Umgebungen.
+* Es ist möglich, mehrere Subdomains in einer CSR-Anfrage zu kombinieren, jedoch nur innerhalb derselben Umgebung. In Campaign Classic sind der Marketing-Server, der [Mid-Sourcing-Server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html) und die [Ausführungsinstanz](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) beispielsweise drei separate Umgebungen.
 * Sie müssen vor jeder Verlängerung eines SSL-Zertifikats eine neue CSR erhalten. Verwenden Sie keine alte CSR-Datei aus einem Jahr oder länger.
 
 Sie müssen die folgenden Informationen angeben.
@@ -92,26 +92,26 @@ Sie müssen die folgenden Informationen angeben.
 >
 >Alle in den nachstehenden Tabellen angegebenen Felder müssen ausgefüllt werden. Andernfalls kann die CSR-Anfrage nicht verarbeitet werden.
 
-**Informationen, die mithilfe des Adobe-Teams bereitzustellen sind:**
+**Informationen, die mithilfe des Adobe-Teams bereitgestellt werden müssen:**
 
 | Zu liefernde Informationen | Beispielwert | Hinweis |
 |--- |--- |--- |
-| Client-Name | Meine Firma Inc. | Name Ihres Unternehmens. Dieses Feld wird von Adobe für die Verfolgung Ihrer Anfrage verwendet (es ist nicht Teil des CSR/SSL-Zertifikats). |
+| Client-Name | Meine Firma Inc. | Name Ihres Unternehmens. Dieses Feld wird von Adobe zum Tracking Ihrer Anfrage verwendet (es ist nicht Teil des CSR/SSL-Zertifikats). |
 | Adobe Campaign-Umgebungs-URL | https://client-mid-prod1.campaign.adobe.com | Adobe Campaign-Instanz-URL. |
 | Allgemeiner Name [CN] | t.subdomain.customer.com | Dabei kann es sich um eine beliebige Domain handeln, normalerweise jedoch um die Tracking-Domain. |
 | Alternativer Antragstellername [SAN] | t.subdomain.customer.com | Stellen Sie sicher, dass Sie die Tracking-Subdomain als SAN einbeziehen. |
-| Alternativer Antragstellername [SAN] | m.subdomain.customer.com |
-| Alternativer Antragstellername [SAN] | res.subdomain.customer.com |
+| Alternativer Antragstellername [SAN] | m.subdomain.customer.com | |
+| Alternativer Antragstellername [SAN] | res.subdomain.customer.com | |
 
 **Informationen, die von Ihrem internen IT-/SSL-Team bereitzustellen sind:**
 
 | Zu liefernde Informationen | Beispielwert | Hinweis |
 |--- |--- |--- |
-| Land [c] | USA | Dies muss ein Code mit zwei Buchstaben sein. Vollständige Liste der Länder [hier](https://www.ssl.com/csrs/country_codes/).</br>*Hinweis: Für das Vereinigte Königreich verwenden Sie GB (nicht UK).* |
+| Land [c] | US | Dies muss ein Code mit zwei Buchstaben sein. Vollständige Liste der Länder [hier](https://www.ssl.com/csrs/country_codes/).</br>*Hinweis: Für das Vereinigte Königreich verwenden Sie GB (nicht UK).* |
 | Bundesland (oder Provinzname) [ST] | Illinois | Falls zutreffend. Der Wert muss ein vollständiger Name sein, nicht abgekürzt. |
-| Stadt-/Ortsname [L] | Chicago |
-| Organisationsname [o] | KUPPEL |
-| Name der Organisationseinheit [OU] | IT |
+| Stadt-/Ortsname [L] | Chicago | |
+| Organisationsname [o] | KUPPEL | |
+| Name der Organisationseinheit [OU] | IT | |
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Sie müssen die folgenden Informationen angeben.
 
 ### Schritt 2: Validieren der CSR-Datei
 
-Nachdem Sie Ihre Anfrage mit den entsprechenden Informationen gesendet haben, generiert Adobe eine CSR-Datei (Certificate Signing Request), die Sie über das Zertifikat erhalten.
+Nachdem Sie Ihre Anfrage mit den entsprechenden Informationen gesendet haben, generiert Adobe eine CSR-Datei (Certificate Signing Request), die Sie über die Datei erhalten.
 
 Der Text in der resultierenden CSR-Datei muss mit &quot;**-----BEGIN CERTIFICATE REQUEST-----&quot;**.
 
-Nachdem Sie die CSR-Datei vom Adobe erhalten haben, führen Sie die folgenden Schritte aus:
+Nachdem Sie die CSR-Datei von Adobe erhalten haben, führen Sie die folgenden Schritte aus:
 
 1. Kopieren Sie den Text der CSR-Datei und fügen Sie ihn in einen Online-Decoder ein, z. B. https://www.sslshopper.com/csr-decoder.html, <!--https://www.certlogik.com/decoder/,--> oder https://www.entrust.net/ssl-technical/csr-viewer.cfm.
 Alternativ können Sie den Befehl *OpenSSL* lokal auf einem Linux-Computer verwenden.
@@ -140,7 +140,7 @@ Sobald die CSR-Datei bereitgestellt wurde, müssen Sie mithilfe der CSR-Datei ei
    * sollte nicht länger als 2048 Bit sein;
    * muss von einer gültigen Zertifizierungsstelle (Certification Authority) unterzeichnet sein;
    * muss alle SANs (Subject Alternative Names) enthalten, die in der CSR-Datei erwähnt werden.
-* Wenn ein oder mehrere Zwischenzertifikate vorhanden sind, müssen Sie das Stammzertifikat und alle Zwischenzertifikate auf Adobe angeben.
+* Wenn mindestens ein Zwischenzertifikat vorhanden ist, müssen Sie das Stammzertifikat und alle Zwischenzertifikate für Adobe bereitstellen.
 * Sie können einen beliebigen Gültigkeitszeitraum für das Zertifikat festlegen, aber Adobe empfiehlt, ihn lange genug auszuwählen (z. B. zwei Jahre).
 
 >[!NOTE]
@@ -162,7 +162,7 @@ Alternativ können Sie den Befehl *OpenSSL* lokal auf einem Linux-Computer verwe
 
 * Wenn Sie Zugriff auf das [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) haben, befolgen Sie die Anweisungen auf [dieser Seite](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate), um das Zertifikat in das Control Panel hochzuladen.
 
-* Erstellen Sie andernfalls über https://adminconsole.adobe.com/ ein weiteres Support-Ticket, um Adobe zur Installation des Zertifikats auf den Adobe-Servern anzufordern.
+* Erstellen Sie andernfalls ein weiteres Support-Ticket über https://adminconsole.adobe.com/ , um Adobe anzufordern, das Zertifikat auf den Adobe-Servern zu installieren.
 
 Sie müssen Folgendes angeben:
 
@@ -174,7 +174,7 @@ Sie müssen Folgendes angeben:
 
 Nachdem das SSL-Zertifikat installiert und von der Adobe-Kundenunterstützung bestätigt wurde, stellen Sie sicher, dass es für alle URLs erfolgreich installiert wurde.
 
-Führen Sie die folgenden Tests durch, bevor Sie das SSL-Installationsticket schließen. Stellen Sie außerdem sicher, dass Sie jede spezifische Konfiguration aktualisieren, wie in [diesem Abschnitt) &#x200B;](#update-configuration).
+Führen Sie die folgenden Tests durch, bevor Sie das SSL-Installationsticket schließen. Stellen Sie außerdem sicher, dass Sie jede spezifische Konfiguration aktualisieren, wie in [diesem Abschnitt) ](#update-configuration).
 
 Navigieren Sie zu den folgenden URLs in Ihrem Browser (ersetzen Sie „subdomain.customer.com“ durch Ihre Subdomain):
 
@@ -199,7 +199,7 @@ Es liegt in Ihrer Verantwortung, den Gültigkeitszeitraum zu überprüfen. Adobe
 
 * Erstellen Sie ein Support-Ticket, um mindestens zwei Wochen vor Ablauf des Zertifikats ein aktualisiertes Zertifikat anzufordern. Sie müssen keine zusätzliche CSR anfordern, es sei denn, die CSR-Details wurden geändert.
 
-* Wenn Sie Zugriff auf das [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) haben und Ihre Umgebung von Adobe in einer AWS-Umgebung gehostet wird, können Sie das Zertifikat über das Control Panel verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de#monitoring-certificates).
+* Wenn Sie Zugriff auf das [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=de) haben und Ihre Umgebung von Adobe in einer AWS-Umgebung gehostet wird, können Sie das Zertifikat über das Control Panel verlängern, bevor es abläuft. Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
 ### Schritt 8: Aktualisieren einer bestimmten Konfiguration {#update-configuration}
 
@@ -207,7 +207,7 @@ Sobald Sie sicher sind, dass die angeforderten SSL-Zertifikate ordnungsgemäß i
 
 >[!NOTE]
 >
->Beim Campaign Classic befinden sich die zu aktualisierenden URLs hauptsächlich im [Bereitstellungsassistenten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html?lang=de#deployment-wizard) und in [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=de) (Tracking, Mirrorseite und öffentliche Ressourcendomänen). Weitere Informationen zum Campaign Standard finden Sie unter [Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html?lang=de#about-brand-identity).
+>Bei Campaign Classic befinden sich die zu aktualisierenden URLs hauptsächlich im [Bereitstellungsassistenten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) und in [Externe Konten](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=de) (Tracking, Mirrorseite und öffentliche Ressourcendomänen). Informationen zu Campaign Standard finden Sie unter [Branding-Konfiguration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Sobald die Konfigurationen aktualisiert wurden, werden neue E-Mails mit HTTPS-URLs und nicht mit HTTP gesendet. Um zu überprüfen, ob die URLs jetzt sicher sind, können Sie die folgenden Tests schnell durchführen:
 
@@ -218,8 +218,8 @@ Sobald die Konfigurationen aktualisiert wurden, werden neue E-Mails mit HTTPS-UR
 
 **Campaign Classic**
 
-* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
+* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
 
 **Campaign Standard**
 
-* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
+* [Control Panel: Hinzufügen von SSL-Zertifikaten (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Erfahren Sie, wie Sie SSL-Zertifikate hinzufügen, um Ihre Subdomains zu schützen.
