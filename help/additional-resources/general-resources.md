@@ -1,15 +1,15 @@
 ---
-title: Zusätzliche Ressourcen
+title: Weitere Ressourcen
 description: In diesem Abschnitt finden Sie eine Reihe zusätzlicher Ressourcen zur Zustellbarkeit.
 topics: Deliverability
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 31%
+source-wordcount: '124'
+ht-degree: 32%
 
 ---
 
@@ -33,13 +33,14 @@ In diesem Abschnitt werden einige zusätzliche Ressourcen zur Zustellbarkeit auf
 * [Echtzeit-Blackhole-Listen](../../help/additional-resources/blocklist-databases.md)
 * [Fehlerbehebung](../../help/additional-resources/troubleshooting.md)
 
-  <!--
-    [IP Certification](../../help/additional-resources/ip-certification.md)
-    [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
+<!--
+[IP Certification](../../help/additional-resources/ip-certification.md)
+[Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
+-->
 
 ## Produktspezifische Ressourcen
 
-Darüber hinaus finden Sie in diesem Abschnitt eine Reihe produktspezifischer Ressourcen, die Ihnen bei der Implementierung der Zustellbarkeit und dem erfolgreichen Einsatz Ihrer Adobe-Lösungen helfen.
+Darüber hinaus werden in diesem Abschnitt eine Reihe produktspezifischer Ressourcen aufgelistet, die Sie bei der Implementierung der Zustellbarkeit und der erfolgreichen Verwendung Ihrer Adobe-Lösungen unterstützen.
 
 **[!DNL Adobe Campaign]**
 

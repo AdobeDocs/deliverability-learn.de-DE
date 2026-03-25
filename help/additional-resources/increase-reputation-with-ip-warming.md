@@ -6,28 +6,31 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
-workflow-type: ht
-source-wordcount: '1582'
-ht-degree: 100%
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 78%
 
 ---
 
 # E-Mail-Reputation mit IP-Warming verbessern
 
-<!--Increase your email reputation with IP warming
+<!--
+Increase your email reputation with IP warming
 
 ## IP Warming overview
 
-In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you’ve never been a part of such a project, you may have a lot of questions about it. Let’s get down to the details!-->
+In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you've never been a part of such a project, you may have a lot of questions about it. Let's get down to the details!
+-->
 
 ## Erste Schritte
 
 Adobe verlangt von seinen Kunden, dass sie Adobe ihre Konfiguration übermitteln, um dem Adobe Zustellbarkeitsteam zu ermöglichen, ihr individuelles Programm zu verstehen. Die von uns gestellten Fragen dienen dazu, dem Adobe Zustellbarkeitsteam Einblicke in Ihre Versandreputation und Ihr E-Mail-Volumen zu gewähren. Ohne ein konkretes Verständnis Ihres Geschäftsmodells, Ihrer E-Mail-Marketing-Ziele und Ihrer Reputationsmetriken können wir die Strategie nicht anpassen und es besteht die Gefahr von Zustellbarkeitsproblemen.
 
-Zu Beginn werden Ihnen eigene IP-Adressen (Internet Protocol) zugewiesen. Im Zusammenhang mit dem E-Mail-Versand ist eine IP-Adresse die Route, über die Ihre E-Mail-Nachrichten an Ihre Kunden gesendet werden. IP-Adressen und Domains werden verwendet, um Absender in einem Netzwerk gegenüber den empfangenden Internet-Dienstleistern (ISP – Internet Service Provider) zu identifizieren. Adobe weist die entsprechende Anzahl dedizierter IP-Adressen für den E-Mail-Versand auf der Basis Ihres Versandvolumens, Ihrer E-Mail-Programme, Ihrer Datensegmentierungsverfahren und Ihres Vertrags zu.
+Zu Beginn werden Ihnen Ihre eigenen dedizierten IP-Adressen (Internet Protocol) zugewiesen. Im Zusammenhang mit dem E-Mail-Versand ist eine IP-Adresse die Route, über die Ihre E-Mail-Nachrichten an Ihre Kunden gesendet werden. IP-Adressen und Domains werden verwendet, um Absender in einem Netzwerk gegenüber den empfangenden Internet-Dienstleistern (ISP – Internet Service Provider) zu identifizieren. Adobe weist die entsprechende Anzahl dedizierter IP-Adressen für den E-Mail-Versand auf der Basis Ihres Versandvolumens, Ihrer E-Mail-Programme, Ihrer Datensegmentierungsverfahren und Ihres Vertrags zu.
 
 **Verwandte Themen:**
+
 * [Reibungsloser Wechsel zwischen E-Mail-Plattformen](../../help/transition-process/switching-email-platforms.md)
 * [IP-Strategie](../../help/transition-process/infrastructure.md#ip-strategy)
 * [ISP-spezifische Überlegungen beim IP-Warming](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
@@ -40,17 +43,17 @@ ISPs untersuchen sorgfältig das Versandvolumen, die Versandhäufigkeit, Beschwe
 
 Natürlich benötigt dieser Untersuchungsprozess dieser Datenpunkte Zeit und kann nicht in ein oder zwei Tagen durchgeführt werden. Reputation wird im Laufe der Zeit aufgebaut. Dieser Vorgang ist damit vergleichbar, einen Fremden in Ihr Haus zu lassen. Hätten Sie Bedenken, wenn jemand, den Sie nicht kennen, Ihr Haus betritt?
 
-Sehr wahrscheinlich lautet die Antwort „ja“. Sie würden diese Person und ihre Beweggründe genauer betrachten wollen. Könnte sie Schaden anrichten? Stellt sie eine Bedrohung dar? ISPs tun dasselbe, um ihr Netzwerk vor bösartigem oder unerwünschtem Traffic zu schützen. Positive Reputationsmetriken verhelfen Ihnen zu einem erfolgreichen IP-Warming-Prozess. Deshalb betonen wir, wie wichtig es ist, mit dem Versenden kleiner E-Mail-Volumina und dem Versand an Ihre aktivsten Kunden zu beginnen. Weitere Informationen hierzu finden Sie unter [Targeting-Kriterien beim Senden von neuem Traffic](/help/transition-process/targeting-criteria.md).
+Sehr wahrscheinlich lautet die Antwort „ja“. Sie würden diese Person und ihre Beweggründe genauer betrachten wollen. Könnte sie Schaden anrichten? Stellt sie eine Bedrohung dar? ISPs tun dasselbe, um ihr Netzwerk vor bösartigem oder unerwünschtem Traffic zu schützen. Positive Reputationsmetriken verhelfen Ihnen zu einem erfolgreichen IP-Warming-Prozess. Deshalb betonen wir, wie wichtig es ist, mit dem Versand kleiner E-Mail-Volumina und dem Versand an Ihre aktivsten Kunden zu beginnen. Weitere Informationen hierzu finden Sie unter [Targeting-Kriterien beim Senden von neuem Traffic](/help/transition-process/targeting-criteria.md).
 
-Das Versenden großer Mengen von E-Mails von einer oder mehreren brandneuen IP-Adressen gleich zu Beginn ist eine schlechte Praxis und wird Ihnen wahrscheinlich einige Schwierigkeiten bei der Zustellbarkeit bereiten. Es ist wichtig zu beachten, dass, selbst wenn Sie mit dem Versenden von kleinen Volumina beginnen und diese, wie empfohlen, allmählich erhöhen, es immer noch notwendig ist, die Best Practices für E-Mails zu befolgen.
+Das Versenden großer Mengen von E-Mails von einer oder mehreren brandneuen IP-Adressen gleich zu Beginn ist eine schlechte Praxis und wird Ihnen wahrscheinlich einige Schwierigkeiten bei der Zustellbarkeit bereiten. Es ist wichtig zu beachten, dass, auch wenn Sie mit dem Versenden kleiner Volumina beginnen und diese, wie empfohlen, allmählich erhöhen, es immer noch notwendig ist, die Best Practices für E-Mails zu befolgen.
 
 ![](../../help/assets/ip-warming-volume-trend.png)
 
 ## Erlaubnis zum Senden einer E-Mail (explizites Opt-In)
 
-Dies ist die wichtigste Komponente beim Verwalten und Vergrößern einer E-Mail-Abonnentenliste. Da Anti-Spam-Gesetze immer strikter werden und auf internationaler Ebene zunehmen, sollte ein Marketer darauf achten, die ausdrückliche Zustimmung von jedem Abonnenten in seiner Liste erhalten zu haben. Das heißt, jeder Abonnent hat aktiv zugestimmt, E-Mails von Ihrer Marke zu erhalten. Dies unterscheidet sich von der impliziten Zustimmung, bei der eine Person in eine E-Mail-Liste aufgenommen wird, nachdem sie eine Aktion durchgeführt hat, die nicht die explizite Anmeldung für ein E-Mail-Programm war.
+Dies ist die wichtigste Komponente beim Verwalten und Vergrößern einer E-Mail-Abonnentenliste. Da Anti-Spam-Gesetze immer mehr zunehmen und international immer umfassender werden, sollte es der primäre Fokus eines Marketing-Experten sein, sicherzustellen, dass er von jedem Abonnenten auf seiner Liste die ausdrückliche Zustimmung erhalten hat. Das heißt, jeder Abonnent hat aktiv zugestimmt, E-Mails von Ihrer Marke zu erhalten. Dies unterscheidet sich von der impliziten Zustimmung, bei der eine Person in eine E-Mail-Liste aufgenommen wird, nachdem sie eine Aktion durchgeführt hat, die nicht die explizite Anmeldung für ein E-Mail-Programm war.
 
-Weitere Informationen finden Sie in den [Richtlinien von Adobe zur akzeptablen Nutzung](https://www.adobe.com/de/legal/terms/aup.html).
+Erfahren Sie mehr über die Richtlinie zur akzeptablen Nutzung von [Adobe](https://www.adobe.com/de/legal/terms/aup.html).
 
 ## Reputationsmetriken: Wonach suchen ISPs?
 
@@ -65,9 +68,9 @@ Einige der untersuchten Datenpunkte sind:
 
 ISPs verlangen spezifische technische Konfigurationen, die mit ihren Richtlinien und Best Practices übereinstimmen. Adobe konfiguriert Ihre IP-Adressen und delegierten Subdomains, um Sie als verantwortlichen und vertrauenswürdigen Absender zu identifizieren. Dies wird [E-Mail-Authentifizierung](/help/transition-process/infrastructure.md#authentication) genannt. Die Authentifizierung hilft den Empfängern zu überprüfen, ob ein Absender die nötigen Rechte hat, um von einer IP-Adresse oder Domain zu senden.
 
-Die Authentifizierung ermöglicht es den ISPs festzustellen, ob ein Unternehmen, das von einer Domain oder IP-Adresse sendet, das Recht dazu hat. Dies dient im Wesentlichen zum Nachweis Ihrer Identität. Es soll sichergestellt werden, dass Sie nicht vorgeben, jemand anderes zu sein, und dass jemand anderes nicht vorgibt, Sie zu sein.
+Die Authentifizierung ermöglicht es den ISPs festzustellen, ob ein Unternehmen, das von einer Domain oder IP-Adresse sendet, das Recht dazu hat. Sie dient im Wesentlichen dazu, eure Identität zu beweisen und sicherzustellen, dass ihr nicht vorgibt, jemand anderes zu sein, und dass jemand anders nicht vorgibt, ihr zu sein.
 
-Bei Adobe werden SPF und DKIM standardmäßig konfiguriert und DMARC wird auf Anfrage konfiguriert. ISPs verwenden SPF und DKIM als die primären Formen der Authentifizierung. Viele ISPs beziehen auch DMARC (Domain-based Message Authentication, Reporting &amp; Conformance – Domain-basierte Nachrichtenauthentifizierung, Reporting und Konformität) in ihre Filterentscheidungen mit ein. Nicht authentifizierte E-Mails werden nicht unbedingt blockiert, aber sie durchlaufen eine zusätzliche Filterung.
+Bei Adobe werden SPF und DKIM standardmäßig konfiguriert und DMARC wird auf Anfrage konfiguriert. ISPs verwenden SPF und DKIM als die primären Formen der Authentifizierung. Viele ISPs beziehen auch DMARC (Domain-based Message Authentication, Reporting &amp; Conformance – Domain-basierte Nachrichtenauthentifizierung, Reporting und Konformität) in ihre Filterentscheidungen mit ein. Nicht authentifizierte E-Mails werden nicht unbedingt blockiert, durchlaufen jedoch zusätzliche Filter.
 
 ## IP-Warming: Was Sie erwarten können
 
@@ -75,7 +78,7 @@ Bei Adobe werden SPF und DKIM standardmäßig konfiguriert und DMARC wird auf An
 
 Spammer verwenden ständig neue IP-Adressen. Sie verbrauchen einen Pool von IP-Adressen, bis sie blockiert werden, und wiederholen den Vorgang mit einem anderen Pool von IP-Adressen. Daher behandeln ISPs den Traffic, der von neuen IP-Adressen gesendet wird, mit Vorsicht. Sie blockieren IP-Adressen, die große Mengen an E-Mails versenden, weil sie vermuten, dass es sich dabei um bösartige Aktivitäten von Spammern handelt.
 
-Daher ist es nicht ungewöhnlich, dass Nachrichten verzögert oder gedrosselt werden, wenn Sie beginnen, Nachrichten über eine neue IP-Adresse zu senden. Nach einigen weiteren Zustellversuchen wird die Nachricht in der Regel akzeptiert und zugestellt.
+Daher ist es nicht ungewöhnlich, dass Nachrichten verzögert oder gedrosselt werden, wenn Sie mit dem Versenden von Nachrichten über Ihre neuen IP-Adressen beginnen. Nach einigen weiteren Zustellversuchen wird die Nachricht in der Regel akzeptiert und zugestellt.
 
 Es kann einige Tage dauern, bis normaler Traffic über die ISPs verläuft, die E-Mails von neuen Absendern verzögern. Hören Sie trotzdem nicht auf, E-Mails zu versenden – konzentrieren Sie sich weiterhin auf den Versand an Ihre aktivsten E-Mail-Abonnenten.
 
@@ -85,15 +88,15 @@ Denken Sie daran, dass Konsistenz hier der entscheidende Faktor ist. Unregelmä�
 
 ### Beschwerden
 
-[Beschwerden](/help/metrics/complaints.md) treten auf, wenn ein Abonnent eine E-Mail über sein E-Mail-Programm als Spam kennzeichnet. Als Folge wird der ISP von der Beschwerde benachrichtigt. Wenn mehrere dieser Beschwerden beim ISP eingehen, wird dieser Maßnahmen ergreifen, um seine Kunden zu schützen. Möglicherweise wird er viele E-Mails blockieren, damit sie nicht zu den Abonnenten gelangen, oder einen Teil der E-Mails in den Bulk-Ordner und nicht in die Posteingänge der Abonnenten leiten. Wenn Ihr Zustellungsproblem durch Beschwerden verursacht wird, ist es wichtig herauszufinden, warum sich die Empfänger beschweren.
+[Beschwerden](/help/metrics/complaints.md) treten auf, wenn ein Abonnent eine E-Mail über sein E-Mail-Programm als Spam kennzeichnet. Als Folge wird der ISP von der Beschwerde benachrichtigt. Wenn mehrere dieser Beschwerden beim ISP eingehen, wird dieser Maßnahmen ergreifen, um seine Kunden zu schützen. Möglicherweise wird er viele E-Mails blockieren, damit sie nicht zu den Abonnenten gelangen, oder einen Teil der E-Mails in den Bulk-Ordner und nicht in die Posteingänge der Abonnenten leiten. Wenn Ihr Versandproblem durch Beschwerden verursacht wird, ist es wichtig festzustellen, warum sich die Empfänger beschweren.
 
-Abonnenten beschweren sich aus verschiedenen Gründen. Manchmal möchte ein Abonnent keine weiteren E-Mails von Ihnen erhalten, vielleicht weil er das Gefühl hat, zu viele Nachrichten zum gleichen Thema zu bekommen, er die Nachricht nicht erwartet hat oder sich nicht daran erinnern kann, sich für den Erhalt Ihrer E-Mails angemeldet zu haben.
+Abonnenten beschweren sich aus verschiedenen Gründen. Manchmal möchte ein Abonnent keine weiteren E-Mails von Ihnen erhalten, vielleicht weil er das Gefühl hat, zu viele Nachrichten zum gleichen Thema zu erhalten, er die Nachricht nicht erwartet hat oder sich nicht daran erinnern kann, sich für den Erhalt Ihrer E-Mails angemeldet zu haben.
 
 ### Datengültigkeit
 
-Hardbounces treten auf, wenn Sie bei einem ISP Nachrichten an eine nicht zustellbare Adresse senden. Eine Adresse kann aus vielen Gründen unzustellbar sein, z. B. durch einen Tippfehler bei der Eingabe der Adresse oder durch das Versenden von E-Mails an eine Adresse, die früher aktiv war, aber nach einer gewissen Zeit der Inaktivität deaktiviert wurde.
+Hardbounces treten auf, wenn Sie bei einem ISP Nachrichten an eine nicht zustellbare Adresse senden. Eine Adresse kann aus vielen Gründen unzustellbar sein, z. B. durch einen Tippfehler bei der Eingabe der Adresse oder durch das Versenden von E-Mails an eine Adresse, die früher aktiv war, aber nach einer gewissen Zeit der Inaktivität beendet wurde.
 
-Wenn Sie eine hohe Anzahl von Hardbounces verzeichnen, sollten Sie die Ursache untersuchen. Überprüfen Sie, wie die Adressen erfasst wurden, und vergewissern Sie sich, dass die Erlaubnis erteilt wurde. Manchmal schließen Personen ihr E-Mail-Konto und benachrichtigen nicht diejenigen, die diese Adresse in ihrer Marketing-Liste haben.
+Wenn Sie eine hohe Anzahl von Hardbounces feststellen, müssen Sie wissen, warum dies so ist. Überprüfen Sie, wie die Adressen erfasst wurden, und vergewissern Sie sich, dass die Erlaubnis erteilt wurde. Manchmal schließen Personen ihr E-Mail-Konto und benachrichtigen nicht diejenigen, die diese Adresse auf ihrer Marketing-Liste haben.
 
 ### Interaktion
 
@@ -107,11 +110,11 @@ Weitere Informationen über [Interaktionen](/help/engagement.md).
 
 Sie könnten versucht sein, den Prozess des IP-Warmings zu überstürzen, indem Sie mehr als das empfohlene Volumen versenden, sich nicht die Zeit nehmen, Ihre aktivsten Abonnenten zu identifizieren, und es verabsäumen, diese Abonnenten zuerst anzuschreiben, um eine positive Reputation aufzubauen. Widerstehen Sie dieser Versuchung! Langfristig erzielen Sie dadurch keine Vorteile.
 
-Es ist sehr wichtig, dass Sie mit dem Versenden von E-Mails an Abonnentinnen und Abonnenten, die hochgradig interaktiv sind (per E-Mail), nur in den Anfangsstadien des IP-Warmings beginnen. Diese Kunden sind Ihre wertvollsten Kontakte und deren Bereitschaft, Ihre E-Mails zu öffnen, wird ISPs zeigen, dass Sie ein Marketer sind, der E-Mails versendet, die interessant sind und gern gelesen werden. Außerdem erkennen ISPs dadurch, dass Sie sich an die Regeln halten und Best Practices befolgen.
+Es ist sehr wichtig, mit dem Versenden von E-Mails mit hoher Interaktion zu beginnen (per E-Mail!). Abonnenten nur zu Beginn des IP-Warmings. Diese Kunden sind Ihre wertvollsten Kontakte, und ihre Bereitschaft, Ihre E-Mails zu öffnen, wird ISPs zeigen, dass Sie ein Marketer sind, der E-Mails versendet, die interessant und begehrt sind. Außerdem erkennen ISPs dadurch, dass Sie sich an die Regeln halten und Best Practices befolgen.
 
 ## Zusammenfassung
 
-Denken Sie daran: IP-Warming ist ein Marathon – kein Sprint! Obwohl der Prozess mühsam und zeitaufwendig erscheinen mag, wäre es mit mehr Arbeit verbunden, eine Reputation wiederherzustellen, die durch die Nichtbeachtung bewährter Best Practices beim E-Mail-Versand beschädigt wurde.
+Denken Sie daran: IP-Warming ist ein Marathon – kein Sprint!  Obwohl der Prozess mühsam und zeitaufwendig erscheinen mag, wäre es mit mehr Arbeit verbunden, eine Reputation wiederherzustellen, die durch die Nichtbeachtung bewährter Best Practices beim E-Mail-Versand beschädigt wurde.
 
 Je besser Ihre Versandpraktiken und je höher Ihre Reputationswerte bei ISPs sind, desto wahrscheinlicher ist es, dass Ihre E-Mails zugestellt werden. Das IP-Warming und die Anlaufphase sowie das Befolgen der Best Practices für die Konzeption Ihrer E-Mail-Kampagnen tragen zur Optimierung der Zustellung in den Posteingang bei.
 
