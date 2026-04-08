@@ -11,8 +11,8 @@ level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
-workflow-type: tm+mt
-source-wordcount: '854'
+workflow-type: ht
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ Hier einige wichtige Faktoren für die Konversion:
 * Alle oben genannten Punkte
 * Weiterleitung von der E-Mail über eine funktionierende URL zu einer Landingpage oder Verkaufsseite
 * Landingpage-Erlebnis
-* Markenbekanntheit, -wahrnehmung und -loyalität
+* Markenbekanntheit, -wahrnehmung und -treue
 
 ### Mögliche Auswirkungen auf den Umsatz
 

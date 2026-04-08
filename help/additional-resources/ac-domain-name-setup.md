@@ -7,9 +7,9 @@ activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
-workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '2107'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe se
 | Option | Beschreibung | Zuständigkeiten von Adobe | Zuständigkeiten des Kunden |
 |--- |------- |--- |--- |
 | Zuweisen einer Subdomain an Adobe Campaign | Der Kunde delegiert eine Subdomain (email.example.com) an Adobe. In diesem Szenario kann Adobe eine Kampagne als Managed Service bereitstellen, indem alle Aspekte des DNS, die für den Versand, das Rendern und das Tracking von E-Mail-Kampagnen erforderlich sind, kontrolliert und verwaltet werden. | Vollständige Verwaltung der Subdomain und aller für Adobe Campaign erforderlichen DNS-Einträge. | Ordnungsgemäße Zuweisung der Subdomain an Adobe |
-| Verwenden von CNAMEs | Der Kunde erstellt eine Subdomain und verwendet CNAMEs, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich. | Verwalten der für Adobe Campaign erforderlichen DNS-Einträge. | Erstellen und Steuern der Subdomain und Erstellen/Verwalten der für Adobe Campaign erforderlichen CNAME-Einträge. |
+| Verwenden von CNAMEs | Der Kunde erstellt eine Subdomain und verwendet CNAMEs, um auf Adobe-spezifische Einträge zu verweisen.  Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich. | Verwalten der für Adobe Campaign erforderlichen DNS-Einträge. | Erstellen und Steuern der Subdomain und Erstellen/Verwalten der für Adobe Campaign erforderlichen CNAME-Einträge. |
 
 ## Erforderliche DNS-Einträge
 
@@ -55,7 +55,7 @@ Um einen Cloud-basierten Managed Service anbieten zu können, empfiehlt Adobe se
 | SPF (TXT) | Sender Policy Framework | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM (TXT) | DomainKeys Identified Mail (mit DomainKeys identifizierte E-Mail) | <i>client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
 | Einträge auf Hosts (A) | Mirrorseiten, Bild-Hosting und Tracking-Links, alle sendenden Domains | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
-| Umgekehrtes DNS (PTR) | Ordnet die IP-Adressen des Kunden einem Host-Namen unter dem Markennamen des Kunden zu | 18.101.100.192.in-addr.arpa domain name pointer r18.email.example.com |
+| Umgekehrtes DNS (PTR) | Ordnet die IP-Adressen des Kunden einem Host-Namen unter dem Markennamen des Kunden zu | 18.101.100.192.in-addr.arpa-Domain-Namen-Pointer r18.email.example.com |
 | CNAME | Stellt einen Alias für einen anderen Domain-Namen bereit | t1.email.example.com ist ein Alias für t1.email.example.campaign.adobe.com |
 
 
@@ -96,7 +96,7 @@ Wenn sich der Kunde für die Verwendung von CNAMEs entscheidet, anstatt eine Sub
 
 Bei der Implementierung einer neuen Enterprise-Marketing-Lösung gibt es Anforderungen an die nach außen gerichteten Komponenten.  Dazu gehören das Hosten von Landingpages und Web-Formularen, das Einrichten von Links und Websites, die getrackt werden sollen, das Anzeigen von Mirrorseiten und das Konfigurieren einer Opt-out-Seite.
 
-Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfänger der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.  Wenn man z. B. eine URL wie http://www.customer.com/ betrachtet, würde die Domain „www.customer.com“ lauten.  Die Subdomain davon wäre „www“.
+Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfangenden der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.  Wenn man z. B. eine URL wie http://www.kunde.com/ betrachtet, würde die Domain „www.kunde.com“ lauten.  Die Subdomain davon wäre „www“.
 
 ### Anforderungen an Subdomains
 
@@ -111,7 +111,7 @@ Füllen Sie die folgende Tabelle aus. Die erste Zeile ist nur ein Beispiel.
 
 >[!NOTE]
 >
->* Das Feld „Antwortadresse“ wird benötigt, wenn Sie möchten, dass der Empfänger an eine andere Adresse als die Absenderadresse antwortet.  Obwohl es sich nicht um ein Pflichtfeld handelt, empfiehlt Adobe dringend, dass die Antwortadresse gültig und mit einer überwachten Mailbox verknüpft ist.  Diese Mailbox muss vom Kunden gehostet werden.  Das kann etwa eine Support-Mailbox sein, z. B. customercare@customer.com, in der E-Mails gelesen und beantwortet werden.
+>* Das Feld „Antwortadresse“ wird benötigt, wenn Sie möchten, dass Empfangende an eine andere Adresse als die Absenderadresse antworten.  Obwohl es sich nicht um ein Pflichtfeld handelt, empfiehlt Adobe dringend, dass die Antwortadresse gültig und mit einer überwachten Mailbox verknüpft ist.  Diese Mailbox muss vom Kunden gehostet werden.  Das kann etwa eine Support-Mailbox sein, z. B. customercare@customer.com, in der E-Mails gelesen und beantwortet werden.
 >* Wird vom Kunden keine Antwortadresse ausgewählt, ist die Standardadresse immer `<tenant>-<type>-<env>@<subdomain>`.
 >* Wenn die Antwortadresse auf diese Weise eingerichtet ist, werden Antworten an eine nicht überwachte Mailbox gesendet.
 >* Wenn E-Mails aus Adobe Campaign versendet werden, wird die Mailbox der Absenderadresse nicht überwacht und Marketing-Benutzer können nicht auf diese Mailbox zugreifen. Adobe Campaign bietet auch nicht die Möglichkeit, die in dieser Mailbox empfangenen E-Mails automatisch zu beantworten oder weiterzuleiten.
@@ -119,7 +119,7 @@ Füllen Sie die folgende Tabelle aus. Die erste Zeile ist nur ein Beispiel.
 
 ## Zuweisen von Subdomains
 
-Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, müssen delegiert werden, indem vier Nameserver-Einträge (NS) erstellt werden.  Dadurch kann die Subdomain ordnungsgemäß an Adobe delegiert werden.  Im Folgenden finden Sie ein Beispiel für eine Subdomain-Zuweisung und die entsprechenden DNS-Anweisungen.  Ersetzen Sie „emails.customer.com“ durch die Subdomain, die Sie delegieren möchten.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht bereits von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
+Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, müssen delegiert werden, indem vier Nameserver-Einträge (NS) erstellt werden.  Dadurch kann die Subdomain ordnungsgemäß an Adobe delegiert werden.  Im Folgenden finden Sie ein Beispiel für eine Subdomain-Delegierung und die entsprechenden DNS-Anweisungen.  Ersetzen Sie „emails.customer.com“ durch die Subdomain, die Sie delegieren möchten.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht bereits von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
 
 | Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |
@@ -139,7 +139,7 @@ Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß del
 
 Dies ist nur relevant, wenn Adobe Campaign Classic von Adobe vollständig in der Cloud gehostet wird.  Dies ist eine optionale Konfiguration.
 
-Alle späteren Umfragen, Web-Formulare und Landingpages werden über Adobe Campaign verwaltet, das vollständig in der Cloud gehostet wird.  Bei Bedarf kann eine zusätzliche Subdomain an Adobe delegiert werden (z. B. web.customer.com), die für beliebige Web-Komponenten innerhalb des Tools verwendet werden kann.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
+Alle späteren Umfragen, Web-Formulare und Landingpages werden über Adobe Campaign verwaltet, das vollständig in der Cloud gehostet wird.  Bei Bedarf kann eine zusätzliche Subdomain an Adobe delegiert werden (z. B. web.kunde.com), die für beliebige Web-Komponenten innerhalb des Tools verwendet werden kann.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
 
 | Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |

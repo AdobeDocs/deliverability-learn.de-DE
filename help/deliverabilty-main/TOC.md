@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 97%
       + [Best Practices zur Rückgewinnung](/help/additional-resources/re-engagement.md)
       + [Echtzeit-Blackhole-Listen](/help/additional-resources/blocklist-databases.md)
       + [Fehlerbehebung](/help/additional-resources/troubleshooting.md)
-   + Ressourcen für [!DNL Adobe Campaign] {#campaign}
+   + Ressourcen zu [!DNL Adobe Campaign] {#campaign}
       + [Domain-Namen einrichten](/help/additional-resources/ac-domain-name-setup.md)
       + [SSL-Zertifikatanforderungsvorgang](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Einrichten einer neuen Plattform](/help/additional-resources/ac-starting-new-platform.md)

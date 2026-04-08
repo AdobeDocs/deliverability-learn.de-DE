@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: 6338eb67-3efd-476e-8b26-97bbb6a1d35f
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '429'
+workflow-type: ht
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -52,11 +52,11 @@ Softbounces sind vorübergehende Fehler, die ISPs generieren, wenn sie Schwierig
 **Adobe Campaign Classic**
 
 * [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de#delivery-failure-types-and-reasons)
-* [Bounce-Message-Verwaltung](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de#bounce-mail-management)
-* [Report über Unzustellbarkeiten und Bounces](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=de#non-deliverables-and-bounces)
+* [Bounce-E-Mail-Verwaltung](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de#bounce-mail-management)
+* [Bericht über unzustellbare Nachrichten und Bounces](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=de#non-deliverables-and-bounces)
 
 **Adobe Campaign Standard**
 
 * [Typen und Ursachen für fehlgeschlagene Sendungen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=de#delivery-failure-types-and-reasons)
 * [Bounce-Message-Qualifizierung](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=de#bounce-mail-qualification)
-* [Zusammenfassender Report über Bounces](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=de#reporting)
+* [Zusammenfassender Bericht über Bounces](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=de#reporting)

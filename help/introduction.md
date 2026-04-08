@@ -10,9 +10,9 @@ level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
-workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In unserem digitalen Zeitalter erwarten die Menschen, schnell begeistert zu werd
 
 Geben wir ehrlich zu, dass Sie sich heute mehr denn je von Ihren Mitbewerbern abheben müssen. Das bedeutet, Ihren Kunden einzigartige, personalisierte und relevante Kundenerlebnisse zu bieten. Andernfalls riskieren Sie, einen Kunden für immer zu verlieren. Eine integrierte, dynamische Multi-Channel-Strategie, die Ihre Zielgruppe dazu motiviert, aktiv zu bleiben, ist unverzichtbar.
 
-In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Verwenden Sie diesen Kanal, um den E-Mail-Kanal an der Spitze Ihres Marketing-Mix zu halten, wobei Zustellbarkeit, Posteingangsplatzierung und Umsatz höchste Priorität haben.
+In diesem Leitfaden lernen Sie die wichtigsten Begriffe, Konzepte und Ansätze zur Zustellbarkeit kennen, damit Sie immer die Nase vorn haben. Verwenden Sie ihn, um den E-Mail-Kanal bei Ihrem Marketing-Mix im Vordergrund zu behalten, wobei Zustellbarkeit, Platzierung im Posteingang und Umsatz höchste Priorität haben.
 
 Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 
@@ -34,7 +34,7 @@ Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 2. [Zustellbarkeitsmetriken](/help/metrics/metrics-overview.md)
 3. [Interaktion](/help/engagement.md)
 4. [Verfahren beim Wechsel zwischen E-Mail-Plattformen](/help/transition-process/switching-email-platforms.md)
-5. [Erste Impressions – Aufnahme in die Liste und Willkommens-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
+5. [Erste Impressions – Aufnahme in die Liste und Begrüßungs-E-Mails](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
 7. [Regelmäßiger Versand](/help/sender-permanence.md)
 8. [Besonderheiten der Internetdienstanbieter](/help/internet-service-provider-specifics/overview.md)
@@ -47,10 +47,10 @@ Dieser Best-Practice-Leitfaden zur Zustellbarkeit umfasst die folgenden Themen:
 
 ## Quellen
 
-[!DNL Heinz Tschabitscher] – [„How Many People Use Email Worldwide?“](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24. Juni 2019.
+[!DNL Heinz Tschabitscher], [„How Many People Use Email Worldwide?“](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24, Juni 2019.
 
 [!DNL Lori Lewis] – [„2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5. März 2019.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 [Anhang: Zusätzliche Ressourcen](/help/additional-resources/general-resources.md)
