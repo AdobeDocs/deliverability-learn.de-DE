@@ -4,10 +4,9 @@ description: Erfahren Sie, wie Sie die Bounce-Qualifizierung nach einem Ausfall 
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
-hidefromtoc: true
 role: Admin
 level: Beginner
-source-git-commit: e1a2c58e92da00186d91c7acfd8fd7300133a51c
+source-git-commit: 1c1e1b673fbc640fec84948878060b8bc0354ba2
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 47%
@@ -46,7 +45,7 @@ Gemäß der Standardlogik für die Behandlung von Bounces hat Adobe Campaign die
 Um die Empfängerinnen und Empfänger zu finden, die von diesem Problem betroffen waren, oder für den Fall, dass dies bei einem anderen ISP erneut auftritt, lesen Sie bitte die folgenden Anweisungen:
 
 * Informationen zu Campaign Classic v7 und Campaign v8 finden Sie [dieser Seite](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Informationen zu Campaign Standard finden Sie [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=de#unquarantine-bulk){_blank}.
+* Informationen zu Campaign Standard finden Sie [dieser Seite](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +53,5 @@ Gemäß der Standardlogik zur Handhabung von Bounces hat Adobe Journey Optimizer
 
 Nach der Identifizierung können diese Adressen manuell mithilfe der Schaltfläche **[!UICONTROL Löschen“ aus der]** entfernt werden. Diese Adressen können dann in zukünftige E-Mail-Kampagnen aufgenommen werden.
 
-Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=de#remove-from-suppression-list){_blank}.
+Weiterführende Informationen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
