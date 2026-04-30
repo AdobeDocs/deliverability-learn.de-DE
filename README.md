@@ -1,7 +1,7 @@
 ---
 source-git-commit: 8ccd915f558f3b06e9ac4b97dc45aefd6b27a4f1
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -21,13 +21,13 @@ Wie Sie Beiträge einbringen, hängt davon ab, wer Sie sind und welche Art von �
 
 ### Geringfügige Änderungen
 
-Wenn Sie aus Gemeinschaftsgeist kleine Updates beitragen wollen, besuchen Sie den Artikel, und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Verwenden Sie dann einfach die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
+Wenn Sie kleinere Änderungen vornehmen möchten, rufen Sie den Artikel auf und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Verwenden Sie dann einfach die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repository senden, sind durch die Adobe-Nutzungsbedingungen abgedeckt.
 
 ### Umfangreiche Änderungen oder neue Artikel von Community-Mitgliedern
 
-Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem einzureichen und mit dem Dokumentationsteam zu kommunizieren. Nachdem Sie einem Plan zugestimmt haben, müssen Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus den öffentlichen und privaten Repositorys zu erreichen.
+Wenn Sie Teil der Adobe-Community sind und einen neuen Artikel erstellen oder wichtige Änderungen vornehmen möchten, verwenden Sie im Git-Repository die Registerkarte „Issues“, um ein Problem zu melden und einen Dialog mit dem Dokumentations-Team zu beginnen. Sobald Sie sich auf einen Plan geeinigt haben, müssen Sie diese neuen Inhalte gemeinsam mit einem Mitarbeitenden durch eine Zusammenarbeit in den öffentlichen und privaten Repositorys einbringen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Umfangreiche Änderungen von Adobe-Mitarbeitern
 
-Technische Redakteure, Programm-Manager oder Entwickler aus dem Produkt-Team einer Adobe Experience Cloud-Lösung, die technische Artikel erstellen oder zu diesen beitragen, sollten das private Repository unter `https://git.corp.adobe.com/AdobeDocs` verwenden.
+Wenn Sie in der technischen Redaktion, im Programm-Management oder in der Entwicklung des Produkt-Teams für eine Adobe Experience Cloud-Lösung arbeiten und es Ihre Aufgabe ist, technische Artikel zu erstellen oder an diesen mitzuwirken, sollten Sie das private Repository unter `https://git.corp.adobe.com/AdobeDocs` verwenden.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -50,7 +50,7 @@ Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://ex
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, lesen Sie:
 
 * [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Druckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown-Cheatsheet zum Ausdrucken](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Beschriftungen
 
