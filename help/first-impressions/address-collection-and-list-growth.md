@@ -8,10 +8,27 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 3%
+source-wordcount: 1670
+ht-degree: 6%
 
 ---
 
@@ -49,7 +66,7 @@ Zusätzlich zum Hinzufügen der Felder für die Daten möchten Sie Daten über I
 
 ## Datenqualität und -hygiene
 
-Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl korrekt als auch verwendbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot; oder &quot;.“ enthält. Beispiel. Achten Sie darauf, keine allgemeinen Alias-Adressen zuzulassen, die auch als Rollenkonten bezeichnet werden (z. B. „info“, „admin“, „sales“, „support“ ). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Gruppe von Personen anstelle eines einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, was das Risiko von Beschwerden, unterschiedlicher Interaktion, Abmeldungen und allgemeiner Verwirrung birgt.
+Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl korrekt als auch verwendbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot; oder &quot;.“ enthält. Beispiel: Achten Sie darauf, keine allgemeinen Alias-Adressen zuzulassen, die auch als Rollenkonten bezeichnet werden (z. B. „info“, „admin“, „sales“, „support“ ). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Gruppe von Personen anstelle eines einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, was das Risiko von Beschwerden, unterschiedlicher Interaktion, Abmeldungen und allgemeiner Verwirrung birgt.
 
 Im Folgenden finden Sie einige Lösungen für häufige Probleme, auf die Sie mit Ihren E-Mail-Adressdaten stoßen können:
 
@@ -80,10 +97,10 @@ Es gibt viele Arten von E-Mail-Adressen. Primäre E-Mails, geschäftliche E-Mail
 
 Wenn Sie Glück haben, erhalten Sie sekundäre Konten, in denen Personen nach Angeboten suchen, wenn sie bereit sind, etwas zu kaufen. Dies führt in der Regel zu niedrigen Interaktionsniveaus - falls vorhanden. Wenn Sie kein Glück haben, ist die Liste voll mit inaktiven E-Mails, die jetzt Spam-Fallen sein könnten. Häufig erhält man eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listentypen einem E-Mail-Programm mehr als sie nützt. Diese Vorgehensweise ist gemäß der [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
 
-**Listen anhängen**
+**Listen hängen an**
 Dies sind Kunden, die sich dafür entschieden haben, mit Ihrer Marke zu interagieren, was großartig ist. Sie haben sich jedoch dafür entschieden, eine andere Methode als E-Mail anzuwenden (In-Store, soziale Medien usw.). Sie waren nicht empfänglich für eine nicht angeforderte E-Mail von Ihnen und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie sie nicht bereitgestellt haben. Bei dieser Methode besteht die Gefahr, dass ein Kunde oder potenzieller Kunde, der mit Ihrer Marke interagiert hat, zu einem Kritiker wird, der Ihrer Marke nicht mehr vertraut und stattdessen zu Ihrer Konkurrenz wechselt. Diese Vorgehensweise ist gemäß der [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
 
-**Handelsmesse oder andere Veranstaltungskollektion**
+**Fachmesse oder andere Veranstaltungskollektion**
 Das Erfassen von Adressen an einem Stand oder über eine andere offizielle, klar gekennzeichnete Methode kann nützlich sein. Das Risiko besteht darin, dass viele Ereignisse wie diese alle Adressen erfassen und über den Ereignispromotor oder -host verteilen. Das bedeutet, dass die Besitzer dieser E-Mail-Adressen nie angefordert haben, E-Mails von Ihrer Marke zu erhalten. Diese Abonnentinnen und Abonnenten beschweren sich häufig und markieren Ihre E-Mails als Spam. Möglicherweise haben sie keine korrekten Kontaktinformationen angegeben.
 
 **Gewinnspiele**
@@ -94,8 +111,8 @@ Gewinnspiele liefern schnell eine große Anzahl von E-Mail-Adressen. Aber diese 
 
 **Adobe Campaign Classic**
 
-* [Abonnement-Formular mit doppeltem Opt-in erstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=de#create-a-subscription--form-with-double-opt-in)
+* [Abonnement-Formular mit zweifacher Bestätigung erstellen](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=de#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Doppeltes Opt-in-Verfahren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=de#communication-channels)
+* [Double-Opt-in-Verfahren](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=de#communication-channels)

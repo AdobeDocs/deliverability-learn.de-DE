@@ -6,10 +6,29 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/XbAU6Y0r4Ed8W7t71MMNV02jdp2-og04-v-n2lT5m-4
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 24%
+source-wordcount: 973
+ht-degree: 15%
 
 ---
 
@@ -36,7 +55,7 @@ Kunden und Kundinnen, die die Adobe-Plattform verwenden, können Inaktivität in
 
 ## Funktionieren Rückgewinnungskampagnen wirklich? {#do-re-engagement-campaigns-really-work-}
 
-Laut einer Studie von Return Path erzielten Rückgewinnungskampagnen eine Öffnungsrate von 12 % verglichen mit einer durchschnittlichen Öffnungsrate von 14 % bei normalen Kampagnen. Obwohl nur 24 % der Abonnenten die Rückgewinnungskampagne gelesen hatten, lasen ca. 45 % von ihnen die darauf folgenden Nachrichten.
+Laut einer Studie zu Return Path ergaben sich Kampagnen, die sich erneut engagierten, mit einer Öffnungsrate von 12 %, verglichen mit durchschnittlich 14 % bei normalen Kampagnen. Obwohl nur 24 % der Abonnenten die Kampagne zur Rückgewinnung von Interaktionen gelesen hatten, lasen etwa 45 % die nachfolgenden Nachrichten.
 
 ![](../../help/assets/deliverability_implementation_1.png)
 
@@ -54,7 +73,7 @@ Laut einer Studie von Return Path erzielten Rückgewinnungskampagnen eine Öffnu
 
 ### Phase 3 {#phase-3}
 
-Als Nächstes muss die Frequenz der Rückgewinnungskampagne bestimmt werden. Im Gegensatz zu einfachen Bestätigungsnachrichten sollen Rückgewinnungskampagnen die Abonnenten langfristig mit mehreren E-Mails zurückgewinnen. Im Folgenden wird ein Beispiel für die Ermittlung der Frequenz beschrieben.
+Der nächste Schritt besteht darin, die Häufigkeit der Rückgewinnungskampagne zu bestimmen. Im Gegensatz zu Bestätigungsnachrichten sollen Rückgewinnungskampagnen den Abonnenten mit einer Reihe von E-Mails im Laufe der Zeit zurückgewinnen. Das folgende Beispiel zeigt ein Beispiel für die Häufigkeit .
 
 ![](../../help/assets/deliverability_implementation_2.png)
 
@@ -75,8 +94,8 @@ Abonnenten, die in der Kampagne durch Öffnen oder Anklicken erneut aktiv werden
 
 **Adobe Campaign**
 
-* [Trackinglogs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=de#tracking-logs)
-* [Trackinglogs im Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=de#tracking-logs)
+* [Trackinglogs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [Trackinglogs in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=de#tracking-logs)
 
 **Adobe Customer Journey Management**
 

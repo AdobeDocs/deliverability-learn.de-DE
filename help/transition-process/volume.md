@@ -10,10 +10,23 @@ role: Admin,User
 level: Beginner
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/piIfp9yQkAa1F1bkO9zM7PcOConZhTrwARo4Y8wtMsQ
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 1%
+source-wordcount: 600
+ht-degree: 4%
 
 ---
 
@@ -21,7 +34,7 @@ ht-degree: 1%
 
 Die Menge der versendeten E-Mails ist entscheidend für eine positive Reputation. Stecken Sie sich in die Lage eines ISPs - wenn Sie eine Menge Verkehr von jemandem sehen, den Sie nicht kennen, wäre es alarmierend. Große Mengen von E-Mails sofort zu versenden ist riskant und verursacht mit Sicherheit Reputationsprobleme, die oft schwer zu beheben sind. Es kann frustrierend, zeitaufwendig und kostspielig sein, sich selbst aus dem schlechten Ruf zu befreien und Probleme zu stapeln und zu blockieren, die daraus resultieren, dass zu viel zu früh versendet wird.
 
-Die Mengenschwellen variieren je nach ISP und können auch je nach Ihrer durchschnittlichen Interaktionsmetrik variieren. Einige Absender benötigen eine sehr niedrige und langsame Rampe des Volumens, während andere eine steilere Rampe des Volumens ermöglichen können. Wir empfehlen die Zusammenarbeit mit einem Experten, z. B. einem Adobe-Zustellbarkeitsberater, um einen individuellen Volumenplan zu erstellen.
+Die Mengenschwellen variieren je nach ISP und können auch je nach Ihrer durchschnittlichen Interaktionsmetrik variieren. Einige Absender benötigen eine sehr niedrige und langsame Rampe des Volumens, während andere eine steilere Rampe des Volumens ermöglichen können. Es wird empfohlen, mit einem Experten, wie z. B. einem Adobe Deliverability Consultant, zusammenzuarbeiten, um einen benutzerdefinierten Volumenplan zu erstellen.
 
 Hier finden Sie eine Liste von Hinweisen und Tipps für einen reibungslosen Übergang:
 
@@ -45,7 +58,7 @@ In vielen Fällen folgen Transaktions-E-Mails nicht dem herkömmlichen Ansatz de
 
 ## Produktspezifische Ressourcen
 
-**Campaign**
+**Kampagne**
 
 * Weitere Informationen zur Verwaltung der Zustellbarkeit beim Starten einer neuen Plattform mit Adobe Campaign finden [&#x200B; in diesem Abschnitt](/help/additional-resources/ac-starting-new-platform.md).
 * In diesem Abschnitt erfahren Sie, wie Sie mit Adobe Campaign Classic [&#x200B; mehreren Schüben versenden &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=de#sending-using-multiple-waves).
@@ -53,6 +66,6 @@ In vielen Fällen folgen Transaktions-E-Mails nicht dem herkömmlichen Ansatz de
 * [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Classic delegieren.*
 * [Control Panel: Vollständige Subdomain-Delegierung (Tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de) - *Erfahren Sie, wie Sie eine Subdomain vollständig an Adobe Campaign Standard delegieren.*
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 * Weitere Informationen zur Verbesserung der E-Mail-Reputation mit IP-Warming finden [&#x200B; in diesem Abschnitt](/help/additional-resources/increase-reputation-with-ip-warming.md).

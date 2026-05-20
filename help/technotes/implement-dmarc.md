@@ -5,9 +5,26 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
+TQID: https://experienceleague.adobe.com/gvO7rHqY-Dm6nUq9ssccY7Kt1xobV-pqLc26iITgmRA
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+  - id: f82558ea-6af5-44eb-a424-5b3389abb0a3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: 1326
 ht-degree: 17%
 
 ---
@@ -64,9 +81,9 @@ DMARC bietet die Möglichkeit, Berichte zu E-Mails zu erhalten, bei denen SPF/DK
 
 Diese Berichte dienen hauptsächlich dazu, einen Überblick über E-Mails zu erhalten, bei denen ein Spoofing-Versuch unternommen wird. Hierbei handelt es sich um hochtechnische Berichte, die am besten über ein Tool eines Drittanbieters verdaut werden können. Einige Unternehmen, die auf die Überwachung von DMARC spezialisiert sind:
 
-* [ValiMail](https://www.valimail.com/products/#automated-delivery)
+* [ValidMail](https://www.valimail.com/products/#automated-delivery)
 * [Agari](https://www.agari.com/)
-* [DMARKISCH](https://dmarcian.com/)
+* [Dmarcianer](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
 
 >[!CAUTION]
@@ -89,8 +106,8 @@ DMARC-Datensätze enthalten mehrere Komponenten, die als DMARC-Tags bezeichnet w
 | p | Erforderlich | Zeigt die ausgewählte DMARC-Richtlinie an und leitet den Empfänger an, E-Mails zu melden, unter Quarantäne zu stellen oder abzulehnen, wenn die Authentifizierungsprüfungen fehlschlagen. | p=Keine, Quarantäne oder Zurückweisung | – |
 | fo | Optional | Ermöglicht dem Domain-Inhaber das Festlegen von Berichtsoptionen. | 0: Bericht generieren, wenn alles fehlschlägt<br/>1: Bericht generieren, wenn alles fehlschlägt<br/>d: Bericht generieren, wenn DKIM fehlschlägt<br/>s: Bericht generieren, wenn SPF fehlschlägt | 1 (empfohlen für DMARC-Berichte) |
 | PCT | Optional | Gibt den Prozentsatz der Nachrichten an, die gefiltert werden sollen. | PCT=20 | 100 |
-| Rua | Optional (empfohlen) | Gibt an, wo aggregierte Berichte bereitgestellt werden. | `rua=mailto:aggrep@example.com` | – |
-| Ruf | Optional (empfohlen) | Gibt an, wo forensische Berichte bereitgestellt werden. | `ruf=mailto:authfail@example.com` | – |
+| Rua | Optional (empfohlen) | Gibt an, wo aggregierte Berichte bereitgestellt werden. | `rua=mailto:aggrep@example.com` | - |
+| Ruf | Optional (empfohlen) | Gibt an, wo forensische Berichte bereitgestellt werden. | `ruf=mailto:authfail@example.com` | - |
 | SP | Optional | Gibt eine DMARC-Richtlinie für Subdomains der übergeordneten Domain an. | SP=Zurückweisung | – |
 | Adkim | Optional | Kann entweder Streng (s) oder Relaxed (r) sein. Eine entspannte Ausrichtung bedeutet, dass die in der DKIM-Signatur verwendete Domain eine Subdomain der „Von“-Adresse sein kann. Strenge Ausrichtung bedeutet, dass die in der DKIM-Signatur verwendete Domain genau mit der in der Absenderadresse verwendeten Domain übereinstimmen muss. | adkim=r | r |
 | ASPF | Optional | Kann entweder Streng (s) oder Relaxed (r) sein. Eine entspannte Ausrichtung bedeutet, dass die Domain „ReturnPath“ eine Subdomain der Absenderadresse sein kann. Strenge Ausrichtung bedeutet, dass die Domain des Rücksendepfads exakt mit der Absenderadresse übereinstimmen muss. | aspf=r | r |
@@ -120,4 +137,4 @@ Sobald diese Änderungen gespeichert wurden, können Sie mit Ihrer DMARC-Impleme
 ## Nützliche Links {#links}
 
 * [DMARC.org](https://dmarc.org/){target="_blank"}
-* [m3AAWG E-Mail-Authentifizierung](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}
+* [M3AAWG-E-Mail-Authentifizierung](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}

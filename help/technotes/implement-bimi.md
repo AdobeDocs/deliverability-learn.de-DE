@@ -6,9 +6,26 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
+TQID: https://experienceleague.adobe.com/dPuoipUKH36RSGUfhzOV1Xhu9qQTLYV4zu6Vw0Be-xY
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
@@ -47,11 +64,11 @@ Die Implementierung von BIMI erfolgt in mehreren Schritten:
 
 1. Implementierung von DMARC (Domain-basierte Nachrichtenauthentifizierung, Reporting und Konformität) auf Durchsetzungsebene für die Versand-Domain und die Organisations-Domain - [Weitere Informationen](#dmarc)
 
-1. Erstellung Ihres Markenlogos im SVG TinyPS-Format - [Mehr erfahren](#create-brand-logo)
+1. Erstellung Ihres Markenlogos im SVG TinyPS-Format - [Mehr dazu](#create-brand-logo)
 
 1. Anmeldung für ein Verified Mark Zertifikat (nur bei einigen Anbietern erforderlich) - [Weitere Informationen](#vmc)
 
-1. Publish einen BIMI-DNS-Eintrag mit dem Logo und dem Zertifikat - [Weitere Informationen](#publish-bimi-record)
+1. Veröffentlichen eines BIMI-DNS-Eintrags mit Logo und Zertifikat - [Weitere Informationen](#publish-bimi-record)
 
 1. Einen guten Ruf haben - [Mehr erfahren](#good-reputation)
 
@@ -62,7 +79,7 @@ Die Implementierung von BIMI erfolgt in mehreren Schritten:
 
 ### DMARC {#dmarc}
 
-DMARC ist ein Standard, der es der Marke ermöglicht zu entscheiden, was ein Postfachanbieter mit einer E-Mail tun soll, die fehlschlägt [Authentifizierung](../additional-resources/authentication.md). Die so genannten Policies reichen von „none“ über „quarantine“ (Spam-Ordner-Platzierung) bis „ject“ (die E-Mail direkt blockieren). Nur die beiden letztgenannten Richtlinien werden als „Durchsetzung“ bezeichnet und sind für das BIMI qualifiziert. E-Mails, die per Adobe versendet werden, bestehen die Authentifizierung, da SPF (Sender Policy Framework) und DKIM (Domain Keys Identified Mail) standardmäßig eingerichtet sind. Adobe richtet auf Anfrage DMARC auf Ihrer Versand-Domain ein.
+DMARC ist ein Standard, der es der Marke ermöglicht zu entscheiden, was ein Postfachanbieter mit einer E-Mail tun soll, die fehlschlägt [Authentifizierung](../additional-resources/authentication.md). Die so genannten Policies reichen von „none“ über „quarantine“ (Spam-Ordner-Platzierung) bis „ject“ (die E-Mail direkt blockieren). Nur die beiden letztgenannten Richtlinien werden als „Durchsetzung“ bezeichnet und sind für das BIMI qualifiziert. E-Mails, die von Adobe gesendet werden, bestehen die Authentifizierung, da SPF (Sender Policy Framework) und DKIM (Domain Keys Identified Mail) standardmäßig eingerichtet sind. Adobe richtet auf Anfrage DMARC auf Ihrer Versand-Domain ein.
 
 Zusätzlich zu DMARC auf der Versand-Domain muss DMARC auch auf der Durchsetzungsebene für die Organisations-Domain verwendet werden (wenn die Versand-Domain news.example.com ist, ist example.com die Organisations-Domain).
 
@@ -97,7 +114,7 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 „PEM URL“ ist der Dateispeicherort des Zertifikats mit verifizierter Markierung.
 
-Für Ihre Versand-Domain muss dies per Adobe geschehen.
+Für Ihre Versand-Domain muss dies durch Adobe erfolgen.
 
 ### Guter Ruf {#good-reputation}
 

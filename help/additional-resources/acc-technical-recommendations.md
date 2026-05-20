@@ -6,10 +6,42 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
+TQID: https://experienceleague.adobe.com/Y58eIzSpKUV-B-MiQ-6KNkk31tg1M6Bg27ZqGv-DESc
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: d1d0a9cd-295d-4976-8c39-ddae266f240e
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+  - id: f82558ea-6af5-44eb-a424-5b3389abb0a3
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 41%
+source-wordcount: 2232
+ht-degree: 29%
 
 ---
 
@@ -23,7 +55,7 @@ Nachfolgend sind verschiedene Verfahren, Konfigurationen und Tools aufgeführt, 
 
 : Adobe Campaign prüft, ob für eine IP-Adresse ein Reverse-DNS angegeben ist und ob dieses wirklich auf die IP-Adresse zurückverweist.
 
-Bei der Netzwerkkonfiguration ist es wichtig sicherzustellen, dass für jede der für ausgehende Nachrichten bestimmten IP-Adressen ein korrektes Reverse-DNS angegeben ist. Für eine bestimmte IP-Adresse existiert also ein Reverse-DNS Datensatz (PTR-Datensatz) mit einem passenden DNS (Datensatz), das auf die ursprüngliche IP zurückverweist.
+Ein wichtiger Punkt bei der Netzwerkkonfiguration besteht darin, sicherzustellen, dass für jede der IP-Adressen für ausgehende Nachrichten ein korrektes Reverse-DNS definiert ist. Dies bedeutet, dass es für eine bestimmte IP-Adresse einen Reverse-DNS-Eintrag (PTR-Eintrag) mit einem passenden DNS (A-Eintrag) gibt, der sich zur ursprünglichen IP-Adresse zurückschleift.
 
 Die Wahl der Domain für ein Reverse DNS hat Auswirkungen auf den Umgang mit bestimmten ISPs. Insbesondere AOL akzeptiert nur Feedback-Schleifen mit einer Adresse in derselben Domain wie das Reverse DNS (siehe [Feedback Loop](#feedback-loop)).
 
@@ -61,7 +93,7 @@ Die MAIL FROM-Domain ist die Domain, die in technischen Bounce-Nachrichten verwe
 
 ### SPF-Eintrag {#dns-configuration}
 
-Ein SPF-Eintrag kann derzeit auf einem DNS-Server als Eintrag vom Typ TXT (Code 16) oder als Eintrag vom Typ SPF (Code 99) definiert werden. Ein SPF-Eintrag hat die Form einer Zeichenfolge. z. B.:
+Ein SPF-Eintrag kann derzeit auf einem DNS-Server als Eintrag vom Typ TXT (Code 16) oder als Eintrag vom Typ SPF (Code 99) definiert werden. Ein SPF-Eintrag hat die Form einer Zeichenfolge. Beispiel:
 
 ```
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
@@ -69,7 +101,7 @@ v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 
 definiert die beiden IP-Adressen 12.34.56.78 und 12.34.56.79 als zum Senden von E-Mails für die Domain autorisiert. **~all** bedeutet, dass jede andere Adresse als SoftFail interpretiert werden soll.
 
-Recommendations zum Definieren eines SPF-Eintrags:
+Empfehlungen zum Definieren eines SPF-Eintrags:
 
 * Fügen Sie **~all** (SoftFail) oder **-all** (Fail) am Ende hinzu, um alle Server abzulehnen, die nicht definiert sind. Andernfalls können Server diese Domain fälschen (mit einer neutralen Auswertung).
 * Fügen Sie nicht **ptr** hinzu (openspf.org empfiehlt dagegen, dies als kostspielig und unzuverlässig anzusehen).
@@ -88,19 +120,19 @@ Recommendations zum Definieren eines SPF-Eintrags:
 
 >[!NOTE]
 >
->Bei gehosteten oder hybriden Installationen erfolgt die DKIM-E-Mail-Authentifizierungssignatur für alle Nachrichten mit allen Domains durch den Enhanced MTA, wenn Sie auf den [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=de#sending-messages) aktualisiert haben.
+>Bei gehosteten oder hybriden Installationen erfolgt die DKIM-E-Mail-Authentifizierungssignatur für alle Nachrichten mit allen Domains durch den Enhanced MTA, wenn Sie auf den [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages) aktualisiert haben.
 
 Die Verwendung von [DKIM](/help/additional-resources/authentication.md#dkim) mit Adobe Campaign Classic setzt Folgendes voraus:
 
 **Adobe Campaign-Optionsdeklaration**: In Adobe Campaign basiert der private DKIM-Schlüssel auf einem DKIM-Selektor und einer Domain. Es ist derzeit nicht möglich, mehrere private Schlüssel für dieselbe Domain/Subdomain mit unterschiedlichen Selektoren zu erstellen. Es ist nicht möglich, festzulegen, welche Selektor-Domain/Subdomain für die Authentifizierung weder in der Plattform noch in der E-Mail verwendet werden muss. Die Plattform wählt alternativ einen der privaten Schlüssel aus, was bedeutet, dass die Authentifizierung mit hoher Wahrscheinlichkeit fehlschlägt.
 
-* Wenn Sie DomainKeys für Ihre Adobe Campaign-Instanz konfiguriert haben, müssen Sie nur **dkim** in den [Domain-Verwaltungsregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=de#email-management-rules) auswählen. Falls nicht, führen Sie dieselben Konfigurationsschritte (privater/öffentlicher Schlüssel) durch wie für DomainKeys (die DKIM ersetzt haben).
+* Wenn Sie DomainKeys für Ihre Adobe Campaign-Instanz konfiguriert haben, müssen Sie nur **dkim** in den [Domain-Verwaltungsregeln](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules) auswählen. Falls nicht, führen Sie dieselben Konfigurationsschritte (privater/öffentlicher Schlüssel) durch wie für DomainKeys (die DKIM ersetzt haben).
 * Es ist nicht notwendig, sowohl DomainKeys als auch DKIM für dieselbe Domain zu aktivieren, da es sich bei DKIM um eine verbesserte Version von DomainKeys handelt.
 * Folgende Domains validieren aktuell DKIM: AOL, Gmail.
 
 ## Rückkopplungsschleife {#feedback-loop-acc}
 
-Eine Feedback-Schleife funktioniert, indem auf der ISP-Ebene eine bestimmte E-Mail-Adresse für einen Bereich von IP-Adressen angegeben wird, der zum Senden von Nachrichten verwendet wird. Der ISP wird die Nachrichten, die von Empfängern als Spam gemeldet werden, auf ähnliche Weise an diesen Posteingang senden wie bei Bounce-Nachrichten. Die Plattform sollte so konfiguriert sein, dass zukünftige Sendungen für Benutzer, die sich beschwert haben, blockiert werden. Es ist wichtig, dass sie nicht mehr kontaktiert werden, auch wenn sie nicht den richtigen Ausschluss-Link verwendet haben. Aufgrund dieser Beschwerden fügt ein ISP seiner Blockierungsliste eine IP-Adresse hinzu. Je nach ISP wird eine Beschwerderate von etwa 1 % dazu führen, dass eine IP-Adresse blockiert wird.
+Eine Feedback-Schleife funktioniert, indem auf ISP-Ebene eine bestimmte E-Mail-Adresse für einen Bereich von IP-Adressen, die zum Senden von Nachrichten verwendet werden, deklariert wird. Der ISP sendet an diese Mailbox auf ähnliche Weise wie bei Bounce-Nachrichten, also Nachrichten, die von Empfängern als Spam gemeldet werden. Die Plattform sollte so konfiguriert sein, dass zukünftige Sendungen an Benutzer blockiert werden, die sich beschwert haben. Es ist wichtig, sie nicht mehr zu kontaktieren, auch wenn sie nicht den richtigen Opt-out-Link verwendet haben. Aufgrund dieser Beschwerden fügt ein ISP seiner Blockierungsliste eine IP-Adresse hinzu. Je nach ISP wird eine Beschwerderate von etwa 1 % dazu führen, dass eine IP-Adresse blockiert wird.
 
 Aktuell wird an der Konzeption eines Standards für das Format von Feedback-Loop-Nachrichten gearbeitet: das [Abuse Feedback Reporting Format (ARF)](https://tools.ietf.org/html/rfc6650).
 
@@ -114,7 +146,7 @@ Die Implementierung eines einfachen Feedback Loop in Adobe Campaign verwendet d
 * Erstellen oder bearbeiten Sie im Knoten **[!UICONTROL Administration > Kampagnen > Unzustellbarkeitsverwaltung > E-Mail-Regeln]** eine Bounce-Message-Regel **Feedback_loop** und geben Sie dabei den Grund **Abgelehnt** sowie den Typ **Hard** an.
 * Wenn speziell für das Feedback Loop ein Postfach definiert wurde, definieren Sie die dafür geltenden Zugriffsparameter, indem Sie unter **[!UICONTROL Administration > Plattform > Externe Konten]** ein neues externes Bounce-Message-Konto erstellen.
 
-Der Mechanismus zur Verarbeitung von Beschwerdebenachrichtigungen ist sofort funktionstüchtig. Um die korrekte Funktionsweise der Regel sicherzustellen, können Sie die Konten zeitweise deaktivieren, damit sie diese Nachrichten nicht abrufen. Sie können die Inhalte des Feedback-Loop-Postfachs dann manuell überprüfen. Führen Sie auf dem Server die folgenden Befehle aus:
+Der Mechanismus zur Bearbeitung von Beschwerden ist sofort einsatzbereit. Um sicherzustellen, dass diese Regel korrekt funktioniert, können Sie die Konten vorübergehend deaktivieren, damit sie diese Nachrichten nicht erfassen, und dann den Inhalt des Feedback-Schleifen-Postfachs manuell überprüfen. Führen Sie auf dem Server die folgenden Befehle aus:
 
 ```
 nlserver stop inMail@instance,
@@ -143,7 +175,7 @@ Diese Kopfzeile kann als Alternative zum Symbol „Als SPAM melden“ verwendet 
 
 Die Verwendung dieser Funktion senkt die Beschwerderate und trägt zum Schutz Ihrer Reputation bei. Feedback wird als Abmeldung ausgeführt.
 
-Gmail, Outlook.com, Yahoo! und Microsoft Outlook unterstützen diese Methode. Ein „Abmelden“-Link ist direkt in ihrer Benutzeroberfläche verfügbar. z. B.:
+Gmail, Outlook.com, Yahoo! und Microsoft Outlook unterstützen diese Methode. Ein „Abmelden“-Link ist direkt in ihrer Benutzeroberfläche verfügbar. Beispiel:
 
 ![Bild](../assets/List-Unsubscribe-example-Gmail.png)
 
@@ -173,7 +205,7 @@ Um „mailto“ list-unsubscribe zu verwenden, müssen Sie eine Befehlszeile ein
 
 >[!CAUTION]
 >
->Das oben stehende Beispiel basiert auf der Empfängertabelle. Sollte die Datenbankimplementierung über eine andere Tabelle erfolgen, stellen Sie bitte sicher, dass Sie die Befehlszeile mit den korrekten Informationen umformulieren.
+>Das obige Beispiel basiert auf der Empfängertabelle. Wenn die Datenbankimplementierung aus einer anderen Tabelle erfolgt, müssen Sie die Befehlszeile mit den richtigen Informationen umformulieren.
 
 Sie können auch eine dynamische „mailto“-Liste erstellen, um sich über eine Befehlszeile abzumelden, z. B.: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
@@ -187,7 +219,7 @@ Um **„mailto“ list-unsubscribe** in Campaign zu implementieren, haben Sie fo
 
 Die Befehlszeile muss dem Abschnitt **[!UICONTROL Zusätzliche SMTP-Header]** des SMTP-Headers der E-Mail hinzugefügt werden.
 
-Das kann entweder in jeder E-Mail oder in bereits existierenden Versandvorlagen erfolgen. Sie haben außerdem die Möglichkeit, eine neue diese Funktion beinhaltende Versandvorlage zu erstellen.
+Diese Hinzufügung kann in jeder E-Mail oder in vorhandenen Versandvorlagen erfolgen. Sie können auch eine neue Versandvorlage erstellen, die diese Funktion enthält.
 
 Geben Sie beispielsweise das folgende Skript in das Feld **[!UICONTROL Zusätzliche SMTP-]**&quot; ein: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Wenn Sie auf den **Abmelden**-Link klicken, wird eine E-Mail an die Adresse unsubscribe@domain.com gesendet.
 
@@ -215,9 +247,9 @@ Zur Erfüllung dieser Anforderung muss der Absender:
 
 * Fügen Sie die folgende Befehlszeile hinzu: `List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
 * Schließen Sie einen URI-Abmelde-Link ein.
-* Unterstützt den Empfang der Antwort der HTTP-POST vom Empfänger, die von Adobe Campaign unterstützt wird. Sie können auch einen externen Service verwenden.
+* Unterstützt den Empfang der HTTP-POST-Antwort vom Empfänger, die von Adobe Campaign unterstützt wird. Sie können auch einen externen Service verwenden.
 
-Um die Antwort auf die POST „Ein-Klick-Liste - Abo beenden“ direkt in Adobe Campaign v7/v8 zu unterstützen, müssen Sie der Web-Anwendung „Empfänger ohne Klick abmelden“ hinzufügen. Gehen Sie dazu wie folgt vor:
+Um die POST-Antwort mit einem Klick auf die Liste zum Abmelden direkt in Adobe Campaign v7/v8 zu unterstützen, müssen Sie der Web-Anwendung „Empfänger ohne Klick abmelden“ hinzufügen. Gehen Sie dazu wie folgt vor:
 
 1. Navigieren Sie **[!UICONTROL Ressourcen]** > **[!UICONTROL Online]** > **[!UICONTROL Web-Anwendungen]**.
 
@@ -236,7 +268,7 @@ Gehen Sie wie folgt vor, um die Abmeldeliste mit einem Klick in der Versand- ode
 
 1. Geben **[!UICONTROL unter „Zusätzliche SMTP]** Header“ die Befehlszeilen wie im folgenden Beispiel ein. Jede Kopfzeile sollte sich in einer separaten Zeile befinden.
 
-z. B.:
+Beispiel:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
@@ -274,7 +306,7 @@ Gehen Sie wie folgt vor, um die Abmeldung bei einer Klickliste mithilfe einer Ty
    >Der unten beschriebene Code ist nur als Beispiel zu verwenden.
 
    In diesem Beispiel wird Folgendes beschrieben:
-   * Konfigurieren einer „mailto“-Abmeldeliste. Er fügt die Kopfzeilen hinzu oder fügt die vorhandenen Parameter „mailto:“ an und ersetzt sie durch: &lt;mailto.>, https://…
+   * Konfigurieren einer „mailto“-Abmeldeliste. Er fügt die Kopfzeilen hinzu oder fügt die vorhandenen Parameter „mailto:“ an und ersetzt sie durch: &lt;mailto…>, https://…
    * Fügen Sie in der Kopfzeile Ein-Klick-Liste - Abmelden hinzu. Es verwendet `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
 
    >[!NOTE]
@@ -409,9 +441,9 @@ Gehen Sie wie folgt vor, um die Abmeldung bei einer Klickliste mithilfe einer Ty
 
 SMTP (Simple Mail Transfer Protocol) ist ein Internet-Standard für die E-Mail-Übertragung.
 
-Die SMTP-Fehler, die nicht durch eine Regel überprüft werden, werden im Ordner **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Versandlogqualifizierung]** aufgelistet. Diese Fehlermeldungen werden standardmäßig als nicht erreichbare Softbounces interpretiert.
+Die SMTP-Fehler, die nicht durch eine Regel überprüft werden, werden im Ordner **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Versandlogqualifizierung]** aufgelistet. Diese Fehlermeldungen werden standardmäßig als nicht erreichbare Softbounces interpretiert.
 
-Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel unter **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Mail-Regelsätze]** hinzugefügt werden, wenn Sie das Feedback der SMTP-Server korrekt qualifizieren möchten. Andernfalls führt die Plattform unnötige erneute Zustellversuche durch (im Falle unbekannter Benutzer) oder platziert bestimmte Empfänger nach einer bestimmten Anzahl von Tests falsch in Quarantäne.
+Die häufigsten Fehler müssen identifiziert und eine entsprechende Regel unter **[!UICONTROL Administration]** > **[!UICONTROL Kampagnenverwaltung]** > **[!UICONTROL Unzustellbarkeitsverwaltung]** > **[!UICONTROL Mail-Regelsätze]** hinzugefügt werden, wenn das Feedback der SMTP-Server korrekt qualifiziert werden soll. Andernfalls führt die Plattform unnötige erneute Zustellversuche durch (im Falle unbekannter Benutzer) oder platziert bestimmte Empfänger nach einer bestimmten Anzahl von Tests falsch in Quarantäne.
 
 ### Dedizierte IPs {#dedicated-ips}
 

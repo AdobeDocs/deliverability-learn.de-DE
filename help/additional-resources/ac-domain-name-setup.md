@@ -6,10 +6,34 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
-source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
-workflow-type: ht
-source-wordcount: '2107'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/ZSfcx8FGb6eAHVK-PVAjd1354b55o5n3oRfWg4A5vrg
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+workflow-type: tm+mt
+source-wordcount: 2107
+ht-degree: 98%
 
 ---
 
@@ -35,8 +59,8 @@ In diesem Fall hätten die DNS-Server von Adobe Campaign die volle Berechtigung 
 
 Durch das Zuweisen einer Subdomain an Adobe Campaign kann Adobe sicherstellen, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Anforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für die unternehmensinternen E-Mail-Domains.  Das Zuweisen von Subdomains ermöglicht Folgendes:
 
-Kunden können ihr Marken-Image pflegen, indem sie einen DNS-Alias mit ihren Domain-Namen verwenden.
-Adobe kann autonom alle technischen Best Practices implementieren, um die Zustellbarkeit beim E-Mail-Versand zu optimieren.
+Kunden können ihr Marken-Image mithilfe eines DNS-Alias mit ihren Domain-Namen beibehalten
+Adobe implementiert autonom alle technischen Best Practices, um die Zustellbarkeit beim E-Mail-Versand vollständig zu optimieren
 
 ## Optionen zum Einrichten der DNS
 
@@ -96,7 +120,7 @@ Wenn sich der Kunde für die Verwendung von CNAMEs entscheidet, anstatt eine Sub
 
 Bei der Implementierung einer neuen Enterprise-Marketing-Lösung gibt es Anforderungen an die nach außen gerichteten Komponenten.  Dazu gehören das Hosten von Landingpages und Web-Formularen, das Einrichten von Links und Websites, die getrackt werden sollen, das Anzeigen von Mirrorseiten und das Konfigurieren einer Opt-out-Seite.
 
-Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfangenden der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.  Wenn man z. B. eine URL wie http://www.kunde.com/ betrachtet, würde die Domain „www.kunde.com“ lauten.  Die Subdomain davon wäre „www“.
+Diese Anforderungen werden über Komponenten verwaltet, die sowohl von Adobe als auch vom Kunden gehostet werden, und enthalten URLs, die für die Empfänger der E-Mails sichtbar sind.  Um URLs zu vermeiden, die auf die zugrunde liegende technische Lösung oder den Hosting-Anbieter hinweisen, können Subdomains eingerichtet werden, die diese Informationen vor den Empfängern der E-Mails verbergen.  Wenn man z. B. eine URL wie http://www.customer.com/ betrachtet, würde die Domain „www.customer.com“ lauten.  Die Subdomain davon wäre „www“.
 
 ### Anforderungen an Subdomains
 
@@ -119,7 +143,7 @@ Füllen Sie die folgende Tabelle aus. Die erste Zeile ist nur ein Beispiel.
 
 ## Zuweisen von Subdomains
 
-Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, müssen delegiert werden, indem vier Nameserver-Einträge (NS) erstellt werden.  Dadurch kann die Subdomain ordnungsgemäß an Adobe delegiert werden.  Im Folgenden finden Sie ein Beispiel für eine Subdomain-Delegierung und die entsprechenden DNS-Anweisungen.  Ersetzen Sie „emails.customer.com“ durch die Subdomain, die Sie delegieren möchten.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht bereits von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
+Die Subdomains, die für die Adobe Campaign-Plattform verwendet werden sollen, müssen delegiert werden, indem vier Nameserver-Einträge (NS) erstellt werden.  Dadurch kann die Subdomain ordnungsgemäß an Adobe delegiert werden.  Im Folgenden finden Sie ein Beispiel für eine Subdomain-Zuweisung und die entsprechenden DNS-Anweisungen.  Ersetzen Sie „emails.customer.com“ durch die Subdomain, die Sie delegieren möchten.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht bereits von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
 
 | Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |
@@ -139,7 +163,7 @@ Sobald die Subdomains für den E-Mail-Versand Adobe Campaign ordnungsgemäß del
 
 Dies ist nur relevant, wenn Adobe Campaign Classic von Adobe vollständig in der Cloud gehostet wird.  Dies ist eine optionale Konfiguration.
 
-Alle späteren Umfragen, Web-Formulare und Landingpages werden über Adobe Campaign verwaltet, das vollständig in der Cloud gehostet wird.  Bei Bedarf kann eine zusätzliche Subdomain an Adobe delegiert werden (z. B. web.kunde.com), die für beliebige Web-Komponenten innerhalb des Tools verwendet werden kann.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
+Alle späteren Umfragen, Web-Formulare und Landingpages werden über Adobe Campaign verwaltet, das vollständig in der Cloud gehostet wird.  Bei Bedarf kann eine zusätzliche Subdomain an Adobe delegiert werden (z. B. web.customer.com), die für beliebige Web-Komponenten innerhalb des Tools verwendet werden kann.  Beachten Sie, dass die Subdomain eindeutig sein muss und nicht von einer anderen Partei (z. B. einem bestehenden ESP oder MSP) verwendet werden darf.
 
 | Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |

@@ -6,10 +6,27 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 0be68f5674904aa105985a6e5fc4771c41f7fe48
+TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2124'
-ht-degree: 1%
+source-wordcount: 2374
+ht-degree: 5%
 
 ---
 
@@ -47,14 +64,14 @@ Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-D
 | Low Assurance-Zertifikat | Ein Low Assurance-Zertifikat, auch als Domain-validiertes Zertifikat bezeichnet, enthält nur den Domain-Namen im Zertifikat (und nicht den Geschäfts-/Organisationsnamen). |
 | PEM (Privacy Enhanced Mail) | Ein Zertifikat mit der Erweiterung .pem, das ASCII (Base64)-Daten enthält. Solche Zertifikate beginnen mit einer &quot; - - - - - - BEGIN CERTIFICATE - - - - -&quot; Zeile. |
 | Stammzertifikat | Eine Zertifizierungsstelle stellt Zertifikate in Form einer Baumstruktur aus. Das Stammzertifikat ist das oberste Zertifikat der Baumstruktur. |
-| SAN (alternativer Antragstellername) | Die alternativen Antragstellernamen sind zusätzliche Hostnamen (Websites, IP-Adressen, allgemeine Namen usw.), die als Teil eines einzelnen SSL-Zertifikats signiert werden sollten. |
+| SAN (alternativer Antragstellername) | Die alternativen Antragstellernamen sind zusätzliche Hostnamen (Websites, IP-Adressen, allgemeine Namen usw.) die als Teil eines einzelnen SSL-Zertifikats signiert werden sollte. |
 | Selbstsigniertes Zertifikat | Ein Zertifikat, das nicht von einer vertrauenswürdigen Zertifizierungsstelle, sondern von der Person, die es erstellt, signiert wird. Selbstsignierte Zertifikate können denselben Verschlüsselungsgrad wie ein von einer Zertifizierungsstelle signiertes Zertifikat ermöglichen, haben jedoch zwei wesentliche Nachteile:<ul><li>Die Verbindung eines Besuchers könnte gekapert werden, sodass ein Angreifer alle gesendeten Daten sehen kann (und so den Zweck der Verschlüsselung der Verbindung vereitelt wird)</li><li> Das Zertifikat kann nicht wie ein vertrauenswürdiges Zertifikat widerrufen werden.</li></ul> |
 | SSL (Secure Sockets Layer) | Die standardmäßige Sicherheitstechnologie zum Herstellen einer verschlüsselten Verbindung zwischen einem Webserver und einem Browser. |
 | Platzhalterzertifikat | Ein Platzhalterzertifikat kann eine unbegrenzte Anzahl von Subdomains der ersten Ebene auf einem einzelnen Domain-Namen sichern, z. B. *.adobe.com. |
 
 ## Wichtigste Schritte
 
-1. Fordern Sie eine CSR-Datei (Certificate Signing Request) an und stellen Sie Adobe die erforderlichen Informationen (Land, Bundesland, Stadt, Organisationsname, Name der Organisationseinheit usw.) bereit.
+1. Fordern Sie eine CSR-Datei (Certificate Signing Request) an und geben Sie die erforderlichen Informationen an (Land, Bundesland, Stadt, Organisationsname, Name der Organisationseinheit usw.) nach Adobe.
 1. Überprüfen Sie die von Adobe generierte CSR-Datei und stellen Sie sicher, dass alle von Ihnen angegebenen Informationen korrekt sind.
 1. Verwenden Sie die CSR-Details, um ein Zertifikat zu generieren, das von einer vertrauenswürdigen Zertifizierungsstelle signiert <!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
 1. Validieren Sie das SSL-Zertifikat und überprüfen Sie, ob es mit der CSR übereinstimmt.
@@ -67,7 +84,7 @@ Um SSL-Zertifikate auf diesen Subdomains zu installieren, müssen Sie eine CSR-D
 
 ### Voraussetzungen
 
-Sie müssen die Domain-Namen und die Funktionen (Tracking, Mirror-Seiten, WebApps usw.) identifizieren, um zu sichern.
+Sie müssen die Domain-Namen und die Funktionen (Tracking, Mirror-Seiten, WebApps usw.) Zum Sichern.
 >[!NOTE]
 >
 >Adobe kann bei der Definition der Domain-Namen und der einzubeziehenden Funktionen helfen. Weitere Informationen erhalten Sie von Ihrem Adobe Account Team.
@@ -107,7 +124,7 @@ Sie müssen die folgenden Informationen angeben.
 
 | Zu liefernde Informationen | Beispielwert | Hinweis |
 |--- |--- |--- |
-| Land [c] | US | Dies muss ein Code mit zwei Buchstaben sein. Vollständige Liste der Länder [hier](https://www.ssl.com/csrs/country_codes/).</br>*Hinweis: Für das Vereinigte Königreich verwenden Sie GB (nicht UK).* |
+| Land [c] | US | Dies muss ein Code mit zwei Buchstaben sein. Vollständige Länderliste abrufen [hier](https://www.ssl.com/csrs/country_codes/).</br>*Hinweis: Für Großbritannien verwenden Sie GB (nicht UK).* |
 | Bundesland (oder Provinzname) [ST] | Illinois | Falls zutreffend. Der Wert muss ein vollständiger Name sein, nicht abgekürzt. |
 | Stadt-/Ortsname [L] | Chicago | |
 | Organisationsname [o] | KUPPEL | |
