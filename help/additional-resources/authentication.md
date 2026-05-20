@@ -6,10 +6,16 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/zuhBmNWmF8CoCSNofsg3FKCcQFLOFfZmRutB2P1L4-U
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 42%
+source-wordcount: 769
+ht-degree: 33%
 
 ---
 
@@ -37,13 +43,13 @@ Durch die Überprüfung des SPF ist eine Auswertung der Gültigkeit der Absender
 * **TempError**: Ein temporärer Fehler hat die Auswertung angehalten. Die Nachricht kann abgelehnt werden.
 * **PermError**: Die SPF-Einträge der Domain sind ungültig.
 
-Bitte beachten Sie, dass es bis zu 48 Stunden in Anspruch nehmen kann, bis in der Umgebung von DNS-Servern gemachte Einträge berücksichtigt werden. Die Dauer hängt davon ab, mit welcher Häufigkeit die DNS-Caches der Empfangs-Server aktualisiert werden.
+Beachten Sie, dass es bis zu 48 Stunden dauern kann, bis Einträge auf der Ebene der DNS-Server berücksichtigt werden. Diese Verzögerung hängt davon ab, wie oft die DNS-Caches der empfangenden Server aktualisiert werden.
 
 ## DKIM {#dkim}
 
 Die DKIM-Authentifizierung (DomainKeys Identified Mail) ist eine Nachfolgeauthentifizierung von SPF. Sie verwendet eine Verschlüsselung mit öffentlichem Schlüssel, mit der der empfangende E-Mail-Server überprüfen kann, ob eine Nachricht tatsächlich von der Person oder Entität gesendet wurde, von der sie behauptet, dass sie gesendet wurde, und ob der Nachrichteninhalt zwischen dem ursprünglichen Versand (und DKIM „signiert„) und dem Empfang geändert wurde. Bei diesem Standard wird in der Regel die Domain im &quot;Von&quot;- oder &quot;Absender&quot;-Header genutzt.
 
-DKIM geht auf eine Kombination der Authentifizierungsprinzipien DomainKeys von Yahoo! und Identified Internet Mail von Cisco zurück und dient der Prüfung der Authentizität von Absender-Domains sowie der Sicherstellung der Integrität von Nachrichten.
+DKIM kommt aus einer Kombination der DomainKeys, Yahoo! Cisco und IDENTIFIZIERTE INTERNET-MAIL-AUTHENTIFIZIERUNGSPRINZIPIEN UND WIRD VERWENDET, UM DIE AUTHENTIZITÄT DER ABSENDER-DOMAIN ZU ÜBERPRÜFEN UND DIE INTEGRITÄT DER NACHRICHT ZU GARANTIEREN.
 
 DKIM hat sozusagen die **DomainKeys**-Authentifizierung ersetzt.
 
@@ -52,7 +58,7 @@ Für die Verwendung von DKIM müssen folgende Voraussetzungen gegeben sein:
 * **Sicherheit**: Verschlüsselung ist ein Schlüsselelement der DKIM. Um das Sicherheitsniveau der DKIM zu gewährleisten, ist 1024b die empfohlene Verschlüsselungsgröße. Niedrigere DKIM-Schlüssel werden von den meisten Zugriffsanbietern nicht als gültig erachtet.
 * **Reputation**: Die Reputation basiert auf der IP-Adresse und/oder der Domain, aber der weniger transparente DKIM-Selektor ist auch ein Schlüsselelement, das berücksichtigt werden muss. Die Auswahl des Selektors ist wichtig: Vermeiden Sie es, den „Standard“ beizubehalten, der von jedem verwendet werden könnte und daher eine schwache Reputation hat. Sie müssen einen anderen Selektor für **Aufbewahrungs- vs. Akquise-Kommunikation** und für die Authentifizierung implementieren.
 
-Weitere Informationen zu den Voraussetzungen für die Verwendung von DKIM beim Campaign Classic finden [&#x200B; in diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Weitere Informationen zu den Voraussetzungen für die Verwendung von DKIM finden Sie in [diesem Abschnitt](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 

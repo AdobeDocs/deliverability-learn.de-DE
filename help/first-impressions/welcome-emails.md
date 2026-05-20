@@ -1,5 +1,5 @@
 ---
-title: Willkommens-E-Mails
+title: Begrüßungs-E-Mails
 description: Erfahren Sie, welche wichtigen Elemente beim Erstellen Ihrer Begrüßungs-E-Mails zu berücksichtigen sind.
 topics: Deliverability
 jira: KT-7064
@@ -8,14 +8,18 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/KG0GoucZ5XT-U2VHzaH1DschMaYb62EJvYzordlrw1E
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 576
 ht-degree: 0%
 
 ---
 
-# Willkommens-E-Mails
+# Begrüßungs-E-Mails
 
 ## Entwickeln einer Begrüßungsstrategie
 
@@ -30,7 +34,7 @@ Beim Erstellen Ihrer Begrüßungs-E-Mail oder E-Mails sind folgende Schlüsselel
 **Senden Sie Ihre Nachricht so schnell wie möglich**
 Wenn Sie eine Promotion anbieten, wartet Ihr neuer Abonnent wahrscheinlich auf der Website, um die E-Mail zu erhalten, bevor er seinen Kauf tätigt. Eine Verzögerung von 5-10 Minuten kann hier einen verlorenen Verkauf bedeuten. Auch wenn Sie keine Promotion haben, zeigen sie derzeit Interesse an Ihrer Marke. Man muss sich also mit ihnen auseinander setzen, solange ihr Interesse am höchsten ist, anstatt zu einem späteren Zeitpunkt eine Chance zu ergreifen.
 
-**Erstellen Sie aussagekräftige Betreffzeilen und Pre-Header**
+**Erstellen klarer Betreffzeilen und Pre-Header**
 Sie müssen ihnen nicht nur für die Anmeldung danken, sondern auch ihre Aufmerksamkeit erregen und ihnen einen Grund geben, die E-Mail öffnen zu wollen. Vergessen Sie nicht, den zusätzlichen Platz im Pre-Header für Ihre Sache zu nutzen.
 
 **Erwartungen festlegen**
@@ -39,11 +43,11 @@ Machen Sie deutlich, dass Sie sich auf eine positive Erfahrung für sie konzentr
 **Lassen Sie sie ein Gefühl für Ihre Marke bekommen**
 Jede Marke hat eine Stimme. Lassen Sie Ihre in Ihrer Begrüßungs-E-Mail deutlich angezeigt werden. Dies hilft Ihren neuen Abonnenten, sich mehr mit der Marke zu verbinden und verhindert, dass sie sich von einer Stiländerung bei späteren E-Mails überrascht fühlen.
 
-**Halten Sie es kurz**
+**Kurz halten**
 Sie haben viel zu sagen und ein eifriges Ohr in Ihrem neuen Abonnenten. Aber Ihre erste Botschaft sollte kurz, einfach und auf den Punkt gebracht sein und nicht überwältigend.
 
 **Senden einer Reihe von E-Mails**
 Wie bereits erwähnt, haben Sie einer aufmerksamen Zielgruppe viel zu sagen. Die Erstellung einer vollständigen Willkommensreihe (3-5 E-Mails) ermöglicht es Ihnen, jede von ihnen auf den Punkt zu bringen, während Sie dennoch alle Informationen abdecken, die Sie teilen möchten. Darüber hinaus wird das fortgesetzte Interesse der Abonnenten gefördert, was zu fortgesetzter positiver Interaktion, verbesserter Reputation und verbesserter Zustellbarkeit führt.
 
-**Persönlich werden**
+**Persönlich**
 Wenn Sie eine Reihe von Begrüßungs-E-Mails verfassen, verwenden Sie eine davon, um die persönliche Note anzuzeigen. Verwenden Sie alle Informationen, die Sie bei der Anmeldung oder beim Kauf gesammelt haben, um zu demonstrieren, wie Sie ihre Erfahrung einzigartig und wertvoller für sie machen können. Wenn Sie noch keine Daten gesammelt haben, nutzen Sie dies als Gelegenheit zu zeigen, was Sie tun könnten, wenn Sie die Gelegenheit dazu hätten. Fragen Sie sie dann nach den Informationen, die Sie zur Bereicherung ihrer Erfahrung benötigen.
