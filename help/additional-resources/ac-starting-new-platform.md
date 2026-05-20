@@ -82,6 +82,6 @@ Weitere Informationen zu den oben aufgeführten Prinzipien und deren Implementie
 
 **Adobe Campaign Standard**
 
-* [Optimieren des Versands durch Quarantänen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [Optimieren des Versands durch Quarantänen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=de#optimizing-your-delivery-through-quarantines)
 * [Identifizieren von für die gesamte Plattform in Quarantäne befindlichen Adressen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=de)
 * [Sendungen überwachen](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=de)
