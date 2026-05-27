@@ -1,5 +1,5 @@
 ---
-title: Weitere Ressourcen
+title: Zusätzliche Ressourcen
 description: In diesem Abschnitt finden Sie eine Reihe zusätzlicher Ressourcen zur Zustellbarkeit.
 topics: Deliverability
 doc-type: article
