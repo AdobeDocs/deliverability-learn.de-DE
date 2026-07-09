@@ -31,9 +31,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
-workflow-type: tm+mt
-source-wordcount: 2107
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 2119
+ht-degree: 100%
 
 ---
 
@@ -59,8 +59,8 @@ In diesem Fall hätten die DNS-Server von Adobe Campaign die volle Berechtigung 
 
 Durch das Zuweisen einer Subdomain an Adobe Campaign kann Adobe sicherstellen, dass Kunden die DNS-Infrastruktur bereitgestellt wird, die zur Erfüllung der branchenüblichen Anforderungen an Domains zum E-Mail-Marketing-Versand erforderlich ist. Gleichzeitig verwaltet und kontrolliert Adobe auch das DNS für die unternehmensinternen E-Mail-Domains.  Das Zuweisen von Subdomains ermöglicht Folgendes:
 
-Kunden können ihr Marken-Image mithilfe eines DNS-Alias mit ihren Domain-Namen beibehalten
-Adobe implementiert autonom alle technischen Best Practices, um die Zustellbarkeit beim E-Mail-Versand vollständig zu optimieren
+Kundinnen und Kunden können ihr Marken-Image pflegen, indem sie einen DNS-Alias mit ihren Domain-Namen verwenden.
+Adobe kann autonom alle technischen Best Practices implementieren, um die Zustellbarkeit beim E-Mail-Versand zu optimieren.
 
 ## Optionen zum Einrichten der DNS
 
@@ -135,7 +135,7 @@ Füllen Sie die folgende Tabelle aus. Die erste Zeile ist nur ein Beispiel.
 
 >[!NOTE]
 >
->* Das Feld „Antwortadresse“ wird benötigt, wenn Sie möchten, dass Empfangende an eine andere Adresse als die Absenderadresse antworten.  Obwohl es sich nicht um ein Pflichtfeld handelt, empfiehlt Adobe dringend, dass die Antwortadresse gültig und mit einer überwachten Mailbox verknüpft ist.  Diese Mailbox muss vom Kunden gehostet werden.  Das kann etwa eine Support-Mailbox sein, z. B. customercare@customer.com, in der E-Mails gelesen und beantwortet werden.
+>* Das Feld „Antwortadresse“ wird benötigt, wenn Sie möchten, dass der Empfänger an eine andere Adresse als die Absenderadresse antwortet.  Obwohl es sich nicht um ein Pflichtfeld handelt, empfiehlt Adobe dringend, dass die Antwortadresse gültig und mit einer überwachten Mailbox verknüpft ist.  Diese Mailbox muss vom Kunden gehostet werden.  Das kann etwa eine Support-Mailbox sein, z. B. customercare@customer.com, in der E-Mails gelesen und beantwortet werden.
 >* Wird vom Kunden keine Antwortadresse ausgewählt, ist die Standardadresse immer `<tenant>-<type>-<env>@<subdomain>`.
 >* Wenn die Antwortadresse auf diese Weise eingerichtet ist, werden Antworten an eine nicht überwachte Mailbox gesendet.
 >* Wenn E-Mails aus Adobe Campaign versendet werden, wird die Mailbox der Absenderadresse nicht überwacht und Marketing-Benutzer können nicht auf diese Mailbox zugreifen. Adobe Campaign bietet auch nicht die Möglichkeit, die in dieser Mailbox empfangenen E-Mails automatisch zu beantworten oder weiterzuleiten.
@@ -185,8 +185,7 @@ Die Firewalls müssen außerdem so konfiguriert werden, dass sie den Zugriff auf
 
 **Empfehlungen zu Best Practices:**
 
-Die Subdomain zum Hosten der Web-Komponenten wird für Kunden sichtbar sein. Achten Sie daher darauf, dass die Subdomain gut gebrandet und einfach zu merken ist, da sie möglicherweise manuell eingegeben werden muss, z. B.: https://web.customer.com.
-Wenn Formulare auf sicheren Seiten (HTTPS) gehostet werden sollen, ist eine zusätzliche technische Konfiguration erforderlich, die unten beschrieben wird.
+Die Subdomain zum Hosten der Web-Komponenten wird für Kunden sichtbar sein. Achten Sie daher darauf, dass die Subdomain gut gebrandet und einfach zu merken ist, da sie möglicherweise manuell eingegeben werden muss, z. B.: https://web.customer.com.Wenn Formulare auf sicheren Seiten (HTTPS) gehostet werden sollen, ist eine zusätzliche technische Konfiguration erforderlich, die unten beschrieben wird.
 
 | Delegierte Subdomain | DNS-Anweisungen |
 |--- |--- |
@@ -198,8 +197,7 @@ Im Anschluss an diese Delegationen stellt die von Adobe eingerichtete Infrastruk
 
 * Erstellen von postmaster@- und abuse@-Posteingängen
 * Einrichten von Feedback-Schleifen für die delegierte Domain
-* Auf Wunsch konfiguriert Adobe auch wie angegeben einen DMARC-Eintrag. Ihr Zustellbarkeitsberater kann Sie bei der Ausarbeitung einer langfristigen DMARC-Richtlinie und eines Plans für Ihre Versand-Domains unterstützen.
-Von Adobe festgelegte Parameter sind ab dem Zeitpunkt gültig, an dem die Zuweisung abgeschlossen und anschließend von Adobe überprüft wurde, und bleiben funktionsfähig, bis der Service gekündigt wird.  Alle Adobe Campaign Cloud-Angebote beinhalten standardmäßig die Zuweisung von Domain-Namen.
+* Auf Wunsch konfiguriert Adobe auch wie angegeben einen DMARC-Eintrag. Ihr Zustellbarkeitsberater kann Sie bei der Ausarbeitung einer langfristigen DMARC-Richtlinie und eines Plans für Ihre Versand-Domains unterstützen.Von Adobe festgelegte Parameter sind ab dem Zeitpunkt gültig, an dem die Zuweisung abgeschlossen und anschließend von Adobe überprüft wurde, und bleiben funktionsfähig, bis der Service gekündigt wird.  Alle Adobe Campaign Cloud-Angebote beinhalten standardmäßig die Zuweisung von Domain-Namen.
 
 ## Abrechnungs- und Implemetierungsbedingungen
 
