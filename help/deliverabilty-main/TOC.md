@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 1c1e1b673fbc640fec84948878060b8bc0354ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 + [Best Practices für Inhalte für eine optimale Zustellbarkeit](/help/content-best-practices-for-optimal-delivery.md)
 + [Regelmäßiger Versand](/help/sender-permanence.md)
 + Besonderheiten der Internetdienstanbieter {#internet-service-provider-specifics}
-   + [Übersicht](/help/internet-service-provider-specifics/overview.md)
+   + [Überblick](/help/internet-service-provider-specifics/overview.md)
    + [Gmail](/help/internet-service-provider-specifics/gmail.md)
    + [Microsoft (Hotmail, Outlook, Windows Live usw.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group (Yahoo, AOL, Verizon, usw.)](/help/internet-service-provider-specifics/verizon-media-group.md)
@@ -63,4 +63,4 @@ ht-degree: 96%
    + Technotes{#technotes}
       + [Implementieren von DMARC](/help/technotes/implement-dmarc.md)
       + [Implementieren von BIMI](/help/technotes/implement-bimi.md)
-      + {hide-from-toc}[Aktualisieren von Bounces nach Ausfall von Italia Online](/help/technotes/update-bounces-after-it-outage.md)
+      + {hide-from-toc}[Aktualisierung von Bounces nach Ausfall von Italia Online](/help/technotes/update-bounces-after-it-outage.md)
