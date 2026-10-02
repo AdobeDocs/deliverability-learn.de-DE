@@ -11,27 +11,36 @@ exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+    internal-label: Security
+source-git-commit: 7fbfe34d5576041c8b595fc4b3f7dc596a4263fb
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: '1670'
 ht-degree: 6%
-
 ---
-
 # Adressensammlung und Listenwachstum
 
 Die besten Quellen für neue E-Mail-Adressen sind direkte Quellen wie Anmeldungen auf Ihrer Website oder in physischen Geschäften. In diesen Situationen können Sie das Erlebnis steuern, um sicherzustellen, dass es positiv ist und dass der Abonnent daran interessiert ist, E-Mails von Ihrer Marke zu erhalten.
@@ -50,15 +59,15 @@ Anleitungen dazu, wie Sie die Probleme minimieren können, die sowohl im physisc
 
 >[!NOTE]
 >
->Abonnentinnen und Abonnenten verwenden oft Wegwerf-Adressen, abgelaufene Adressen oder Adressen, die nicht zu ihren gehören, um von einer Website zu erhalten, was sie möchten, aber auch um zu vermeiden, zu Marketing-Listen hinzugefügt zu werden. In diesem Fall führen die Listen von Marketing-Fachleuten zu einer hohen Anzahl von Hardbounces, hohen Spam-Beschwerderaten und Abonnentinnen und Abonnenten, die E-Mails nicht anklicken, öffnen oder positiv mit ihnen interagieren. Dies kann als Warnsignal für Postfachanbieter und ISPs dienen.
+>Abonnentinnen und Abonnenten verwenden häufig Wegwerf-Adressen, abgelaufene Adressen oder Adressen, die nicht zu ihren gehören, um von einer Website zu erhalten, was sie möchten, aber auch um zu vermeiden, zu Marketing-Listen hinzugefügt zu werden. In diesem Fall führen die Listen der Marketing-Fachleute zu einer hohen Anzahl von Hardbounces, hohen Spam-Beschwerderaten und Abonnentinnen und Abonnenten, die E-Mails nicht anklicken, öffnen oder positiv mit ihnen interagieren. Dies kann als Warnsignal für Postfachanbieter und ISPs dienen.
 
 ## Anmeldeformulare
 
 Zusätzlich zum Hinzufügen der Felder für die Daten möchten Sie Daten über Ihre neuen Abonnenten erfassen. Es gibt einige andere Dinge, die Sie mit Ihrem Anmeldeformular auf der Website tun sollten.
 
-* Geben Sie dem Abonnenten klare Erwartungen, dass er mit dem Empfang von E-Mails einverstanden ist, was er erhalten wird und wie oft er die E-Mails erhalten wird.
-* Fügen Sie Optionen hinzu, mit denen Abonnentinnen und Abonnenten die Häufigkeit oder den Typ der Nachrichten auswählen können, die sie erhalten. Mit diesen Optionen können Sie die Voreinstellungen des Abonnenten von Anfang an kennen, damit Sie Ihrem neuen Kunden das bestmögliche Erlebnis bieten können.
-* Abwägen Sie das Risiko, das Interesse des Abonnenten während des Anmeldevorgangs zu verlieren, indem Sie so viele Informationen wie möglich anfordern. Dinge wie Geburtstag, Ort oder Interessen helfen Ihnen, mehr personalisierte Inhalte zu senden. Die Abonnentinnen und Abonnenten jeder Marke haben unterschiedliche Erwartungen und Toleranzschwellen. Daher ist es wichtig, zu testen, um das richtige Gleichgewicht für Ihre Situation zu finden.
+* Stellen Sie bei den Abonnenten klare Erwartungen, dass sie mit dem Empfang von E-Mails einverstanden sind, was sie erhalten werden und wie oft sie es erhalten werden.
+* Fügen Sie Optionen hinzu, mit denen Abonnentinnen und Abonnenten die Häufigkeit oder den Typ der Nachrichten auswählen können, die sie erhalten. Mit diesen Optionen können Sie die Voreinstellungen der Abonnenten von Anfang an kennen, damit Sie Ihrem neuen Kunden das bestmögliche Erlebnis bieten können.
+* Schaffen Sie ein Gleichgewicht, indem Sie möglichst viele Informationen anfordern, um das Interesse des Abonnenten während des Anmeldevorgangs zu verlieren. Dinge wie Geburtstag, Ort oder Interessen helfen Ihnen, mehr personalisierte Inhalte zu senden. Die Abonnentinnen und Abonnenten jeder Marke haben unterschiedliche Erwartungen und Toleranzschwellen. Daher ist es wichtig, zu testen, um das richtige Gleichgewicht für Ihre Situation zu finden.
 
 >[!NOTE]
 >
@@ -66,7 +75,7 @@ Zusätzlich zum Hinzufügen der Felder für die Daten möchten Sie Daten über I
 
 ## Datenqualität und -hygiene
 
-Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl korrekt als auch verwendbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot; oder &quot;.“ enthält. Beispiel: Achten Sie darauf, keine allgemeinen Alias-Adressen zuzulassen, die auch als Rollenkonten bezeichnet werden (z. B. „info“, „admin“, „sales“, „support“ ). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Gruppe von Personen anstelle eines einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, was das Risiko von Beschwerden, unterschiedlicher Interaktion, Abmeldungen und allgemeiner Verwirrung birgt.
+Das Sammeln von Daten ist nur ein Teil der Herausforderung. Außerdem müssen Sie sicherstellen, dass die Daten sowohl korrekt als auch verwendbar sind. Sie sollten über grundlegende Formatfilter verfügen. Eine E-Mail-Adresse ist ungültig, wenn sie kein &quot;@&quot; oder &quot;.“ enthält. Beispiel. Achten Sie darauf, keine allgemeinen Alias-Adressen zuzulassen, die auch als Rollenkonten bezeichnet werden (z. B. „info“, „admin“, „sales“, „support“ ). Rollenkonten können ein Risiko darstellen, da der Empfänger naturgemäß eine Gruppe von Personen anstelle eines einzelnen Abonnenten enthält. Erwartungen und Toleranz können innerhalb einer Gruppe variieren, was das Risiko von Beschwerden, unterschiedlicher Interaktion, Abmeldungen und allgemeiner Verwirrung birgt.
 
 Im Folgenden finden Sie einige Lösungen für häufige Probleme, auf die Sie mit Ihren E-Mail-Adressdaten stoßen können:
 
@@ -86,7 +95,7 @@ Wenden Sie sich an Ihre Rechtsanwälte, um lokale und nationale Gesetze bezügli
 
 * Stellen Sie sicher, dass Sie die Standortdaten eines Abonnenten erfassen, damit Sie die nationalen Gesetze des Abonnenten einhalten. Ohne dieses Detail können Sie sich darauf beschränken, wie Sie an Abonnenten vermarkten können.
 * Alle relevanten Gesetze werden durch den Standort des Empfängers bestimmt, nicht durch den Absender. Daher müssen Sie die Gesetze jedes Landes kennen und befolgen, in dem Sie einen Abonnenten haben könnten.
-* Oft ist es schwierig, mit absoluter Sicherheit das Land zu kennen, in dem der Abonnent seinen Wohnsitz hat. Die vom Kunden bereitgestellten Daten können veraltet sein, und die Pixelortdaten können aufgrund von VPN oder Image-Warehousing, wie bei Gmail und Yahoo, ungenau sein. Im Zweifelsfall ist es am sichersten, die strengsten Gesetze und Richtlinien anzuwenden.
+* Oft ist es schwierig, mit absoluter Sicherheit das Land des Wohnsitzes des Abonnenten zu kennen. Die vom Kunden bereitgestellten Daten können veraltet sein, und die Pixelortdaten können aufgrund von VPN oder Image-Warehousing, wie bei Gmail und Yahoo, ungenau sein. Im Zweifelsfall ist es am sichersten, die strengsten Gesetze und Richtlinien anzuwenden.
 
 ## Andere nicht empfohlene Methoden zur Listenerfassung
 
@@ -95,7 +104,7 @@ Es gibt viele andere Möglichkeiten, Adressen zu sammeln, jede mit ihren eigenen
 **Liste kaufen oder mieten**
 Es gibt viele Arten von E-Mail-Adressen. Primäre E-Mails, geschäftliche E-Mails, Schul-E-Mails, sekundäre E-Mails und inaktive E-Mails, um nur einige zu nennen. Die Arten von Adressen, die über gekaufte oder gemietete Listen erfasst und verteilt werden, sind selten primäre E-Mail-Konten, in denen nahezu alle Interaktionen und Kaufaktivitäten stattfinden.
 
-Wenn Sie Glück haben, erhalten Sie sekundäre Konten, in denen Personen nach Angeboten suchen, wenn sie bereit sind, etwas zu kaufen. Dies führt in der Regel zu niedrigen Interaktionsniveaus - falls vorhanden. Wenn Sie kein Glück haben, ist die Liste voll mit inaktiven E-Mails, die jetzt Spam-Fallen sein könnten. Häufig erhält man eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listentypen einem E-Mail-Programm mehr als sie nützt. Diese Vorgehensweise ist gemäß der [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
+Wenn man Glück hat, bekommt man sekundäre Konten, wo Leute nach Angeboten suchen, wenn sie bereit sind, für etwas einzukaufen. Dies führt in der Regel zu niedrigen Interaktionsniveaus - falls vorhanden. Wenn Sie kein Glück haben, ist die Liste voll mit inaktiven E-Mails, die jetzt Spam-Fallen sein könnten. Häufig erhält man eine Mischung aus sekundären und inaktiven E-Mails. Im Allgemeinen schadet die Qualität dieser Listentypen einem E-Mail-Programm mehr als sie nützt. Diese Vorgehensweise ist gemäß der [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
 
 **Listen hängen an**
 Dies sind Kunden, die sich dafür entschieden haben, mit Ihrer Marke zu interagieren, was großartig ist. Sie haben sich jedoch dafür entschieden, eine andere Methode als E-Mail anzuwenden (In-Store, soziale Medien usw.). Sie waren nicht empfänglich für eine nicht angeforderte E-Mail von Ihnen und könnten auch besorgt darüber sein, wie Sie ihre E-Mail-Adresse erhalten haben, da sie sie nicht bereitgestellt haben. Bei dieser Methode besteht die Gefahr, dass ein Kunde oder potenzieller Kunde, der mit Ihrer Marke interagiert hat, zu einem Kritiker wird, der Ihrer Marke nicht mehr vertraut und stattdessen zu Ihrer Konkurrenz wechselt. Diese Vorgehensweise ist gemäß der [Adobe Campaign Acceptable Use Policy](https://www.adobe.com/de/legal/terms/aup.html) verboten.
